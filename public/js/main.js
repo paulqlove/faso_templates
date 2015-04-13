@@ -74,11 +74,11 @@ var supports=(function(){var d=document.documentElement,c="ontouchstart" in wind
 
 /* --------------- 6. RESPONSIVE EQUAL HEIGHTS --------------- */
 /* Javascript-Equal-Height-Responsive-Rows https://github.com/Sam152/Javascript-Equal-Height-Responsive-Rows */
-(function($){$.fn.equalHeight=function(){var heights=[];$.each(this,function(i,element){$element=$(element);var element_height;var includePadding=($element.css('box-sizing')=='border-box')||($element.css('-moz-box-sizing')=='border-box');if(includePadding){element_height=$element.innerHeight();}else{element_height=$element.height();}
-heights.push(element_height);});this.css('height',Math.max.apply(window,heights)+'px');return this;};$.fn.equalHeightGrid=function(columns){var $tiles=this;$tiles.css('height','auto');for(var i=0;i<$tiles.length;i++){if(i%columns===0){var row=$($tiles[i]);for(var n=1;n<columns;n++){row=row.add($tiles[i+n]);}
-row.equalHeight();}}
-return this;};$.fn.detectGridColumns=function(){var offset=0,cols=0;this.each(function(i,elem){var elem_offset=$(elem).offset().top;if(offset===0||elem_offset==offset){cols++;offset=elem_offset;}else{return false;}});return cols;};$.fn.responsiveEqualHeightGrid=function(){var _this=this;function syncHeights(){var cols=_this.detectGridColumns();_this.equalHeightGrid(cols);}
-$(window).bind('resize load',syncHeights);syncHeights();return this;};})(jQuery);
+// (function($){$.fn.equalHeight=function(){var heights=[];$.each(this,function(i,element){$element=$(element);var element_height;var includePadding=($element.css('box-sizing')=='border-box')||($element.css('-moz-box-sizing')=='border-box');if(includePadding){element_height=$element.innerHeight();}else{element_height=$element.height();}
+// heights.push(element_height);});this.css('height',Math.max.apply(window,heights)+'px');return this;};$.fn.equalHeightGrid=function(columns){var $tiles=this;$tiles.css('height','auto');for(var i=0;i<$tiles.length;i++){if(i%columns===0){var row=$($tiles[i]);for(var n=1;n<columns;n++){row=row.add($tiles[i+n]);}
+// row.equalHeight();}}
+// return this;};$.fn.detectGridColumns=function(){var offset=0,cols=0;this.each(function(i,elem){var elem_offset=$(elem).offset().top;if(offset===0||elem_offset==offset){cols++;offset=elem_offset;}else{return false;}});return cols;};$.fn.responsiveEqualHeightGrid=function(){var _this=this;function syncHeights(){var cols=_this.detectGridColumns();_this.equalHeightGrid(cols);}
+// $(window).bind('resize load',syncHeights);syncHeights();return this;};})(jQuery);
 
 
 /* --------------- 7. FITVIDEOS FOR RESPONSIVE IFRAMES FROM YOUTUBE, VIMEO, SOUND CLOUD ETC., --------------- */
@@ -257,16 +257,16 @@ $(window).on("load resize",function(){
 
 // --------------- 16. MATCH HEIGHT OF SLIDER NEXT TO THIS COLUMN --------------- 
 
-$(window).on("load resize",function(){
+// $(window).on("load resize",function(){
 
-    var containerSize = $('.container').width();
-    var colHeight = $('.featured-carousel img').innerHeight() // - 30//;
+//     var containerSize = $('.container').width();
+//     var colHeight = $('.featured-carousel img').innerHeight() // - 30//;
 
-    if (containerSize >= 767) {
-        $('.column-inner > .column-bg-fake').height(colHeight);
-    }
+//     if (containerSize >= 767) {
+//         $('.column-inner > .column-bg-fake').height(colHeight);
+//     }
 
-});
+// });
 
 
 
@@ -275,8 +275,8 @@ $(function() {
 
 
     /* --------------- 17. - 1 :: EQUAL HEIGHT INITIALIZE --------------- */
-    $('.equal-height-content-box .equal-height-content').responsiveEqualHeightGrid();
-    $('.equal-height-col [class*="col-"]').responsiveEqualHeightGrid();
+    // $('.equal-height-content-box .equal-height-content').responsiveEqualHeightGrid();
+    // $('.equal-height-col [class*="col-"]').responsiveEqualHeightGrid();
 
     /* --------------- 17. - 2 :: .title inner wrapper --------------- */
     $('.title').wrapInner("<span></span>");
@@ -286,17 +286,17 @@ $(function() {
     $('.widget-title').wrapInner("<span></span>");
 
     /* --------------- 17. - 4 :: icon-click functions :: you can remove this on live sites ---------------*/
-    $('.icon-demo span.glyphicon, .icon-demo span.ti').each(function() {
-        var className = $(this).attr('class');
-        $(this).attr('title', className).css({
-            'cursor': 'pointer'
-        });
-        $(this).tooltip({
-            trigger: 'click',
-            container: 'body'
-        }).toggleClass('active');
-        $(this).after("<p>" + className + "</p>");
-    });
+    // $('.icon-demo span.glyphicon, .icon-demo span.ti').each(function() {
+    //     var className = $(this).attr('class');
+    //     $(this).attr('title', className).css({
+    //         'cursor': 'pointer'
+    //     });
+    //     $(this).tooltip({
+    //         trigger: 'click',
+    //         container: 'body'
+    //     }).toggleClass('active');
+    //     $(this).after("<p>" + className + "</p>");
+    // });
     $('body').on('mouseup', function(e) {
         $('.icon-demo span.glyphicon, .icon-demo span.ti').each(function() {
             if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $('.tooltip').has(e.target).length === 0) {
@@ -522,36 +522,36 @@ $(function() {
  * https://github.com/miWebb/jQuery.stickyFooter
  * Released under the MIT license
  */
-(function(e, t, n) {
-    "use strict";
+// (function(e, t, n) {
+//     "use strict";
 
-    function r(t, n) {
-        var r = e(t).outerHeight(true);
-        e(n.content).each(function() {
-            r += e(this).outerHeight(true)
-        });
-        if (r < e(n.frame ? n.frame : t.parent()).height()) {
-            e(t).addClass(n.class)
-        } else {
-            e(t).removeClass(n.class)
-        }
-    }
-    e.fn.stickyFooter = function(n) {
-        var n = e.extend({}, e.fn.stickyFooter.defaults, n);
-        var i = this;
-        r(i, n);
-        e(t).resize(function() {
-            r(i, n)
-        });
-        return this
-    };
-    e.fn.stickyFooter.defaults = {
-        "class": "sticky-footer",
-        frame: "",
-        content: "#page"
-    }
-})(jQuery, window);
+//     function r(t, n) {
+//         var r = e(t).outerHeight(true);
+//         e(n.content).each(function() {
+//             r += e(this).outerHeight(true)
+//         });
+//         if (r < e(n.frame ? n.frame : t.parent()).height()) {
+//             e(t).addClass(n.class)
+//         } else {
+//             e(t).removeClass(n.class)
+//         }
+//     }
+//     e.fn.stickyFooter = function(n) {
+//         var n = e.extend({}, e.fn.stickyFooter.defaults, n);
+//         var i = this;
+//         r(i, n);
+//         e(t).resize(function() {
+//             r(i, n)
+//         });
+//         return this
+//     };
+//     e.fn.stickyFooter.defaults = {
+//         "class": "sticky-footer",
+//         frame: "",
+//         content: "#page"
+//     }
+// })(jQuery, window);
 
-$(window).on('load resize', function() {
-   $(".footer").stickyFooter();
-});
+// $(window).on('load resize', function() {
+//    $(".footer").stickyFooter();
+// });

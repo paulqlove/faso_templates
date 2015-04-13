@@ -23,52 +23,51 @@ html {
   
 }
 body {
-  position: relative;
-  
+  position: absolute;
+  line-height: 1.42857143;
   overflow-x: hidden;
   -ms-overflow-style: scrollbar;
   font-family: 'Roboto', sans-serif; 
   color: #555555;
   font-size: 16px;
   /*line-height: 1.6em;*/
-  /*height: auto;*/
+  height: auto;
   margin: 0px;
+   overflow-y: scroll;
 
 }
-.wrapper {
-  position: relative;
-
+ul {         
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
 }
+ul li {     
+  list-style: none;
+  margin-bottom: 25px;           
+}
+
 ul.imageGrid {
   list-style: none;
   font-size: 0px;
-  /*margin-left: -2.5%;*/
+  margin-left: .5%;
 
 }
 .imageGrid  {
   line-height: 15px;
-  display: inline-block;
-  
-  /*padding: 10px;*/
-  margin: 0 0 0px 2.5%; 
-    /*font-size: 16px;*/
-  /*font-size: 2rem;*/
-
-   -webkit-columns: 2;
-  -webkit-column-gap:   45px;
-  -moz-columns:    2;
-  -moz-column-gap:      45px;
-  columns:         2; 
-  column-gap:           45px; 
-
+  float: left;
+  clear: both;
+  padding-bottom: 10px;
+  margin: 0 2.5% 5% 2.5%; 
+    font-size: 16px;
+  font-size: 2rem;
 
 }
-.imageGrid > li img {
-  max-width: 90% !important;
-  height: auto; 
+.imageGrid  li img {
+  max-width: 100%;
+  height: auto;
   width: auto\9; /* IE8 */
-  margin: 0 0 10px 40px;
+  margin: 0 0 10px 0px;
   padding-left: 0px;
+  padding-top: 16px;
 
 
 }
@@ -77,11 +76,12 @@ ul.imageGrid {
   position: absolute;
   text-align: right;
   font-size: 21px;
-  padding: -10px;
-
-  left: 0px;
-  bottom: 5px;
+  /*padding: -10px;*/
+  display: block;
+  left: -5px;
+  bottom: 25px;
   margin:  0px;
+  z-index: 100;
   -webkit-transform: rotate(270deg);
   -ms-transform: rotate(270deg);
   -moz-transform: rotate(270deg);
@@ -91,31 +91,42 @@ ul.imageGrid {
   -moz-transform-origin:  0 0;
   -ms-transform-origin:  0 0;
   transform-origin:  0 0;
-
- 
 }
+.imageGrid img:hover {
+  -webkit-transform: scale(1.075);
+  -moz-transform: scale(1.075);
+  -ms-transform: scale(1.075);
+  transform: scale(1.075);
 
-/*ul.imageGrid.columns-2 li {
-  width: 98.5%;
-}*/
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+
+}
+.imageGrid img:hover + .art_title {
+  color: #fff;
+}
 .container {
- /* position: relative;*/
+ position: relative;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  height: auto;  
 }
 
 .footer {
+  position: fixed;
   text-align: center;
   background-color: #f3f5f5;
   clear: both;
   width: 100%;
-  position: fixed;
   margin: 0px;
   bottom: 0px;
   left: 0px;
   min-height: 100px;
+  z-index: 101;
+
+  
 
 }
 .header: {
@@ -124,6 +135,10 @@ ul.imageGrid {
   margin-bottom: 0px;
 
 
+}
+.hidden {
+  display: none !important;
+  visibility: hidden !important;
 }
 
 /**-------------------[GRID SYSTEM]------------------------*/
@@ -892,7 +907,9 @@ ul.imageGrid {
 #allPages a > h3 {
   color: #000;
 }
-
+#footerOptions {
+  margin-top: 30px;
+}
 #footerOptions,
 #footerOptions a,
 #footerOptions li {
@@ -901,7 +918,7 @@ ul.imageGrid {
   color: #000 !important;
   transition: box-shadow 1s;
   /*margin-bottom: 10px;*/
-  align-self: auto;
+  /*align-self: auto;*/
 }
 #landingBG {
   background-image: url(/images/long-horn-bull.jpg);

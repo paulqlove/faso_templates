@@ -10,69 +10,74 @@
 	<link rel="stylesheet" type="text/css" href="/css/style.css">
 </head>
 <body id="allPages">
-<div class="container" >
-	
-		
-		<?php include("header.php"); ?>
+			<?php include("header.php"); ?>
+	<div class="container" data-role="page">
 
+			<div class="row">
+				<div class="cell-md-12">
+					<ul class="imageGrid cell-md-12">
+								<div class="cell-md-6">
+									<div class="cell-md-12">
+										<li>
+									
+											<img src="/images/1104284w900.jpg">
+											<h4 class="art_title">Dale</h4>
+										</li>
+									</div>
+									<div class="cell-md-12">
+				 						<li>
+											<img src="/images/1184544w900.jpg">
+											<h4 class="art_title">Mother Beast</h4>
+										</li>
+									</div>
+									<div class="cell-md-12">
+										<li>
+											<img src="/images/1189671w900.jpg">
+											<h4 class="art_title">Pepe</h4>
+										</li>
+									</div>
+									<div class="cell-md-12">
+										<li>
+											<img src="/images/1531101w900.jpg">
+											<h4 class="art_title">Birds of Feather</h4>
+										</li>
+									</div>
+								</div><!-- first column -->
+								
+								<div class="cell-md-6">
+									<div class="cell-md-12">
+										<li>
+											<img src="/images/1571260w900.jpg">
+											<h4 class="art_title">Heffer Wine</h4>
+										</li>
+									</div>
+								
+									<div class="cell-md-12">
+										<li>
+											<img src="/images/1609519w900.jpg">
+											<h4 class="art_title">Guilty Looks</h4>
+										</li>
+									</div>
+									<div class="cell-md-12">
+										<li>
+											<img src="/images/1645888w900.jpg">
+											<h4 class="art_title">Ash Wednesday</h4>
+										</li>
+									</div>
+									<div class="cell-md-12">
+										<li>
+											<img src="/images/1701103w900.jpg">
+											<h4 class="art_title">Secrets and Lies</h4>
+										</li>
+									</div>
+								</div> <!-- second column -->
+					</ul><!-- /imageGrid -->
+				</div><!-- /content -->
+			</div><!-- row -->
+	</div><!-- /container -->
+			
+	<?php include("footer.php"); ?><!-- FOOTER -->
 		
-		<div class="row">
-			<div class="cell-md-12">
-				<ul class="imageGrid">
-					<li>
-						<div class="wrapper">
-							<h4 class="art_title">Dale</h4>
-							<img src="/images/1104284w900.jpg">
-						</div>
-					</li>
-					<li>
-						<div class="wrapper">
-							<img src="/images/1184544w900.jpg">
-							<h4 class="art_title">Mother Beast</h4>
-						</div>
-					</li>
-					<li>
-						<div class="wrapper">
-							<img src="/images/1189671w900.jpg">
-							<h4 class="art_title">Pepe</h4>
-						</div>
-					</li>
-					<li>
-						<div class="wrapper">
-							<img src="/images/1531101w900.jpg">
-							<h4 class="art_title">Birds of Feather</h4>
-						</div>
-					</li>
-					<li>
-						<div class="wrapper">
-							<img src="/images/1571260w900.jpg">
-							<h4 class="art_title">Heffer Wine</h4>
-						</div>
-					</li>
-					<li>
-						<div class="wrapper">
-							<img src="/images/1609519w900.jpg">
-							<h4 class="art_title">Guilty Looks</h4>
-						</div>
-					</li>
-					<li>
-						<div class="wrapper">
-							<img src="/images/1645888w900.jpg">
-							<h4 class="art_title">Ash Wednesday</h4>
-						</div>
-					</li>
-					<li>
-						<div class="wrapper">
-							<img src="/images/1701103w900.jpg">
-							<h4 class="art_title">Secrets and Lies</h4>
-						</div>
-					</li>
-				</ul><!-- /imageGrid -->
-			</div><!-- /content -->
-		</div><!-- row -->
-		
-		<?php include("footer.php"); ?><!-- FOOTER -->
-</div><!-- /container -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 		<script src="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.js"></script>
 		<script type="text/javascript" src="/js/jquery.materialripple.js"></script>
