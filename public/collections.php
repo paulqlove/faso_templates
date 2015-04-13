@@ -10,16 +10,15 @@
 	<link rel="stylesheet" type="text/css" href="/css/style.css">
 </head>
 <body id="allPages">
+	<div class="container" id="main" data-role="page">
 			<?php include("header.php"); ?>
-	<div class="container" data-role="page">
 
-			<div class="row">
+			<div class="row" id="gallery_margin">
 				<div class="cell-md-12">
 					<ul class="imageGrid cell-md-12">
 								<div class="cell-md-6">
 									<div class="cell-md-12">
 										<li>
-									
 											<img src="/images/1104284w900.jpg">
 											<h4 class="art_title">Dale</h4>
 										</li>
@@ -44,7 +43,7 @@
 									</div>
 								</div><!-- first column -->
 								
-								<div class="cell-md-6">
+								<div class="cell-md-6" >
 									<div class="cell-md-12">
 										<li>
 											<img src="/images/1571260w900.jpg">
@@ -74,9 +73,9 @@
 					</ul><!-- /imageGrid -->
 				</div><!-- /content -->
 			</div><!-- row -->
+	<?php include("footer.php"); ?><!-- FOOTER -->
 	</div><!-- /container -->
 			
-	<?php include("footer.php"); ?><!-- FOOTER -->
 		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 		<script src="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.js"></script>

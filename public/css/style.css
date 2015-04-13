@@ -14,16 +14,31 @@ a > h1,
 a > h3 {
   color: #fff;
 }
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
 
 html {
-  
+  font-size: 1em;
   font-family: helvetica;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
   
 }
 body {
-  position: absolute;
+  position: relative;
   line-height: 1.42857143;
   overflow-x: hidden;
   -ms-overflow-style: scrollbar;
@@ -32,7 +47,7 @@ body {
   font-size: 16px;
   /*line-height: 1.6em;*/
   height: auto;
-  margin: 0px;
+  margin: 0;
    overflow-y: scroll;
 
 }
@@ -57,8 +72,8 @@ ul.imageGrid {
   clear: both;
   padding-bottom: 10px;
   margin: 0 2.5% 5% 2.5%; 
-    font-size: 16px;
-  font-size: 2rem;
+    /*font-size: 16px;*/
+  /*font-size: 2rem;*/
 
 }
 .imageGrid  li img {
@@ -70,12 +85,13 @@ ul.imageGrid {
   padding-top: 16px;
 
 
+
 }
 .art_title {
   
   position: absolute;
   text-align: right;
-  font-size: 21px;
+  font-size: 2rem !important;
   /*padding: -10px;*/
   display: block;
   left: -5px;
@@ -93,10 +109,10 @@ ul.imageGrid {
   transform-origin:  0 0;
 }
 .imageGrid img:hover {
-  -webkit-transform: scale(1.075);
-  -moz-transform: scale(1.075);
-  -ms-transform: scale(1.075);
-  transform: scale(1.075);
+  -webkit-transform: scale(1.095);
+  -moz-transform: scale(1.095);
+  -ms-transform: scale(1.095);
+  transform: scale(1.095);
 
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
@@ -106,34 +122,34 @@ ul.imageGrid {
   color: #fff;
 }
 .container {
- position: relative;
+ 
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  height: auto;  
+
 }
 
 .footer {
   position: fixed;
+ 
   text-align: center;
   background-color: #f3f5f5;
-  clear: both;
+  /*clear: both;*/
   width: 100%;
-  margin: 0px;
+  margin-top: 100px;
   bottom: 0px;
   left: 0px;
-  min-height: 100px;
+  font-size: .82em;
   z-index: 101;
 
-  
 
 }
 .header: {
   height: 80px;
   padding: 0px;
   margin-bottom: 0px;
-
+  margin-top: 45px;
 
 }
 .hidden {
@@ -844,7 +860,7 @@ ul.imageGrid {
   top: 0;
   width: 100%;
   bottom: 0;
-  right: -100%;
+  left: -100%;
   z-index: 1000;
   transition: all 0.5s ease-in-out;
   overflow: auto;
@@ -853,7 +869,7 @@ ul.imageGrid {
   opacity: .8;
 }
 .slide-panel.open {
-  right: 0;
+  left: 0;
   border-style: none;
 }
 .ie9 .slide-panel {
@@ -958,36 +974,51 @@ ul.imageGrid {
   box-shadow:  1px 1px 3px #888888;
 
 }
+#gallery_margin {
+  padding-bottom: 25px;
+}
 
 /**-------------------[MEDIA QUERIES]------------------------*/
 @media (max-width: 480px) {
-  ul.grid-nav li {
-    display: block;
-    margin: 0 0 5px;
-  }
-  ul.grid-nav li a {
-    display: block;
-  }
+
   ul.imageGrid {
     margin-left: 0;
   }
   ul.imageGrid li {
     width: 100% !important; /* over-ride all li styles */
-    margin: 0 0 20px;
+    margin: 0 0 15px 0px;
   }
+
+
 }
 @media (max-width: 800px) {
-  .imageGrid {
-  -moz-column-count:    2;
-  -webkit-column-count: 2;
-  column-count:         2;
+  body {
+    overflow-y: scroll;
   }
+ .art_title {
+  position: absolute;
+  text-align: right;
+  font-size: 1.2rem !important;
+  /*padding: -10px;*/
+  display: block;
+  left: 15px;
+  bottom: 25px;
+  margin:  0px;
+  z-index: 100;
+  color: #FFF;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+   
+ 
+ }
+#gallery_margin {
+  padding-bottom: 150px;
+}
+
 }
 @media (max-width: 400px) {
-  .imageGrid {
-  -moz-column-count:    1;
-  -webkit-column-count: 1;
-  column-count:         1;
-  }
+  
 }
 

@@ -2,11 +2,11 @@
 <div class="row">
 <div class="row no-gutters" data-role="header" >
 	<div class="header cell-md-12 no-gutters">
-		<div class="cell-md-8" id="logo">
+		<div class="cell-xs-10 cell-sm-10 cell-md-8" id="logo">
 			<a href="#"><h3>Paul Love Oil Paintings</h3></a>
 		</div><!-- /header -->
 		<div id="menu">
-		<a href="#" class="cell-md-4" data-slide="slide" data-target="#navigation-panel">
+		<a href="#" class="cell-xs-2 cell-sm-2 cell-md-4" data-slide="slide" data-target="#navigation-panel">
 
 			<h1>Menu</h1>
 
