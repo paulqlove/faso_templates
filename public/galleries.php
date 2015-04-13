@@ -9,11 +9,10 @@
 	
 	<link rel="stylesheet" type="text/css" href="/css/style.css">
 </head>
-<body id="landingBG">
-<div class="container no-gutters"  data-role="page">
-		
+<body>
+<div class="container no-gutters" data-role="page">
+	
 		<?php include("header.php"); ?>
-
 		
 		<div class="row" data-role="content">
 			<div class="cell-md-12">
@@ -27,7 +26,7 @@
 		<script src="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.js"></script>
 		<script type="text/javascript" src="/js/jquery.materialripple.js"></script>
 		<script type="text/javascript" src="/js/mobiledetect.js"></script>	
-		<script type="text/javascript" src="/js/main.js"></script>
+		<script type="text/javascript" src="/js/custom.js"></script>
 </body>
 </html>
 

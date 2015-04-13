@@ -9,7 +9,7 @@
 	
 	<link rel="stylesheet" type="text/css" href="/css/style.css">
 </head>
-<body id="landingBG">
+<body>
 <div class="container no-gutters"  data-role="page">
 		
 		<?php include("header.php"); ?>
