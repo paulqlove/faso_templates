@@ -1,5 +1,6 @@
 $(document).on("pageshow", "[data-role='page']", function () {
  $('div.ui-loader').hide();
+
 });
 
 /* ============================ TOC ==============================
@@ -44,13 +45,6 @@ $(window).load(function() {
 }
 }); 
 
-/* --------------- 2. BIGTEXT --------------- */
-/*! BigText - v0.1.7a - 2014-07-18
- * https://github.com/zachleat/bigtext
- * Copyright (c) 2014 Zach Leatherman (@zachleat)
- * MIT License */
-
-(function(g,e){var a=0,i=e("head"),h=g.BigText,f=e.fn.bigtext,d={DEBUG_MODE:false,DEFAULT_MIN_FONT_SIZE_PX:null,DEFAULT_MAX_FONT_SIZE_PX:528,GLOBAL_STYLE_ID:"bigtext-style",STYLE_ID:"bigtext-id",LINE_CLASS_PREFIX:"bigtext-line",EXEMPT_CLASS:"bigtext-exempt",noConflict:function(j){if(j){e.fn.bigtext=f;g.BigText=h}return d},test:{wholeNumberFontSizeOnly:function(){if(!("getComputedStyle" in g)||document.body==null){return true}var k=e("<div/>").css({position:"absolute","font-size":"14.1px"}).appendTo(document.body).get(0),j=g.getComputedStyle(k,null);if(j){return j.getPropertyValue("font-size")==="14px"}return true}},supports:{wholeNumberFontSizeOnly:undefined},init:function(){if(d.supports.wholeNumberFontSizeOnly===undefined){d.supports.wholeNumberFontSizeOnly=d.test.wholeNumberFontSizeOnly()}if(!e("#"+d.GLOBAL_STYLE_ID).length){i.append(d.generateStyleTag(d.GLOBAL_STYLE_ID,[".bigtext * { white-space: nowrap; } .bigtext > * { display: block; }",".bigtext ."+d.EXEMPT_CLASS+", .bigtext ."+d.EXEMPT_CLASS+" * { white-space: normal; }"]))}},bindResize:function(j,k){if(e.throttle){e(g).unbind(j).bind(j,e.throttle(100,k))}else{if(e.fn.smartresize){j="smartresize."+j}e(g).unbind(j).bind(j,k)}},getStyleId:function(j){return d.STYLE_ID+"-"+j},generateStyleTag:function(k,j){return e("<style>"+j.join("\n")+"</style>").attr("id",k)},clearCss:function(k){var j=d.getStyleId(k);e("#"+j).remove()},generateCss:function(r,q,p,o){var n=[];d.clearCss(r);for(var m=0,l=q.length;m<l;m++){n.push("#"+r+" ."+d.LINE_CLASS_PREFIX+m+" {"+(o[m]?" white-space: normal;":"")+(q[m]?" font-size: "+q[m]+"px;":"")+(p[m]?" word-spacing: "+p[m]+"px;":"")+"}")}return d.generateStyleTag(d.getStyleId(r),n)},jQueryMethod:function(j){d.init();j=e.extend({minfontsize:d.DEFAULT_MIN_FONT_SIZE_PX,maxfontsize:d.DEFAULT_MAX_FONT_SIZE_PX,childSelector:"",resize:true},j||{});this.each(function(){var o=e(this).addClass("bigtext"),m=o.width(),n=o.attr("id"),k=j.childSelector?o.find(j.childSelector):o.children();if(!n){n="bigtext-id"+(a++);o.attr("id",n)}if(j.resize){d.bindResize("resize.bigtext-event-"+n,function(){d.jQueryMethod.call(e("#"+n),j)})}d.clearCss(n);k.addClass(function(p,q){return[q.replace(new RegExp("\\b"+d.LINE_CLASS_PREFIX+"\\d+\\b"),""),d.LINE_CLASS_PREFIX+p].join(" ")});var l=b(o,k,m,j.maxfontsize,j.minfontsize);i.append(d.generateCss(n,l.fontSizes,l.wordSpacings,l.minFontSizes))});return this.trigger("bigtext:complete")}};function c(p,r,q,s,k,n,m){var j;m=typeof m==="number"?m:0;p.css(q,s+n);j=p.width();if(j>=r){p.css(q,"");if(j===r){return{match:"exact",size:parseFloat((parseFloat(s)-0.1).toFixed(3))}}var o=r-m,l=j-r;return{match:"estimate",size:parseFloat((parseFloat(s)-(q==="word-spacing"&&m&&(l<o)?0:k)).toFixed(3))}}return j}function b(m,q,r,s,p){var k=m.clone(true).addClass("bigtext-cloned").css({fontFamily:m.css("font-family"),textTransform:m.css("text-transform"),wordSpacing:m.css("word-spacing"),letterSpacing:m.css("letter-spacing"),position:"absolute",left:d.DEBUG_MODE?0:-9999,top:d.DEBUG_MODE?0:-9999}).appendTo(document.body);var l=[],j=[],o=[],n=[];q.css("float","left").each(function(){var C=e(this),x=d.supports.wholeNumberFontSizeOnly?[8,4,1]:[8,4,1,0.1],z,B;if(C.hasClass(d.EXEMPT_CLASS)){l.push(null);n.push(null);o.push(false);return}var D=32,A=parseFloat(C.css("font-size")),y=(C.width()/A).toFixed(6);B=parseInt(r/y,10)-D;outer:for(var u=0,t=x.length;u<t;u++){inner:for(var w=1,v=10;w<=v;w++){if(B+w*x[u]>s){B=s;break outer}z=c(C,r,"font-size",B+w*x[u],x[u],"px",z);if(typeof z!=="number"){B=z.size;if(z.match==="exact"){break outer}break inner}}}n.push(r/B);if(B>s){l.push(s);o.push(false)}else{if(!!p&&B<p){l.push(p);o.push(true)}else{l.push(B);o.push(false)}}}).each(function(u){var y=e(this),x=0,v=1,w;if(y.hasClass(d.EXEMPT_CLASS)){j.push(null);return}y.css("font-size",l[u]+"px");for(var t=1,z=3;t<z;t+=v){w=c(y,r,"word-spacing",t,v,"px",w);if(typeof w!=="number"){x=w.size;break}}y.css("font-size","");j.push(x)}).removeAttr("style");if(!d.DEBUG_MODE){k.remove()}else{k.css({"background-color":"rgba(255,255,255,.4)"})}return{fontSizes:l,wordSpacings:j,ratios:n,minFontSizes:o}}e.fn.bigtext=d.jQueryMethod;g.BigText=d})(this,jQuery);
 
 
 /* --------------- 3. JQUERY COOKIE --------------- */
@@ -81,57 +75,14 @@ var supports=(function(){var d=document.documentElement,c="ontouchstart" in wind
 // $(window).bind('resize load',syncHeights);syncHeights();return this;};})(jQuery);
 
 
-/* --------------- 7. FITVIDEOS FOR RESPONSIVE IFRAMES FROM YOUTUBE, VIMEO, SOUND CLOUD ETC., --------------- */
-/*! FitVids 1.1 : Copyright 2013, Chris Coyier - http://css-tricks.com + Dave Rupert - http://daverupert.com
-* Credit to Thierry Koblentz - http://www.alistapart.com/articles/creating-intrinsic-ratios-for-video/
-* Released under the WTFPL license - http://sam.zoy.org/wtfpl/ */
-(function(a){a.fn.fitVids=function(b){var e={customSelector:null,ignore:null};if(!document.getElementById("fit-vids-style")){var d=document.head||document.getElementsByTagName("head")[0];var c=".fluid-width-video-wrapper{width:100%;position:relative;padding:0;}.fluid-width-video-wrapper iframe,.fluid-width-video-wrapper object,.fluid-width-video-wrapper embed {position:absolute;top:0;left:0;width:100%;height:100%;}";var f=document.createElement("div");f.innerHTML='<p>x</p><style id="fit-vids-style">'+c+"</style>";d.appendChild(f.childNodes[1])}if(b){a.extend(e,b)}return this.each(function(){var g=["iframe[src*='player.vimeo.com']","iframe[src*='youtube.com']","iframe[src*='youtube-nocookie.com']","iframe[src*='kickstarter.com'][src*='video.html']","object","embed"];if(e.customSelector){g.push(e.customSelector)}var h=".fitvidsignore";if(e.ignore){h=h+", "+e.ignore}var i=a(this).find(g.join(","));i=i.not("object object");i=i.not(h);i.each(function(){var n=a(this);if(n.parents(h).length>0){return}if(this.tagName.toLowerCase()==="embed"&&n.parent("object").length||n.parent(".fluid-width-video-wrapper").length){return}if((!n.css("height")&&!n.css("width"))&&(isNaN(n.attr("height"))||isNaN(n.attr("width")))){n.attr("height",9);n.attr("width",16)}var j=(this.tagName.toLowerCase()==="object"||(n.attr("height")&&!isNaN(parseInt(n.attr("height"),10))))?parseInt(n.attr("height"),10):n.height(),k=!isNaN(parseInt(n.attr("width"),10))?parseInt(n.attr("width"),10):n.width(),l=j/k;if(!n.attr("id")){var m="fitvid"+Math.floor(Math.random()*999999);n.attr("id",m)}n.wrap('<div class="fluid-width-video-wrapper"></div>').parent(".fluid-width-video-wrapper").css("padding-top",(l*100)+"%");n.removeAttr("height").removeAttr("width")})})}})(window.jQuery||window.Zepto);
 
 
-/* __________________ 8. PLACEHOLDER SUPPORT  __________________*/
-/* Placeholders.js v3.0.2 */
-(function(t){"use strict";function e(t,e,r){return t.addEventListener?t.addEventListener(e,r,!1):t.attachEvent?t.attachEvent("on"+e,r):void 0}function r(t,e){var r,n;for(r=0,n=t.length;n>r;r++)if(t[r]===e)return!0;return!1}function n(t,e){var r;t.createTextRange?(r=t.createTextRange(),r.move("character",e),r.select()):t.selectionStart&&(t.focus(),t.setSelectionRange(e,e))}function a(t,e){try{return t.type=e,!0}catch(r){return!1}}t.Placeholders={Utils:{addEventListener:e,inArray:r,moveCaret:n,changeType:a}}})(this),function(t){"use strict";function e(){}function r(){try{return document.activeElement}catch(t){}}function n(t,e){var r,n,a=!!e&&t.value!==e,u=t.value===t.getAttribute(V);return(a||u)&&"true"===t.getAttribute(D)?(t.removeAttribute(D),t.value=t.value.replace(t.getAttribute(V),""),t.className=t.className.replace(R,""),n=t.getAttribute(F),parseInt(n,10)>=0&&(t.setAttribute("maxLength",n),t.removeAttribute(F)),r=t.getAttribute(P),r&&(t.type=r),!0):!1}function a(t){var e,r,n=t.getAttribute(V);return""===t.value&&n?(t.setAttribute(D,"true"),t.value=n,t.className+=" "+I,r=t.getAttribute(F),r||(t.setAttribute(F,t.maxLength),t.removeAttribute("maxLength")),e=t.getAttribute(P),e?t.type="text":"password"===t.type&&M.changeType(t,"text")&&t.setAttribute(P,"password"),!0):!1}function u(t,e){var r,n,a,u,i,l,o;if(t&&t.getAttribute(V))e(t);else for(a=t?t.getElementsByTagName("input"):b,u=t?t.getElementsByTagName("textarea"):f,r=a?a.length:0,n=u?u.length:0,o=0,l=r+n;l>o;o++)i=r>o?a[o]:u[o-r],e(i)}function i(t){u(t,n)}function l(t){u(t,a)}function o(t){return function(){m&&t.value===t.getAttribute(V)&&"true"===t.getAttribute(D)?M.moveCaret(t,0):n(t)}}function c(t){return function(){a(t)}}function s(t){return function(e){return A=t.value,"true"===t.getAttribute(D)&&A===t.getAttribute(V)&&M.inArray(C,e.keyCode)?(e.preventDefault&&e.preventDefault(),!1):void 0}}function d(t){return function(){n(t,A),""===t.value&&(t.blur(),M.moveCaret(t,0))}}function g(t){return function(){t===r()&&t.value===t.getAttribute(V)&&"true"===t.getAttribute(D)&&M.moveCaret(t,0)}}function v(t){return function(){i(t)}}function p(t){t.form&&(T=t.form,"string"==typeof T&&(T=document.getElementById(T)),T.getAttribute(U)||(M.addEventListener(T,"submit",v(T)),T.setAttribute(U,"true"))),M.addEventListener(t,"focus",o(t)),M.addEventListener(t,"blur",c(t)),m&&(M.addEventListener(t,"keydown",s(t)),M.addEventListener(t,"keyup",d(t)),M.addEventListener(t,"click",g(t))),t.setAttribute(j,"true"),t.setAttribute(V,x),(m||t!==r())&&a(t)}var b,f,m,h,A,y,E,x,L,T,N,S,w,B=["text","search","url","tel","email","password","number","textarea"],C=[27,33,34,35,36,37,38,39,40,8,46],k="#ccc",I="placeholdersjs",R=RegExp("(?:^|\\s)"+I+"(?!\\S)"),V="data-placeholder-value",D="data-placeholder-active",P="data-placeholder-type",U="data-placeholder-submit",j="data-placeholder-bound",q="data-placeholder-focus",z="data-placeholder-live",F="data-placeholder-maxlength",G=document.createElement("input"),H=document.getElementsByTagName("head")[0],J=document.documentElement,K=t.Placeholders,M=K.Utils;if(K.nativeSupport=void 0!==G.placeholder,!K.nativeSupport){for(b=document.getElementsByTagName("input"),f=document.getElementsByTagName("textarea"),m="false"===J.getAttribute(q),h="false"!==J.getAttribute(z),y=document.createElement("style"),y.type="text/css",E=document.createTextNode("."+I+" { color:"+k+"; }"),y.styleSheet?y.styleSheet.cssText=E.nodeValue:y.appendChild(E),H.insertBefore(y,H.firstChild),w=0,S=b.length+f.length;S>w;w++)N=b.length>w?b[w]:f[w-b.length],x=N.attributes.placeholder,x&&(x=x.nodeValue,x&&M.inArray(B,N.type)&&p(N));L=setInterval(function(){for(w=0,S=b.length+f.length;S>w;w++)N=b.length>w?b[w]:f[w-b.length],x=N.attributes.placeholder,x?(x=x.nodeValue,x&&M.inArray(B,N.type)&&(N.getAttribute(j)||p(N),(x!==N.getAttribute(V)||"password"===N.type&&!N.getAttribute(P))&&("password"===N.type&&!N.getAttribute(P)&&M.changeType(N,"text")&&N.setAttribute(P,"password"),N.value===N.getAttribute(V)&&(N.value=x),N.setAttribute(V,x)))):N.getAttribute(D)&&(n(N),N.removeAttribute(V));h||clearInterval(L)},100)}M.addEventListener(t,"beforeunload",function(){K.disable()}),K.disable=K.nativeSupport?e:i,K.enable=K.nativeSupport?e:l}(this);      
-
-
-/*! __________________ 9. MENU SCRIPT __________________*/
-/*!* DC jQuery Vertical Accordion Menu - jQuery vertical accordion menu plugin
-/*! Copyright (c) 2011 Design Chemical * Dual licensed under the MIT and GPL licenses: * http://www.opensource.org/licenses/mit-license.php * http://www.gnu.org/licenses/gpl.html */
-(function(b){b.fn.dcAccordion=function(h){var f={classParent:"parent",classActive:"current",classArrow:"dcjq-icon",classCount:"dcjq-count",classExpand:"current-parent",eventType:"click",hoverDelay:300,menuClose:true,autoClose:true,autoExpand:false,speed:"slow",saveState:true,disableLink:true,showCount:false,cookie:"dcjq-accordion"};var h=b.extend(f,h);this.each(function(c){var v=this;r();if(f.saveState==true){g(f.cookie,v)}if(f.autoExpand==true){b("li."+f.classExpand+" > a").addClass(f.classActive)}t();if(f.eventType=="hover"){var w={sensitivity:2,interval:f.hoverDelay,over:d,timeout:f.hoverDelay,out:e};b("li a",v).hoverIntent(w);var x={sensitivity:2,interval:1000,over:q,timeout:1000,out:u};b(v).hoverIntent(x);if(f.disableLink==true){b("li a",v).click(function(i){if(b(this).siblings("ul").length>0){i.preventDefault()}})}}else{b("li a",v).click(function(i){$activeLi=b(this).parent("li");$parentsLi=$activeLi.parents("li");$parentsUl=$activeLi.parents("ul");if(f.disableLink==true){if(b(this).siblings("ul").length>0){i.preventDefault()}}if(f.autoClose==true){s($parentsLi,$parentsUl)}if(b("> ul",$activeLi).is(":visible")){b("ul",$activeLi).slideUp(f.speed);b("a",$activeLi).removeClass(f.classActive)}else{b(this).siblings("ul").slideToggle(f.speed);b("> a",$activeLi).addClass(f.classActive)}if(f.saveState==true){a(f.cookie,v)}})}function r(){$arrow='<span class="'+f.classArrow+'"></span>';var i=f.classParent+"-li";b("> ul",v).show();b("li",v).each(function(){if(b("> ul",this).length>0){b(this).addClass(i);b("> a",this).addClass(f.classParent).append($arrow)}});b("> ul",v).hide();if(f.showCount==true){b("li."+i,v).each(function(){if(f.disableLink==true){var j=parseInt(b("ul a:not(."+f.classParent+")",this).length)}else{var j=parseInt(b("ul a",this).length)}b("> a",this).append(' <span class="'+f.classCount+'">('+j+")</span>")})}}function d(){$activeLi=b(this).parent("li");$parentsLi=$activeLi.parents("li");$parentsUl=$activeLi.parents("ul");if(f.autoClose==true){s($parentsLi,$parentsUl)}if(b("> ul",$activeLi).is(":visible")){b("ul",$activeLi).slideUp(f.speed);b("a",$activeLi).removeClass(f.classActive)}else{b(this).siblings("ul").slideToggle(f.speed);b("> a",$activeLi).addClass(f.classActive)}if(f.saveState==true){a(f.cookie,v)}}function e(){}function q(){}function u(){if(f.menuClose==true){b("ul",v).slideUp(f.speed);b("a",v).removeClass(f.classActive);a(f.cookie,v)}}function s(j,i){b("ul",v).not(i).slideUp(f.speed);b("a",v).removeClass(f.classActive);b("> a",j).addClass(f.classActive)}function t(){b("ul",v).hide();$allActiveLi=b("a."+f.classActive,v);$allActiveLi.siblings("ul").show()}});function g(e,c){var j=b.cookie(e);if(j!=null){var d=j.split(",");b.each(d,function(o,i){var p=b("li:eq("+i+")",c);b("> a",p).addClass(f.classActive);var n=p.parents("li");b("> a",n).addClass(f.classActive)})}}function a(d,c){var e=[];b("li a."+f.classActive,c).each(function(n){var i=b(this).parent("li");var m=b("li",c).index(i);e.push(m)});b.cookie(d,e,{path:"/"})}}})(jQuery);
-
-
-/*! ------------ 10. INITIALIZE MENU------------------------- */
-$(function() {
-
-    $("#nav > ul").dcAccordion({
-        saveState: false,
-        autoClose: true,
-        disableLink: true,
-        speed: "fast",
-        showCount: false,
-        autoExpand: false
-    });
- 
-});
-// ------------------ END MENU --------------------
+     
 
 
 
-$(window).load(function() {
-
-// ------------------ 11. SOUND CLOUD NON-BLOCKING LOAD -------------------- //
-$(".soundcloud-wrapper").each(function() {
-        var URL = $(this).attr('id');
-        var htm = '<iframe width="100%" height="200px" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/' + URL + '&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false&amp;visual=true" frameborder="0"></iframe>';
-        $(this).html(htm).fitVids().removeClass('.loading');
-  });
-    
-// ------------------ 12. BIG TEXT (window load gets correct size on load, doc ready does not) --------------------
-        $('.big-text-banner').bigtext({
-         minfontsize: 20 // default is null
-        }).css('visibility','visible');
 
 
-});
 
 
 $(function() {
@@ -148,6 +99,8 @@ $(function() {
             $(this).toggleClass('active-slide-btn');
             $(target).toggleClass('open');
             $('html').removeClass('slide-active');
+
+
         } else {
             $(target).toggleClass('open');
             $(this).toggleClass('active-slide-btn');
@@ -183,6 +136,7 @@ $(function() {
     // indicate what panel you're on when you've clicked inside a panel to another panel
     $('.slide-panel .signin-toggle').click(function(e) {
          $('.header-btn.signin-toggle').toggleClass('active-slide-btn');
+
         e.preventDefault();
     });
     
@@ -228,31 +182,7 @@ $(function() {
 });
 
 
-// --------------- 15. STICKY HEADER --------------- 
-/* if window height greater than or equal to the height of the vertical icons and the header stick then not stick otherwise */
-$(window).on("load resize",function(){
 
-    var windowHeight = $(window).height();
-    var buttonWrapper = $('.header-btn-wrapper').outerHeight();
-    var headerHeight = $('.header').outerHeight();
-    var goToTopHeight = $('#go-to-top').height();
-
-
-    if (windowHeight >= buttonWrapper + headerHeight) {
-        $('.header').addClass('sticky-header');
-    } else {
-        $('.header').removeClass('sticky-header');
-
-    }
-
-    if (windowHeight >= buttonWrapper + headerHeight + goToTopHeight) {
-        $('#go-to-top').addClass('position-1');
-    } else {
-        $('#go-to-top').removeClass('position-1');
-
-    }
-
-});
 
 
 // --------------- 16. MATCH HEIGHT OF SLIDER NEXT TO THIS COLUMN --------------- 
@@ -400,120 +330,6 @@ $(function() {
 }); // end doc ready
 
 
-
-/* --------------- 18. - STICKY ADD THIS AND SIDEBAR FOLLOW ---------------*/
-// very modified -- http://www.keanrichmond.com/a-simple-sticky-sidebar.html
-     if ($(".addthis_inner").length > 0) {
-         var $entry = $(".entry-post"),
-             $addthis = $(".addthis_inner"),
-             $window2 = $(window),
-             $document2 = $(document);
-
-         function stickyAddThis() {
-             var position = $('.primary-column').position().left + 15;
-             var headerHeight = $('.header').outerHeight() + 30;
-             var colwidth = $('.addthis_inner').outerWidth(true);
-             $('.addthis_inner').css('width', (colwidth) + 'px');
-             $('.addthis_inner').css('top', (headerHeight) + 'px');
-             $addthis.css('left', (position) + 'px');
-
-             var fixedBottom = $document2.height() - ($entry.offset().top + $entry.height());
-             var topOffset = $entry.offset().top;
-             var stopPoint = $document2.height() - (fixedBottom + $addthis.height() + 40);
-             if ($entry.height() > $addthis.height() + 0) {
-                 if ($window.scrollTop() > topOffset) {
-                     $addthis.addClass("sticky-addthis");
-                     if ($window.scrollTop() > stopPoint) {
-                         $addthis.css("top", (stopPoint - $window2.scrollTop() + 40));
-                     }
-                 } else {
-                     $addthis.removeClass("sticky-addthis");
-                     $addthis.removeAttr('style');
-                 }
-             }
-         }
-
-     }
- if ($(".blog-single-sidebar").length > 0) {
-     var $content = $(".primary-column"),
-         $sidebar = $(".blog-single-sidebar"),
-         $window = $(window),
-         $document = $(document);
-
-     function stickySidebar() {
-         var position = $('#sidebar').position().left + 15;
-         var headerHeight = $('.header').outerHeight();
-         var colwidth = $sidebar.outerWidth(true);
-         $sidebar.css('width', (colwidth) + 'px');
-         $sidebar.css('top', (headerHeight) + 'px');
-         $sidebar.css('left', (position) + 'px');
-
-         var fixedBottom = $document.height() - ($content.offset().top + $content.height());
-         var topOffset = $content.offset().top;
-         var stopPoint = $document.height() - (fixedBottom + $sidebar.height() + 40);
-         if ($content.height() > $sidebar.height() + 0) {
-             if ($window.scrollTop() > topOffset) {
-                 $sidebar.addClass("sticky-sidebar");
-                 if ($window.scrollTop() > stopPoint) {
-                     $sidebar.css("top", (stopPoint - $window.scrollTop() + 40));
-                 }
-             } else {
-                 $sidebar.removeClass("sticky-sidebar");
-                 $sidebar.removeAttr('style');
-             }
-         }
-     }
-     stickySidebar();
-     stickyAddThis();
-     window.onscroll = function() {
-         stickySidebar();
-         stickyAddThis();
-     };
-     window.onresize = function() {
-         stickySidebar();
-         stickyAddThis();
-     };
- }
-
-
-/* --------------- 19. - SUMMARY PAGE SIDEBAR FOLLOW ---------------*/
-    if ($(".blog-summary-sidebar").length > 0) {
-        var $content3 = $(".primary-column"),
-            $sidebar3 = $(".blog-summary-sidebar"),
-            $window3 = $(window), 
-            $document3 = $(document);
-
-        function stickySidebar2() {
-            var position = $('#sidebar').position().left + 15;
-            var headerHeight = $('.header').outerHeight();
-            var colwidth = $sidebar3.outerWidth(true);
-            $sidebar3.css('width', (colwidth) + 'px');
-            $sidebar3.css('top', (headerHeight) + 'px');
-            $sidebar3.css('left', (position) + 'px');
-
-            var fixedBottom = $document3.height() - ($content3.offset().top + $content3.height());
-            var topOffset = $content3.offset().top;
-            var stopPoint = $document3.height() - (fixedBottom + $sidebar3.height() + 40);
-            if ($content3.height() > $sidebar3.height() + 0) {
-                if ($window3.scrollTop() > topOffset) {
-                    $sidebar3.addClass("sticky-sidebar");
-                    if ($window3.scrollTop() > stopPoint) {
-                        $sidebar3.css("top", (stopPoint - $window3.scrollTop() + 40));
-                    }
-                } else {
-                    $sidebar3.removeClass("sticky-sidebar");
-                    $sidebar3.removeAttr('style');
-                }
-            }
-        }
-        stickySidebar2();
-        window.onscroll = function() {
-            stickySidebar2();
-        };
-        window.onresize = function() {
-            stickySidebar2();
-        };
-    }
 
 /* --------------- 20. - JQUERY STICKY FOOTER ---------------*/
 /*!

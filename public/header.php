@@ -16,22 +16,27 @@
 </div><!-- row -->
 <!-- SLIDE PANEL -->
 		<div class="slide-panel-parent">
-			<div class="slide-panel" id="navigation-panel">
-			<div class="container">
-				<div class="row">
-					<div class="cell-md-6 cell-lg-8">
-						<nav id="nav" role="navigation">
-							<ul id="menuOptions">
-								<li><a href="#">Galleries</a></li>
-								<li><a href="#">Articles</a></li>
-								<li><a href="#">Blog</a></li>
-								<li><a href="#">About Us</a></li>
-								<li><a href="#">Contact us</a></li>
-							</ul>
+				<div class="slide-panel" id="navigation-panel">
+				<div class="container">
+					<div class="row">
+						<div class="cell-md-6 cell-lg-8">
+							<nav id="nav" role="navigation">
+								<ul id="menuOptions">
+									<li><a href="#">Galleries</a></li>
+									<li><a href="#">Articles</a></li>
+									<li><a href="#">Blog</a></li>
+									<li><a href="#">About Us</a></li>
+									<li><a data-slide="slide" data-target="#contact-panel" href="#">Contact us</a></li>
+								</ul>
 
-						</nav>
-					</div>
-				</div><!-- /row -->
-		</div> <!-- /container -->
-		</div><!-- /slide-panel -->
+							</nav>
+						</div>
+					</div><!-- /row -->
+			</div> <!-- /container -->
+			</div><!-- /navigation slide-panel  -->
+			<!-- Contact Panel -->
+			<?php include('contact_form.php'); ?>
+			<!-- end contact panel  -->
+			<!-- EMAIL NEWSLETTER PANEL -->
+			<?php include('en.php') ?>
 		</div> <!-- end slide panel parent-->
