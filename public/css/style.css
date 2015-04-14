@@ -1,4 +1,33 @@
+@-webkit-keyframes arrow-pulse
+{
+  0%    { -webkit-transform: translate3d(0, 0, 0) }
+  25%   { -webkit-transform: translate3d(0, -4px, 0) }
+  75%   { -webkit-transform: translate3d(0, 4px, 0) }
+  100%  { -webkit-transform: translate3d(0, 0, 0) }
+}
 
+@keyframes arrow-pulse
+{
+  0%    { transform: translate3d(0, 0, 0) }
+  25%   { transform: translate3d(0, -4px, 0) }
+  75%   { transform: translate3d(0, 4px, 0) }
+  100%  { transform: translate3d(0, 0, 0) }
+}
+@-webkit-keyframes x-arrow-pulse
+{
+  0%    { -webkit-transform: translate3d(0, 0, 0) }
+  25%   { -webkit-transform: translate3d(-4px, 0, 0) }
+  75%   { -webkit-transform: translate3d(4px, 0, 0) }
+  100%  { -webkit-transform: translate3d(0, 0, 0) }
+}
+
+@keyframes x-arrow-pulse
+{
+  0%    { transform: translate3d(0, 0, 0) }
+  25%   { transform: translate3d(-4px, 0, 0) }
+  75%   { transform: translate3d(4px, 0, 0) }
+  100%  { transform: translate3d(0, 0, 0) }
+}
 * { margin:0; padding:0; font-size:100%; text-decoration: none; box-sizing:border-box;  -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box; }
 *:before,
@@ -66,6 +95,9 @@ ul.imageGrid {
   margin-left: .5%;
 
 }
+.fa {
+  color: #888;
+ }
 .imageGrid  {
   line-height: 15px;
   float: left;
@@ -82,10 +114,39 @@ ul.imageGrid {
   width: auto\9; /* IE8 */
   margin: 0 0 10px 0px;
   padding-left: 0px;
+  padding-top: 16px;  
+
+}
+.image_info {
+
+  text-align: right;
+  margin-top: 15%;
+ clear: both;
+
+
+}
+.image_info h3 {
+  line-height: 2em;
+  font-size: 1.3em;
+  font-weight: 200;
+  color: #888;
+  text-transform: uppercase;
+
+}
+.image_info p {
+  font-weight: 800;
+}
+.singleImage {
+  max-width: 100%;
+  height: auto;
+  width: auto\9; /* IE8 */
+  margin: 0 0 10px 0px;
+  padding-left: 0px;
   padding-top: 16px;
-
-
-
+}
+.single_work_expanded {
+  clear: both;
+  margin: 0 2.5% 5% 2.5%; 
 }
 .art_title {
   
@@ -132,9 +193,9 @@ ul.imageGrid {
 
 .footer {
   position: fixed;
- 
+  border-top: 2px solid #f5f5f5;
   text-align: center;
-  background-color: #f3f5f5;
+  background-color: #fff;
   /*clear: both;*/
   width: 100%;
   margin-top: 100px;
@@ -142,14 +203,16 @@ ul.imageGrid {
   left: 0px;
   font-size: .82em;
   z-index: 101;
+  text-transform: uppercase;
 
 
 }
 .header: {
   height: 80px;
-  padding: 0px;
-  margin-bottom: 0px;
-  margin-top: 45px;
+ padding-top: 50px;
+  margin-bottom: 10px;
+ border-bottom: 2px solid #f5f5f5;
+ z-index: 1000;
 
 }
 .hidden {
@@ -936,6 +999,9 @@ ul.imageGrid {
   /*margin-bottom: 10px;*/
   /*align-self: auto;*/
 }
+#image_container {
+  position: relative;
+}
 #landingBG {
   background-image: url(/images/long-horn-bull.jpg);
   background-repeat: no-repeat;
@@ -945,12 +1011,16 @@ ul.imageGrid {
 }
 #logo {
   height: 80px;
+  padding-top: 30px;
  /* background-color: #f5f5f5;*/
   text-align: center;
 }
-#menu {
-  text-align: center;
+#menu,
+a > #menu {
+
+  text-align: right;
   height: 80px;
+  padding-top: 30px;
  /* background-color: #f5f5f5;*/
 }
 #menuOptions {
@@ -959,9 +1029,37 @@ ul.imageGrid {
   color: #fff;
 
 }
+#next_image_button {
+  position: absolute;
+  right: 5px;
+  top: 40%;
+  z-index: 100;
+  color: #fff;
+}
+#next_image_button:hover {
+   -webkit-animation-name: x-arrow-pulse;
+  -webkit-animation-duration: .75s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
 
+  animation-name: x-arrow-pulse; 
+  animation-duration: .75s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+#scroll_down_arrow {
+  visibility: hidden;
+  display: none;
+  -webkit-animation-name: arrow-pulse;
+  -webkit-animation-duration: .75s;
+  -webkit-animation-iteration-count: 7;
+  -webkit-animation-timing-function: linear;
 
-
+  animation-name: arrow-pulse; 
+  animation-duration: .75s;
+  animation-iteration-count: 7;
+  animation-timing-function: linear;
+}
 
 /**-------------------[ANIMATIONS]------------------------*/
 
@@ -970,13 +1068,16 @@ ul.imageGrid {
 }
 #footerOptions > li:hover {
   z-index: 95;
-  border: 0px 1px 1px 1px solid;
-  box-shadow:  1px 1px 3px #888888;
+  
 
 }
 #gallery_margin {
   padding-bottom: 25px;
+  margin-bottom: 8.5em;
+
+
 }
+
 
 /**-------------------[MEDIA QUERIES]------------------------*/
 @media (max-width: 480px) {
@@ -988,13 +1089,36 @@ ul.imageGrid {
     width: 100% !important; /* over-ride all li styles */
     margin: 0 0 15px 0px;
   }
+  .image_info {
+    
+    text-align: left;
+    margin-top: 15%;
+   clear: both;
 
 
+  }
+  #gallery_margin {
+  padding-bottom: 25px;
+  margin-bottom: 12.5em;
+  
+}
+  #next_image_button {
+    visibility: hidden;
+    display: none;
+  }
+  #scroll_down_arrow {
+  position: absolute;
+  top: -32%;
+  right: 0px;
+  z-index: 105px;
+  visibility: visible;
+  display: block;
+
+
+  }
 }
 @media (max-width: 800px) {
-  body {
-    overflow-y: scroll;
-  }
+ 
  .art_title {
   position: absolute;
   text-align: right;
@@ -1014,7 +1138,21 @@ ul.imageGrid {
  
  }
 #gallery_margin {
-  padding-bottom: 150px;
+  padding-bottom: 25px;
+  margin-bottom: 12.5em;
+ 
+}
+.image_info {
+  
+  text-align: left;
+  margin-top: 15%;
+ clear: both;
+
+
+}
+#next_image_button {
+  visibility: hidden;
+  display: none;
 }
 
 }
