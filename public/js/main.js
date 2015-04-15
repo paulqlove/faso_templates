@@ -93,12 +93,14 @@ $(function() {
         var $this = $(this);
         var target = $this.attr('data-target');
         var $target = $(target);
+        
         if ($('.slide-panel-parent').children().is('.open')) {
             $('.open').not(target).removeClass('open');
             $('.active-slide-btn').not(this).removeClass('active-slide-btn');
             $(this).toggleClass('active-slide-btn');
             $(target).toggleClass('open');
             $('html').removeClass('slide-active');
+            
 
 
         } else {
@@ -114,7 +116,7 @@ $(function() {
             $('html').removeClass('slide-active');
 
         }
-
+        	$('#nav-toggle').addClass('hidden');
         e.preventDefault();
     });
 
@@ -129,6 +131,7 @@ $(function() {
         $(this).parent().removeClass('open');
         $('html').removeClass('slide-active');
         $('#page').removeClass('page-off');
+        $('#nav-toggle').removeClass('hidden');
         e.preventDefault();
     });
  

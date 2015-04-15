@@ -2,8 +2,11 @@
 	<div class="container">
 		<div class="row">
 			<div class="cell-md-12">
-				<h2 id="contact_title">Contact the Artist</h2>
+				<div class="close_panel_container">
+					<i class="fa fa-remove fa-2x close cell-md-12" id="color_rbutton" data-slide="slide"></i>
+				</div>
 				<form>
+				<h2 id="contact_title">Contact the Artist</h2>
 					<div class="cell-md-offset-3 cell-md-6">
 						
 						<input id="focusHere" type="text" name="fullname" placeholder="Name">
