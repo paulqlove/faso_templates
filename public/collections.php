@@ -12,7 +12,7 @@
 <body id="allPages">
 	<div class="container" id="main" data-role="page">
 			<?php include("header.php"); ?>
-
+			<i class="fa fa-arrow-circle-o-up fa-3x" id="go-to-top"></i>
 			<div class="row" id="gallery_margin">
 				<div class="cell-md-12">
 					<ul class="imageGrid cell-md-12">

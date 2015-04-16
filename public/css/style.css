@@ -124,11 +124,7 @@ keygen:focus,
 select:focus {
   outline-style: none;
 }
-textarea {
-  height: 5.4em !important;
-  margin-top: 7px;
 
-}
 ul {         
   padding: 0 0 0 0;
   margin: 0 0 0 0;
@@ -144,6 +140,24 @@ ul.imageGrid {
   margin-left: .5%;
 
 }
+.add_comment {
+  color: #fff;
+  background-color: #000;
+  float: right;
+  text-align: center;
+  padding: 5px;
+  text-transform: uppercase;
+}
+.author span {
+  color: #fa4b2a;
+  font-weight: 800;
+}
+.blog_article p {
+  margin-top: 1em;
+}
+.blog_article p:first-child {
+  text-indent: 2.5em;
+}
 .blog_summaries {
  -moz-column-count: 4;
      -moz-column-gap: 1px;
@@ -155,14 +169,90 @@ ul.imageGrid {
      margin-bottom: 1.5em;
 
 }
-
+.blog_post_title {
+  
+}
 .close_panel_container{
   
   text-align: right;
 }
-.fa {
+.comment {
+  background-color: #f5f5f5;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #f5f5f5;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+.comment h3 {
+  margin: 1.2em 0 .5em 0;
+  font-style: italic;
+  text-transform: uppercase;
+}
+.comment_body {
+  margin: 10px 0 0 0;
+  padding-top: 10px;
+}
+.comment_by img {
+  float: left;
+  margin-right: 5px;
+  max-width: 32px !important;
+}
+
+.comment_by p {
+  margin: 0 0 10px 5px;
+  padding-left: 5px;
+  padding-top: 16px; 
+  
+  
+}
+.comments_count {
+  color: #fff;
+  background-color: #000;
+  float: right;
+  text-align: center;
+}
+.comments_count_bottom span {
+  color: #fa4b2a;
+  font-weight: 800;
+}
+
+.comments_count:hover {
+  color: #fa4b2a;
+  cursor: auto;
+}
+
+.comment_posted  {
+  text-align: right;
+  font-size: .8em;
+  float: left;
+  margin: 1.3em 0 0 .5em;
+  font-weight: 200;
+}
+.comment_user_input textarea {
+  height: 12em;
+  min-width: 100%;
+  margin: 1.5em 0 2em 0;
+  border-style: none;
+  border-radius: 5px;
+}
+.comment_user_input input {
+  margin-right: .5em;
+  margin-top: 2em;
+  height: 2em;
+  border-radius: 5px;
+}
+.contact_msg textarea {
+  height: 6em;
+}
+.editor_toolbar li {
+  list-style: none;
+  display: inline;
+  margin-left: 1.2em;
+}
+.fa-bars {
   color: #888;
- }
+}
 
 .imageGrid  {
   line-height: 15px;
@@ -225,6 +315,18 @@ ul.imageGrid {
   border-width: 10px;
   border-color: #fff;
   
+}
+.publish_info {
+  list-style-type: none;
+  font-size: .8em;
+
+  
+}
+.publish_info li {
+  max-width: 200px;
+  float: left;
+  margin: 1.3em 0 0 .5em;
+  font-weight: 200;
 }
 .singleImage {
   max-width: 100%;
@@ -341,6 +443,11 @@ span.searchbox input {
   font-size: .8em;
   line-height: 1.500em;
   list-style: none;
+}
+.submit_post input {
+  text-align: center;
+  margin-bottom: 1.2em;
+
 }
 .ui-focus,
 .ui-input-text.ui-focus,
@@ -1131,10 +1238,18 @@ span.searchbox input {
 #color_rbutton {
   color: #fff;
 }
+#comments_margin {
+  margin-bottom: 1.2em;
+}
 #contact_title {
   
   text-align: center;
 }
+/*#contact_title > textarea {
+  height: 9.4em !important;
+  margin-top: 7px;
+
+}*/
 #footerOptions {
   margin-top: 30px;
 }
@@ -1150,6 +1265,18 @@ span.searchbox input {
 }
 #image_container {
   position: relative;
+}
+#go-to-top {
+  position: fixed;
+  right: 5%;
+  bottom: 20%;
+  z-index: 2000;
+}
+#go-to-top:hover {
+  -webkit-transform: scale(1.095);
+  -moz-transform: scale(1.095);
+  -ms-transform: scale(1.095);
+  transform: scale(1.095);
 }
 #landingBG {
   background-image: url(/images/long-horn-bull.jpg);
@@ -1229,10 +1356,10 @@ a > #menu {
 }
 input[type="submit"]:hover {
   cursor: pointer !important;
-  height: 4em;
+  height: 2.5em;
    background-color: #c3c3c3;
    color: #fff;
-   font-size: 2em;
+   font-size: 1.2em;
    -webkit-transition: height .7s, -webkit-transform .7s;
 }
 
@@ -1320,6 +1447,10 @@ input[type="submit"]:hover {
        min-width: 80%;
        margin-bottom: 1.5em;
 
+  }
+  .comments_count_bottom {
+    font-size: 1.4em;
+    
   }
   .image_info {
     

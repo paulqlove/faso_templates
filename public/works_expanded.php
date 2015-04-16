@@ -12,7 +12,7 @@
 <body id="allPages">
 	<div class="container" id="main" data-role="page">
 			<?php include("header.php"); ?>
-
+			<i class="fa fa-arrow-circle-o-up fa-3x" id="go-to-top"></i>
 			<div class="single_work_expanded row" id="gallery_margin">
 				<div class="cell-md-push-4 cell-md-8">
 					<div class="image_info cell-sm-4 cell-md-5">

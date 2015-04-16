@@ -12,6 +12,7 @@
 <body id="allPages">
 	<div class="container" id="main" data-role="page">
 		<?php include("header.php"); ?>
+			<i class="fa fa-arrow-circle-o-up fa-3x" id="go-to-top"></i>
 			<div class="row no-gutters blog-content ">
 				<div class="cell-md-10">
 					<div class="blog_summaries">

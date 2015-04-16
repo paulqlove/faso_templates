@@ -7,7 +7,7 @@
 				</div>
 				<form>
 				<h2 id="contact_title">Contact the Artist</h2>
-					<div class="cell-md-offset-3 cell-md-6">
+					<div class="contact_msg cell-md-offset-3 cell-md-6">
 						
 						<input id="focusHere" type="text" name="fullname" placeholder="Name">
 						
