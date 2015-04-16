@@ -24,9 +24,10 @@
 								<div class="post_body">
 									<p>
 										<img src="/images/scooter.png">
-										<p class="test hidden blog_img_note">Click to Read more</p>
+										
 									</p>
 									<p>Google's Material Design is my favorite UI style for the moment. Read up on their design guide if you are not familiar with it. I added some ripple effects to my site! I have to give credit to Dominik Biedebach for the plug in.</p>
+									<p class="blog_img_note">Click to Read more</p>
 								</div>
 							</div>
 						</div> <!-- post-container -->
@@ -38,6 +39,7 @@
 								<div class="post_body">
 									
 									<p>Google's Material Design is my favorite UI style for the moment. Read up on their design guide if you are not familiar with it. I added some ripple effects to my site! I have to give credit to Dominik Biedebach for the plug in.</p>
+									<p class="blog_img_note">Click to Read more</p>
 								</div>
 							</div>
 						</div> <!-- post-container -->
@@ -51,6 +53,7 @@
 										<img src="/images/blog2.jpg">
 									</p>
 									<p>Google's Material Design is my favorite UI style for the moment. Read up on their design guide if you are not familiar with it. I added some ripple effects to my site! I have to give credit to Dominik Biedebach for the plug in.</p>
+									<p class="blog_img_note">Click to Read more</p>
 								</div>
 							</div>
 						</div> <!-- post-container -->
@@ -64,6 +67,7 @@
 										<img src="/images/blog2.jpg">
 									</p>
 									<p>Google's Material Design is my favorite UI style for the moment. Read up on their design guide if you are not familiar with it. I added some ripple effects to my site! I have to give credit to Dominik Biedebach for the plug in.</p>
+									<p class="blog_img_note">Click to Read more</p>
 								</div>
 							</div>
 						</div> <!-- post-container -->
@@ -77,6 +81,7 @@
 										<img src="/images/blog2.jpg">
 									</p>
 									<p>Google's Material Design is my favorite UI style for the moment. Read up on their design guide if you are not familiar with it. I added some ripple effects to my site! I have to give credit to Dominik Biedebach for the plug in.</p>
+									<p class="blog_img_note">Click to Read more</p>
 								</div>
 							</div>
 						</div> <!-- post-container -->
@@ -90,6 +95,7 @@
 										<img src="/images/blog1.jpg">
 									</p>
 									<p>Google's Material Design is my favorite UI style for the moment. Read up on their design guide if you are not familiar with it. I added some ripple effects to my site! I have to give credit to Dominik Biedebach for the plug in.</p>
+									<p class="blog_img_note">Click to Read more</p>
 								</div>
 							</div>
 						</div> <!-- post-container -->
@@ -103,6 +109,7 @@
 										<img src="/images/scooter.png">
 									</p>
 									<p>Google's Material Design is my favorite UI style for the moment. Read up on their design guide if you are not familiar with it. I added some ripple effects to my site! I have to give credit to Dominik Biedebach for the plug in.</p>
+									<p class="blog_img_note">Click to Read more</p>
 								</div>
 							</div>
 						</div> <!-- post-container -->
@@ -116,6 +123,7 @@
 										<img src="/images/blog1.jpg">
 									</p>
 									<p>Google's Material Design is my favorite UI style for the moment. Read up on their design guide if you are not familiar with it. I added some ripple effects to my site! I have to give credit to Dominik Biedebach for the plug in.</p>
+									<p class="blog_img_note">Click to Read more</p>
 								</div>
 							</div>
 						</div> <!-- post-container -->
@@ -129,6 +137,7 @@
 										<img src="/images/blog2.jpg">
 									</p>
 									<p>Google's Material Design is my favorite UI style for the moment. Read up on their design guide if you are not familiar with it. I added some ripple effects to my site! I have to give credit to Dominik Biedebach for the plug in.</p>
+									<p class="blog_img_note">Click to Read more</p>
 								</div>
 							</div>
 						</div> <!-- post-container -->
@@ -142,6 +151,7 @@
 										<img src="/images/blog1.jpg">
 									</p>
 									<p>Google's Material Design is my favorite UI style for the moment. Read up on their design guide if you are not familiar with it. I added some ripple effects to my site! I have to give credit to Dominik Biedebach for the plug in.</p>
+									<p class="blog_img_note">Click to Read more</p>
 								</div>
 							</div>
 						</div> <!-- post-container -->
@@ -155,6 +165,7 @@
 										<img src="/images/blog1.jpg">
 									</p>
 									<p>Google's Material Design is my favorite UI style for the moment. Read up on their design guide if you are not familiar with it. I added some ripple effects to my site! I have to give credit to Dominik Biedebach for the plug in.</p>
+									<p class="blog_img_note">Click to Read more</p>
 								</div>
 							</div>
 						</div> <!-- post-container -->
@@ -168,6 +179,7 @@
 										<img src="/images/scooter.png">
 									</p>
 									<p>Google's Material Design is my favorite UI style for the moment. Read up on their design guide if you are not familiar with it. I added some ripple effects to my site! I have to give credit to Dominik Biedebach for the plug in.</p>
+									<p class="blog_img_note">Click to Read more</p>
 								</div>
 							</div>
 						</div> <!-- post-container -->
@@ -179,6 +191,7 @@
 								<div class="post_body">
 									
 									<p>Google's Material Design is my favorite UI style for the moment. Read up on their design guide if you are not familiar with it. I added some ripple effects to my site! I have to give credit to Dominik Biedebach for the plug in.</p>
+									<p class="blog_img_note">Click to Read more</p>
 								</div>
 							</div>
 						</div> <!-- post-container -->
@@ -199,7 +212,7 @@
 						<div class="cell-md-12">
 							<h1>Categories</h1>	
 						</div>
-						<div class="cell-md-offset-1">
+						<div class=" cell-md-12">
 							<ul class="style-list">
 								<li>Code</li>
 								<li>Art</li>

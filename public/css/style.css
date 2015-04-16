@@ -206,11 +206,15 @@ ul.imageGrid {
    -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
 }
-.blog_img_note:hover {
- 
+.blog_img_note {
+ font-size: .6em;
   background-color: #000;
   color: #fff;
   font-weight: 800;
+  text-align: right;
+  width: 30%;
+  margin-left: 72%;
+  padding: 2px;
 
 }
 .post-container {
@@ -278,7 +282,7 @@ ul.imageGrid {
 }
 
 .footer {
-  position: fixed;
+  /*position: fixed;*/
   border-top: 2px solid #f5f5f5;
   text-align: center;
   background-color: #fff;
