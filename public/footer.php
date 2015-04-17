@@ -3,9 +3,9 @@
 			<ul id="footerOptions">
 				<li class="cell-xs-6 cell-sm-4 cell-md-2"><a data-slide="slide" data-target="#contact-panel" href="#">Contact Artist</a></li>
 				<li class="cell-xs-6 cell-sm-4 cell-md-2"><a data-slide="slide" data-target="#en-panel" href="#">Newsletter</a></li>
-				<li class="cell-xs-6 cell-sm-4 cell-md-2"><a href="#">Blog Post</a></li>
+				<li class="cell-xs-6 cell-sm-4 cell-md-2"><a href="/blogfront.php" target="_self">Blog Post</a></li>
 				<li class="cell-xs-6 cell-sm-4 cell-md-2"><a href="#">Upcoming Events</a></li>
-				<li class="cell-xs-6 cell-sm-4 cell-md-2"><a href="#">Recent Works</a></li>
+				<li class="cell-xs-6 cell-sm-4 cell-md-2"><a href="/collections.php" target="self">Recent Works</a></li>
 				<li class="cell-xs-6 cell-sm-4 cell-md-2"><a href="#">Social Media</a></li>
 			</ul>
 	</div><!-- /footer -->

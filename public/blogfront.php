@@ -24,11 +24,11 @@
 								</div>
 								<div class="post_body">
 									<p>
-										<img src="/images/scooter.png">
+										<a href="/blog.php" target="_self"><img src="/images/scooter.png"></a>
 										
 									</p>
 									<p>Google's Material Design is my favorite UI style for the moment. Read up on their design guide if you are not familiar with it. I added some ripple effects to my site! I have to give credit to Dominik Biedebach for the plug in.</p>
-									<p class="blog_img_note">Click to Read more</p>
+									<a href="/blog.php" target="_self"><p class="blog_img_note">Click to Read more</p></a>
 								</div>
 							</div>
 						</div> <!-- post-container -->
@@ -40,7 +40,7 @@
 								<div class="post_body">
 									
 									<p>Google's Material Design is my favorite UI style for the moment. Read up on their design guide if you are not familiar with it. I added some ripple effects to my site! I have to give credit to Dominik Biedebach for the plug in.</p>
-									<p class="blog_img_note">Click to Read more</p>
+									<a href="/blog.php" target="_self"><p class="blog_img_note">Click to Read more</p></a>
 								</div>
 							</div>
 						</div> <!-- post-container -->
@@ -51,10 +51,10 @@
 								</div>
 								<div class="post_body">
 									<p>
-										<img src="/images/blog2.jpg">
+										<a href="/blog.php" target="_self"><img src="/images/blog2.jpg"></a>
 									</p>
 									<p>Google's Material Design is my favorite UI style for the moment. Read up on their design guide if you are not familiar with it. I added some ripple effects to my site! I have to give credit to Dominik Biedebach for the plug in.</p>
-									<p class="blog_img_note">Click to Read more</p>
+									<a href="/blog.php" target="_self"><p class="blog_img_note">Click to Read more</p></a>
 								</div>
 							</div>
 						</div> <!-- post-container -->
@@ -65,10 +65,10 @@
 								</div>
 								<div class="post_body">
 									<p>
-										<img src="/images/blog2.jpg">
+										<a href="/blog.php" target="_self"><img src="/images/blog2.jpg"></a>
 									</p>
 									<p>Google's Material Design is my favorite UI style for the moment. Read up on their design guide if you are not familiar with it. I added some ripple effects to my site! I have to give credit to Dominik Biedebach for the plug in.</p>
-									<p class="blog_img_note">Click to Read more</p>
+									<a href="/blog.php" target="_self"><p class="blog_img_note">Click to Read more</p></a>
 								</div>
 							</div>
 						</div> <!-- post-container -->
@@ -79,10 +79,10 @@
 								</div>
 								<div class="post_body">
 									<p>
-										<img src="/images/blog2.jpg">
+										<a href="/blog.php" target="_self"><img src="/images/blog2.jpg"></a>
 									</p>
 									<p>Google's Material Design is my favorite UI style for the moment. Read up on their design guide if you are not familiar with it. I added some ripple effects to my site! I have to give credit to Dominik Biedebach for the plug in.</p>
-									<p class="blog_img_note">Click to Read more</p>
+									<a href="/blog.php" target="_self"><p class="blog_img_note">Click to Read more</p></a>
 								</div>
 							</div>
 						</div> <!-- post-container -->
@@ -93,10 +93,10 @@
 								</div>
 								<div class="post_body">
 									<p>
-										<img src="/images/blog1.jpg">
+										<a href="/blog.php" target="_self"><img src="/images/blog1.jpg"></a>
 									</p>
 									<p>Google's Material Design is my favorite UI style for the moment. Read up on their design guide if you are not familiar with it. I added some ripple effects to my site! I have to give credit to Dominik Biedebach for the plug in.</p>
-									<p class="blog_img_note">Click to Read more</p>
+									<a href="/blog.php" target="_self"><p class="blog_img_note">Click to Read more</p></a>
 								</div>
 							</div>
 						</div> <!-- post-container -->
@@ -107,10 +107,10 @@
 								</div>
 								<div class="post_body">
 									<p>
-										<img src="/images/scooter.png">
+										<a href="/blog.php" target="_self"><img src="/images/scooter.png"></a>
 									</p>
 									<p>Google's Material Design is my favorite UI style for the moment. Read up on their design guide if you are not familiar with it. I added some ripple effects to my site! I have to give credit to Dominik Biedebach for the plug in.</p>
-									<p class="blog_img_note">Click to Read more</p>
+									<a href="/blog.php" target="_self"><p class="blog_img_note">Click to Read more</p></a>
 								</div>
 							</div>
 						</div> <!-- post-container -->
@@ -121,10 +121,10 @@
 								</div>
 								<div class="post_body">
 									<p>
-										<img src="/images/blog1.jpg">
+										<a href="/blog.php" target="_self"><img src="/images/blog1.jpg"></a>
 									</p>
 									<p>Google's Material Design is my favorite UI style for the moment. Read up on their design guide if you are not familiar with it. I added some ripple effects to my site! I have to give credit to Dominik Biedebach for the plug in.</p>
-									<p class="blog_img_note">Click to Read more</p>
+									<a href="/blog.php" target="_self"><p class="blog_img_note">Click to Read more</p></a>
 								</div>
 							</div>
 						</div> <!-- post-container -->
@@ -135,10 +135,10 @@
 								</div>
 								<div class="post_body">
 									<p>
-										<img src="/images/blog2.jpg">
+										<a href="/blog.php" target="_self"><img src="/images/blog2.jpg"></a>
 									</p>
 									<p>Google's Material Design is my favorite UI style for the moment. Read up on their design guide if you are not familiar with it. I added some ripple effects to my site! I have to give credit to Dominik Biedebach for the plug in.</p>
-									<p class="blog_img_note">Click to Read more</p>
+									<a href="/blog.php" target="_self"><p class="blog_img_note">Click to Read more</p></a>
 								</div>
 							</div>
 						</div> <!-- post-container -->
@@ -149,10 +149,10 @@
 								</div>
 								<div class="post_body">
 									<p>
-										<img src="/images/blog1.jpg">
+										<a href="/blog.php" target="_self"><img src="/images/blog1.jpg"></a>
 									</p>
 									<p>Google's Material Design is my favorite UI style for the moment. Read up on their design guide if you are not familiar with it. I added some ripple effects to my site! I have to give credit to Dominik Biedebach for the plug in.</p>
-									<p class="blog_img_note">Click to Read more</p>
+									<a href="/blog.php" target="_self"><p class="blog_img_note">Click to Read more</p></a>
 								</div>
 							</div>
 						</div> <!-- post-container -->
@@ -163,10 +163,10 @@
 								</div>
 								<div class="post_body">
 									<p>
-										<img src="/images/blog1.jpg">
+										<a href="/blog.php" target="_self"><img src="/images/blog1.jpg"></a>
 									</p>
 									<p>Google's Material Design is my favorite UI style for the moment. Read up on their design guide if you are not familiar with it. I added some ripple effects to my site! I have to give credit to Dominik Biedebach for the plug in.</p>
-									<p class="blog_img_note">Click to Read more</p>
+									<a href="/blog.php" target="_self"><p class="blog_img_note">Click to Read more</p></a>
 								</div>
 							</div>
 						</div> <!-- post-container -->
@@ -177,10 +177,10 @@
 								</div>
 								<div class="post_body">
 									<p>
-										<img src="/images/scooter.png">
+										<a href="/blog.php" target="_self"><img src="/images/scooter.png"></a>
 									</p>
 									<p>Google's Material Design is my favorite UI style for the moment. Read up on their design guide if you are not familiar with it. I added some ripple effects to my site! I have to give credit to Dominik Biedebach for the plug in.</p>
-									<p class="blog_img_note">Click to Read more</p>
+									<a href="/blog.php" target="_self"><p class="blog_img_note">Click to Read more</p></a>
 								</div>
 							</div>
 						</div> <!-- post-container -->
@@ -192,7 +192,7 @@
 								<div class="post_body">
 									
 									<p>Google's Material Design is my favorite UI style for the moment. Read up on their design guide if you are not familiar with it. I added some ripple effects to my site! I have to give credit to Dominik Biedebach for the plug in.</p>
-									<p class="blog_img_note">Click to Read more</p>
+									<a href="/blog.php" target="_self"><p class="blog_img_note">Click to Read more</p></a>
 								</div>
 							</div>
 						</div> <!-- post-container -->

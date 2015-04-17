@@ -19,25 +19,25 @@
 								<div class="cell-md-6">
 									<div class="cell-md-12">
 										<li>
-											<img src="/images/1104284w900.jpg">
+											<a href="/works_expanded.php" target="_self"><img src="/images/1104284w900.jpg"></a>
 											<h4 class="art_title">Dale</h4>
 										</li>
 									</div>
 									<div class="cell-md-12">
 				 						<li>
-											<img src="/images/1184544w900.jpg">
+											<a href="/works_expanded.php" target="_self"><img src="/images/1184544w900.jpg"></a>
 											<h4 class="art_title">Mother Beast</h4>
 										</li>
 									</div>
 									<div class="cell-md-12">
 										<li>
-											<img src="/images/1189671w900.jpg">
+											<a href="/works_expanded.php" target="_self"><img src="/images/1189671w900.jpg"></a>
 											<h4 class="art_title">Pepe</h4>
 										</li>
 									</div>
 									<div class="cell-md-12">
 										<li>
-											<img src="/images/1531101w900.jpg">
+											<a href="/works_expanded.php" target="_self"><img src="/images/1531101w900.jpg"></a>
 											<h4 class="art_title">Birds of Feather</h4>
 										</li>
 									</div>
@@ -46,26 +46,26 @@
 								<div class="cell-md-6" >
 									<div class="cell-md-12">
 										<li>
-											<img src="/images/1571260w900.jpg">
+											<a href="/works_expanded.php" target="_self"><img src="/images/1571260w900.jpg"></a>
 											<h4 class="art_title">Heffer Wine</h4>
 										</li>
 									</div>
 								
 									<div class="cell-md-12">
 										<li>
-											<img src="/images/1609519w900.jpg">
+											<a href="/works_expanded.php" target="_self"><img src="/images/1609519w900.jpg"></a>
 											<h4 class="art_title">Guilty Looks</h4>
 										</li>
 									</div>
 									<div class="cell-md-12">
 										<li>
-											<img src="/images/1645888w900.jpg">
+											<a href="/works_expanded.php" target="_self"><img src="/images/1645888w900.jpg"></a>
 											<h4 class="art_title">Ash Wednesday</h4>
 										</li>
 									</div>
 									<div class="cell-md-12">
 										<li>
-											<img src="/images/1701103w900.jpg">
+											<a href="/works_expanded.php" target="_self"><img src="/images/1701103w900.jpg"></a>
 											<h4 class="art_title">Secrets and Lies</h4>
 										</li>
 									</div>

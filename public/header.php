@@ -28,9 +28,9 @@
 						<div class="cell-md-6 cell-lg-8">
 							<nav id="nav" role="navigation">
 								<ul id="menuOptions">
-									<li><a href="#">Galleries</a></li>
+									<li><a data-slide="slide" data-target="#galleries-panel" href="#">Galleries</a></li>
 									<li><a href="#">Articles</a></li>
-									<li><a href="#">Blog</a></li>
+									<li><a href="/blogfront.php" target="_self">Blog</a></li>
 									<li><a href="#">About Us</a></li>
 									<li><a data-slide="slide" data-target="#contact-panel" href="#">Contact us</a></li>
 								</ul>
@@ -45,4 +45,7 @@
 			<!-- end contact panel  -->
 			<!-- EMAIL NEWSLETTER PANEL -->
 			<?php include('en.php') ?>
+			<!-- GALLERIES PANEL -->
+			<?php include('galleries.php') ?>
+			<!-- END GALLERIES PANEL -->
 		</div> <!-- end slide panel parent-->
