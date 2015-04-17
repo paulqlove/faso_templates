@@ -132,13 +132,16 @@ ul {
 }
 ul li {     
   list-style: none;
-  margin-bottom: 25px;           
+  margin-bottom: 5px;           
 }
 
-ul.imageGrid {
+ul.imageGrid,
+.art_piece_wrap li {
   list-style: none;
-  font-size: 0px;
-  margin-left: .5%;
+  /*font-size: 0px;*/
+  /*margin-left: .5em;*/
+  /*display: inline-block;*/
+  margin-bottom: 0px;
 
 }
 .add_comment {
@@ -148,6 +151,20 @@ ul.imageGrid {
   text-align: center;
   padding: 5px;
   text-transform: uppercase;
+}
+.art_img img {
+  margin: 0 2.5em 0 2.5em;
+  padding: .25em 0 .25em 0;
+}
+.art_piece_wrap {
+  display: inline-block;
+  position: relative;
+  margin-bottom: .45em;
+ padding: .25em 0 .25em 0;
+ /* border-style: solid;
+  border-width: 10px;
+  border-color: #fff;*/
+
 }
 .author span {
   color: #fa4b2a;
@@ -161,11 +178,11 @@ ul.imageGrid {
 }
 .blog_summaries {
  -moz-column-count: 4;
-     -moz-column-gap: 1px;
+     -moz-column-gap: 5px;
      -webkit-column-count: 4;
-     -webkit-column-gap: 1px;
+     -webkit-column-gap: 5px;
      column-count: 4;
-     column-gap: 1px;
+     column-gap: 5px;
      width: 100%;
      margin-bottom: 1.5em;
 
@@ -262,24 +279,33 @@ ul.imageGrid {
 }
 
 .imageGrid  {
-  line-height: 15px;
+  color: #555;
+  position: relative;
+  line-height: 0px;
+/*  line-height: 15px;
   float: left;
   clear: both;
   padding-bottom: 10px;
-  margin: 0 2.5% 5% 2.5%; 
-    /*font-size: 16px;*/
-  /*font-size: 2rem;*/
+  margin: 0 2.5% 5% 2.5%; */
+  -moz-column-count: 3;
+      -moz-column-gap: 0px;
+      -webkit-column-count: 3;
+      -webkit-column-gap: 0px;
+      column-count: 3;
+      column-gap: 0px;
+      width: 100%;
+      /*margin-bottom: .25em;*/
 
 }
-.imageGrid  li img {
+/*.imageGrid  li img {
   max-width: 100%;
   height: auto;
-  width: auto\9; /* IE8 */
+  width: auto\9;  IE8 
   margin: 0 0 10px 0px;
   padding-left: 0px;
   padding-top: 16px;  
 
-}
+}*/
 .image_info {
 
   text-align: right;
@@ -350,23 +376,37 @@ ul.imageGrid {
 .art_title {
   
   position: absolute;
-  text-align: right;
-  font-size: 2rem !important;
-  /*padding: -10px;*/
   display: block;
-  left: -5px;
-  bottom: 25px;
-  margin:  0px;
-  z-index: 100;
-  -webkit-transform: rotate(270deg);
+  z-index: 88;
+  left: 1.9em;
+  bottom: .2em;
+  padding-top: .2em;
+    -webkit-transform: rotate(270deg);
   -ms-transform: rotate(270deg);
   -moz-transform: rotate(270deg);
   -o-transform: rotate(270deg);
-   
+
   -webkit-transform-origin:  0 0;
   -moz-transform-origin:  0 0;
   -ms-transform-origin:  0 0;
   transform-origin:  0 0;
+} 
+.art_title h4 {
+  
+  
+  
+  font-size: 1.2em;
+  
+  /*display: block;*/
+  
+  margin:  0px;
+  
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+   
+ 
 }
 .imageGrid img:hover {
   -webkit-transform: scale(1.095);
@@ -378,7 +418,7 @@ ul.imageGrid {
   filter: grayscale(100%);
 
 }
-.imageGrid img:hover + .art_title {
+.art_piece_wrap:hover {
   color: #fff;
 }
 .container {
@@ -405,6 +445,9 @@ ul.imageGrid {
   text-transform: uppercase;
 
 
+}
+.go_btn_color {
+  color: #fa4b2a;
 }
 .header: {
   height: 80px;
@@ -465,7 +508,8 @@ span.searchbox input {
 }
 
 .wrapper {
-  display: inline-block;
+  /*position: relative;*/
+  /*display: block;*/
 }
 /**-------------------[GRID SYSTEM]------------------------*/
 @media (min-width: 768px) {
@@ -1359,9 +1403,9 @@ a > #menu {
   -webkit-transition: font-size .7s, -webkit-transform .7s;
 }
 #gallery_margin {
-  padding-bottom: 25px;
+  /*padding-bottom: 25px;
   margin-bottom: 8.5em;
-  margin-right: -2.8125em;
+  margin-right: -2.8125em;*/
 
 }
 input[type="submit"]:hover {
@@ -1386,6 +1430,15 @@ input[type="submit"]:hover {
        margin-bottom: 1.5em;
 
   }
+  .imageGrid {
+     -moz-column-count: 2;
+      -moz-column-gap: 5px;
+      -webkit-column-count: 2;
+      -webkit-column-gap: 1px;
+      column-count: 2;
+      column-gap: 5px;
+      width: 100%;
+  }
 }
 @media (max-width: 800px) {
  
@@ -1395,8 +1448,8 @@ input[type="submit"]:hover {
   font-size: 1.2rem !important;
   /*padding: -10px;*/
   display: block;
-  left: 15px;
-  bottom: 25px;
+  left: 2.1em;
+  bottom: 1.5em;
   margin:  0px;
   z-index: 100;
   color: #FFF;
@@ -1407,6 +1460,16 @@ input[type="submit"]:hover {
    
  
  }
+ .art_img img {
+   margin: 0 2.5em 0 2.5em;
+   padding: .25em 0 .25em 0;
+ }
+ .art_piece_wrap {
+   display: inline-block;
+   position: relative;
+   margin-bottom: .45em;
+  padding: .25em 0 .25em 0;
+}
  .blog_summaries {
   -moz-column-count: 2;
       -moz-column-gap: 1px;
@@ -1420,8 +1483,8 @@ input[type="submit"]:hover {
  }
 #gallery_margin {
   padding-bottom: 25px;
-  margin-bottom: 12.5em;
- margin-right: 0px;
+  /*margin-bottom: 12.5em;*/
+ margin-right: 1.2em;
 }
 .image_info {
   
@@ -1431,6 +1494,15 @@ input[type="submit"]:hover {
 
 
 }
+.imageGrid {
+   -moz-column-count: 2;
+    -moz-column-gap: 5px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 5px;
+    column-count: 2;
+    column-gap: 5px;
+    width: 100%;
+}
 #next_image_button {
   visibility: hidden;
   display: none;
@@ -1439,13 +1511,13 @@ input[type="submit"]:hover {
 }
 @media (max-width: 480px) {
 
-  ul.imageGrid {
+/*  ul.imageGrid {
     margin-left: 0;
   }
   ul.imageGrid li {
     width: 100% !important; /* over-ride all li styles */
-    margin: 0 0 15px 0px;
-  }
+  /*  margin: 0 0 15px 0px;
+  }*/
   .blog_summaries {
    -moz-column-count: 1;
        -moz-column-gap: 1px;
@@ -1457,6 +1529,19 @@ input[type="submit"]:hover {
        min-width: 80%;
        margin-bottom: 1.5em;
 
+  }
+  .imageGrid {
+     -moz-column-count: 1;
+      -moz-column-gap: 5px;
+      -webkit-column-count: 1;
+      -webkit-column-gap: 5px;
+      column-count: 1;
+      column-gap: 5px;
+      width: 100%;
+  }
+  .imageGrid {
+    padding-right: 2em;
+    display: inline-block;
   }
   .comments_count_bottom {
     font-size: 1.4em;
@@ -1472,8 +1557,8 @@ input[type="submit"]:hover {
   }
   #gallery_margin {
   padding-bottom: 25px;
-  margin-bottom: 12.5em;
-  margin-right: 0px;
+ /* margin-bottom: 12.5em;*/
+  margin-right: 1.2em;
 }
   .galleries_list .galleries:nth-child(odd) {
     background-color: #ddd;
