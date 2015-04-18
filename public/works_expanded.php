@@ -13,7 +13,7 @@
 	<div class="container" id="main" data-role="page">
 			<?php include("header.php"); ?>
 			<i class="fa fa-arrow-circle-o-up fa-3x" id="go-to-top"></i>
-			<div class="single_work_expanded row" id="gallery_margin">
+			<div class="single_work_expanded row" id="">
 				<div class="cell-md-push-4 cell-md-8">
 					<div class="image_info cell-sm-4 cell-md-5">
 						<div class="row">
@@ -39,16 +39,29 @@
 									<p>This piece is a commision from my clients photograph. Both cows have what I look for in my own photos, personality!</p>
 								</div>
 							</div>
-						</div>
-					</div>
+						</div> <!-- row -->
+					</div> <!-- image info -->
 					<div class="cell-sm-8 cell-md-7">
 						<div id="image_container">
 							<img class="singleImage " src="/images/1184544w900.jpg">
 							<i class="fa fa-angle-right fa-5x" id="next_image_button"></i>
 							<i class="fa fa-angle-down fa-5x" id="scroll_down_arrow"></i>
 						</div>
+						<i class="fa fa-cc-paypal cell-md-12"></i>
 					</div>
 				</div><!-- /content -->
+				<div class="row no-gutters">
+
+					<div class=" cell-md-12 single_work_purchase">
+						<ul>
+							<li>
+								<h3>Purchase</h3>
+								
+							</li>
+							<li><a data-slide="slide" data-target="#contact-panel" href="#"><h3>Contact</h3></a></li>
+						</ul>
+					</div>
+				</div>
 			</div><!-- row -->
 	<?php include("footer.php"); ?><!-- FOOTER -->
 	</div><!-- /container -->

@@ -47,7 +47,123 @@
 											</li>
 										<!-- </div> -->
 									</div>
+									<div class="art_piece_wrap" id="margin">
+										<!-- <div class="wrapper"> -->
+											<li>
+												<div>
+													<div class="art_img">
+														<a href="/works_expanded.php" target="_self"><img src="/images/1189671w900.jpg"></a>
+													</div>
+													<div class="art_title">
+														<h4>Pepe</h4>
+													</div>
+												</div>
+											</li>
+										<!-- </div> -->
+									</div>
 									<div class="art_piece_wrap">
+										<!-- <div class="wrapper"> -->
+											<li>
+												<div>
+													<div class="art_img">
+														<a href="/works_expanded.php" target="_self"><img src="/images/1531101w900.jpg"></a>
+													</div>
+													<div class="art_title">
+														<h4>Birds of Feather</h4>
+													</div>
+												</div>
+											</li>
+										<!-- </div> -->
+									</div>
+								<!-- </div> --><!-- first column -->
+								
+								<!-- <div class="cell-md-6" > -->
+									<div class="art_piece_wrap">
+										<!-- <div class="wrapper"> -->
+											<li>
+												<div>
+													<div class="art_img">
+														<a href="/works_expanded.php" target="_self"><img src="/images/1571260w900.jpg"></a>
+													</div>
+													<div class="art_title">
+														<h4>Heffer Wine</h4>
+													</div>
+												</div>
+											</li>
+										<!-- </div> -->
+									</div>
+								
+									<div class="art_piece_wrap">
+										<!-- <div class="wrapper"> -->
+											<li>
+												<div>
+													<div class="art_img">
+														<a href="/works_expanded.php" target="_self"><img src="/images/1609519w900.jpg"></a>
+													</div>
+													<div class="art_title">
+														<h4>Guilty Looks</h4>
+													</div>
+												</div>
+											</li>
+										<!-- </div> -->
+									</div>
+									<div class="art_piece_wrap">
+										<!-- <div class="wrapper"> -->
+											<li>
+												<div>
+													<div class="art_img">
+														<a href="/works_expanded.php" target="_self"><img src="/images/1645888w900.jpg"></a>
+													</div>
+													<div class="art_title">
+														<h4>Ash Wednesday</h4>
+													</div>
+												</div>
+											</li>
+										<!-- </div> -->
+									</div>
+									<div class="art_piece_wrap">
+										<!-- <div class="wrapper"> -->
+											<li>
+												<div>
+													<div class="art_img">
+														<a href="/works_expanded.php" target="_self"><img src="/images/1701103w900.jpg"></a>
+													</div>
+													<div class="art_title">
+														<h4>Secrets and Lies</h4>
+													</div>
+												</div>
+											</li>
+										<!-- </div> -->
+									</div>
+									<div class="art_piece_wrap">
+										<!-- <div class="wrapper"> -->
+											<li>
+												<div>
+													<div class="art_img">
+														<a href="/works_expanded.php" target="_self"><img src="/images/1104284w900.jpg"></a>
+													</div>
+													<div class="art_title">
+														<h4>Dale</h4>
+													</div>
+												</div>
+											</li>
+										<!-- </div> -->
+									</div>
+									<div class="art_piece_wrap">
+										<!-- <div class="wrapper"> -->
+					 						<li>
+					 							<div>
+						 							<div class="art_img">
+														<a href="/works_expanded.php" target="_self"><img src="/images/1184544w900.jpg"></a>
+						 							</div>
+													<div class="art_title">
+														<h4>Mother Beast</h4>
+													</div>
+					 							</div>
+											</li>
+										<!-- </div> -->
+									</div>
+									<div class="art_piece_wrap" id="margin">
 										<!-- <div class="wrapper"> -->
 											<li>
 												<div>

@@ -77,6 +77,8 @@ $(window).bind('resize load',syncHeights);syncHeights();return this;};})(jQuery)
 (function($){
 	$('.galleries').equalHeight();
 	$('#footerOptions li').equalHeight();
+	$('.event_info li').equalHeight();
+	
 }( jQuery ));
 
 
