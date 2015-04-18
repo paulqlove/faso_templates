@@ -74,7 +74,7 @@ html {
   font-family: helvetica;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
-  
+  overflow-x: hidden; 
 }
 input {
   border-style: none;
@@ -90,7 +90,7 @@ body {
   /*line-height: 1.6em;*/
   height: auto;
   margin: 0;
-   overflow-y: scroll;
+   /*overflow-y: hidden;*/
 
 }
 form {
@@ -574,9 +574,84 @@ span.searchbox input {
     box-shadow: none !important;
 }
 
-.wrapper {
-  /*position: relative;*/
-  /*display: block;*/
+.workshop_wrapper {
+  width: 100%;
+  white-space: nowrap;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  -webkt-overflow-scrolling: touch;
+  /*padding: .5em;*/
+  /*padding-left: 0px !important;*/
+  
+}
+.workshop_list {
+  display: inline-block;
+  position: relative;
+ 
+
+
+}
+.workshop_list h2 {
+  position: absolute;
+  top: 0px;
+  left: 2px;
+  /*width: 100%;*/
+  
+}
+.workshop_list h2 span {
+  color: #fff;
+  font: bold .25em;
+
+}
+.workshop_list h4 {
+  position: absolute;
+  bottom: 20px;
+  right: 25px;
+  color: #fff;
+  font-size: 1.5em;
+}
+ h4 span {
+  display: block;
+  background: rgba(0, 0, 0, 0.7);
+
+  padding: 1.2em 1.2em 1.2em 1.2em;
+  border-radius: 5px;
+}
+.events_list {
+  display: inline;
+  position: relative;
+}
+.workshop_list img {
+  margin-left: -5px;
+  max-width: 100%;
+  height: 400px;
+  width: auto\9; /* IE8 */
+  
+  padding-left: 0px;
+  padding-top: 0px; 
+
+  border-top: solid;
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: #888;
+}
+.events_list img {
+  
+  margin-left: -5px;
+  max-width: 100%;
+  height: 400px;
+  width: auto\9; /* IE8 */
+  
+  padding-left: 0px;
+  padding-top: 0px; 
+
+  border-top: solid;
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: #888;
+}
+.events_workshop_container {
+  padding-left: 0px;
 }
 /**-------------------[GRID SYSTEM]------------------------*/
 @media (min-width: 768px) {
@@ -1611,6 +1686,13 @@ input[type="submit"]:hover {
     width: 100% !important; /* over-ride all li styles */
   /*  margin: 0 0 15px 0px;
   }*/
+   h4 span {
+    display: block;
+    background: rgba(0, 0, 0, 0.7);
+
+    padding: .2em .82em .2em .82em;
+    border-radius: 5px;
+  }
   .blog_summaries {
    -moz-column-count: 1;
        -moz-column-gap: 1px;
@@ -1691,6 +1773,49 @@ input[type="submit"]:hover {
   display: block;
 
 
+  }
+
+  .workshop_list img {
+    
+    margin-left: -5px;
+    max-width: 100%;
+    max-height: 200px;
+    width: auto\9; /* IE8 */
+    
+    padding-left: 0px;
+    padding-top: 0px; 
+
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: #888;
+  }
+ 
+  .events_list img {
+    
+    margin-left: -5px;
+    max-width: 100%;
+    max-height: 200px;
+    width: auto\9; /* IE8 */
+    
+    padding-left: 0px;
+    padding-top: 0px; 
+
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: #888;
+  }
+  .workshop_list h4 {
+    position: absolute;
+    bottom: 20px;
+    right: 25px;
+    color: #fff;
+    font-size: 1em;
+  }
+  .workshop_wrapper {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 @media (max-width: 400px) {

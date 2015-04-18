@@ -78,7 +78,8 @@ $(window).bind('resize load',syncHeights);syncHeights();return this;};})(jQuery)
 	$('.galleries').equalHeight();
 	$('#footerOptions li').equalHeight();
 	$('.event_info li').equalHeight();
-	
+	$('.workshop_list img').equalHeight();
+	$('.events_list img').equalHeight();
 }( jQuery ));
 
 
