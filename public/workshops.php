@@ -19,60 +19,86 @@
 						<div class="cell-xs-12 cell-md-10 events_workshop_container"> 
 							<div class="row">
 								
-								<div class="cell-md-12 workshop_wrapper">
+								<div class="cell-sm-11 cell-md-11 workshop_wrapper" id="workshop_height">
 									<!-- PLEASE MAKE LARGEST PICTURES SIZE WDITH NO LARGER THAN 420px -->
 										<div class="workshop_list">
-											<a href="" class=""><img src="/images/workshop1.jpeg">
+											<a href="/workshop.php" target="_self" class=""><img src="/images/workshop1.jpeg">
 												<h2><span>Painting for Hipsters</span></h2>
 												<h4><span>April 31st 2015</span></h4>
 											</a>
 										</div>
 										<div class="workshop_list">
-											<a href="" class=""><img src="/images/workshop2.jpeg">
+											<a href="/workshop.php" target="_self" class=""><img src="/images/workshop2.jpeg">
 												<h2><span>Painting for Teens</span></h2>
 												<h4><span>April 31st 2015</span></h4>
 											</a>
 										</div>
 										<div class="workshop_list">
-											<a href="" class=""><img src="/images/workshop3.jpeg">
+											<a href="/workshop.php" target="_self" class=""><img src="/images/workshop3.jpeg">
 												<h2><span>Painting class Studio</span></h2>
 												<h4><span>April 31st 2015</span></h4>
 											</a>
 										</div>
 										<div class="workshop_list">
-											<a href="" class=""><img src="/images/workshop4.jpeg">
-												<h2><span>Singles Night</span></h2>
+											<a href="/workshop.php" target="_self" class=""><img src="/images/workshop4.jpeg">
+												<h2><span>Date Night</span></h2>
 												<h4><span>April 31st 2015</span></h4>
 											</a>
 										</div>
 										<div class="workshop_list">
-											<a href="" class=""><img src="/images/workshop5.jpeg">
+											<a href="/workshop.php" target="_self" class=""><img src="/images/workshop5.jpeg">
 												<h2><span>Bob Ross Nature Scenes</span></h2>
 												<h4><span>April 31st 2015</span></h4>
 											</a>
 										</div>
 										<div class="workshop_list">
-											<a href="" class=""><img src="/images/workshop6.jpeg">
+											<a href="/workshop.php" target="_self" class=""><img src="/images/workshop6.jpeg">
 												<h2><span>Painting for Toddlers</span></h2>
 												<h4><span>April 31st 2015</span></h4>
 											</a>
 										</div>
 									
 								</div>
+								<div class="cell-sm-1 cell-md-1 section_title" id="artist_workshop">
+									<h2>Classes + Workshops</h2>
+								</div>
 
 							</div> <!-- /row -->
 
 							<div class="row">
 								
-								<div class="cell-md-12 workshop_wrapper">
+								<div class="cell-sm-11 cell-md-11 workshop_wrapper" id="events_height">
 									<!-- PLEASE MAKE LARGEST PICTURES SIZE WIDTH NO LARGER THAN 420px -->
-										<a href="" class="events_list"><img src="/images/e_gallery1.jpeg"></a>
-										<a href="" class="events_list"><img src="/images/e_gallery2.jpeg"></a>
-										<a href="" class="events_list"><img src="/images/e_gallery3.jpeg"></a>
-										<a href="" class="events_list"><img src="/images/e_gallery4.jpeg"></a>
+										<div class="events_list">
+											<a href="/workshop.php" target="_self" class=""><img src="/images/e_gallery1.jpeg">
+												<h2><span>Artist awards</span></h2>
+												<h4><span>April 25th 2015</span></h4>
+											</a>
+										</div>
+										<div class="events_list">
+											<a href="/workshop.php" target="_self" class=""><img src="/images/e_gallery2.jpeg">
+												<h2><span>Live Show Saturday</span></h2>
+												<h4><span>May 2nd 2015</span></h4>
+											</a>
+										</div>
+										<div class="events_list">
+											<a href="/workshop.php" target="_self" class=""><img src="/images/e_gallery3.jpeg">
+												<h2><span>Ted Talk</span></h2>
+												<h4><span>May 9th 2015</span></h4>
+											</a>
+										</div>
+										<div class="events_list">
+											<a href="/workshop.php" target="_self" class=""><img src="/images/e_gallery4.jpeg">
+												<h2><span>Flea Market</span></h2>
+												<h4><span>June 18th 2015</span></h4>
+											</a>
+										</div>
 										
 										
 									
+								</div>
+								<div class="cell-sm-1 cell-md-1 section_title" id="artist_events">
+									<h2>Events</h2>
 								</div>
 
 							</div> <!-- /row -->

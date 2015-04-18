@@ -80,6 +80,13 @@ $(window).bind('resize load',syncHeights);syncHeights();return this;};})(jQuery)
 	$('.event_info li').equalHeight();
 	$('.workshop_list img').equalHeight();
 	$('.events_list img').equalHeight();
+
+	if($(window).width() > 768)
+	{
+	$('#artist_workshop').height($('#workshop_height').height());
+	$('#artist_events').height($('#events_height').height());
+	  
+	} else{}
 }( jQuery ));
 
 
