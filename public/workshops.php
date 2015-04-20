@@ -16,8 +16,8 @@
 			<div class="row no-gutters  ">
 				<div class="cell-md-12 no-gutters">
 					
-						<div class="cell-xs-12 cell-md-10 events_workshop_container"> 
-							<div class="row">
+						<div class="cell-xs-12 cell-md-10 no-gutters events_workshop_container"> 
+							<div class="row no-gutters">
 								
 								<div class="cell-sm-11 cell-md-11 workshop_wrapper" id="workshop_height">
 									<!-- PLEASE MAKE LARGEST PICTURES SIZE WDITH NO LARGER THAN 420px -->
@@ -65,7 +65,7 @@
 
 							</div> <!-- /row -->
 
-							<div class="row">
+							<div class="row no-gutters">
 								
 								<div class="cell-sm-11 cell-md-11 workshop_wrapper" id="events_height">
 									<!-- PLEASE MAKE LARGEST PICTURES SIZE WIDTH NO LARGER THAN 420px -->
@@ -107,7 +107,7 @@
 						
 					
 		
-					<div class="row">
+					<div class="row no-gutters">
 						<div class="hidden-xs hidden-sm  cell-md-2">
 							
 							<div class="cell-md-12">
@@ -144,8 +144,8 @@
 			</div> <!-- /row -->
 			
 			
-		<?php include("footer.php"); ?><!-- FOOTER -->
 	</div><!-- /container -->
+		<?php include("footer.php"); ?><!-- FOOTER -->
 			
 		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>

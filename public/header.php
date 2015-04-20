@@ -3,7 +3,7 @@
 <div class=" row no-gutters"  >
 	<div class="header cell-md-12 no-gutters">
 		<div class="cell-xs-10 cell-sm-10 cell-md-8" id="logo">
-			<a href="#"><h3>Paul Love Oil Paintings</h3></a>
+			<a href="/landing.php" target="_self"><h3>Paul Love Oil Paintings</h3></a>
 		</div><!-- /header -->
 		<div id="menu">
 			<a href="#" class="cell-xs-2 cell-sm-2 cell-md-4" data-slide="slide" data-target="#navigation-panel">

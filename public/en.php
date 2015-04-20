@@ -8,9 +8,9 @@
 					</div>
 				</div>
 				<form>
-					<div class="cell-md-offset-3 cell-md-6">
+					<div class="cell-md-offset-3 cell-md-6 email_news_form">
 						
-						<h1>Paul Love Newsletter</h1>
+						<h1>Email Newsletter</h1>
 						<h5>Please complete the form below to sign up for my newsletter</h5>
 						<form>
 						

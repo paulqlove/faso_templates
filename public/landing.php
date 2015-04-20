@@ -6,13 +6,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.css" /> -->
-	
+	<link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="/css/style.css">
 </head>
 <body id="landingBG">
 <div class="container no-gutters"  data-role="page">
-		
 		<?php include("header.php"); ?>
+		
 
 		
 		<div class="row" data-role="content">

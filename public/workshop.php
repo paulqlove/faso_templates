@@ -13,36 +13,82 @@
 	<div class="container no-gutters" id="main" data-role="page">
 		<?php include("header.php"); ?>
 		<i class="fa fa-arrow-circle-o-up fa-2x" id="go-to-top"></i>
-			<div class="row no-gutters  ">
-				<div class="cell-md-12 no-gutters">
+			<div class="row  ">
+				<div class="cell-md-12">
 					<div class="cell-md-10">
-						<div class="row">
+						<div class="row ">
 							<div class="cell-md-12">
-								<div class="event_container">
-									<div class="cell-md-12 event_data">
+								<div class="cell-md-offset-2 event_container">
+									<div class="cell-md-12 event_data event_img">
 										<img src="/images/workshop1.jpeg">
 									</div>
-									<div class="cell-md-12 event_data event_title">
+									<div class="cell-md-12 no-gutters event_data event_title">
 										<h2>Painting for Hipsters</h2>
 									</div>
-									<div class="cell-md-offset-2 cell-md-8 event_data event_description">
-										<p>The Focus:   Painting from photos.... Students will be working from their own photographs learning to capture the relationships between shapes, values, colors, temperatures and edges.  The class will also cover how to NOT copy a photo, but rather use it as a starting point to describe what YOU see and want to paint about a scene.  You will learn to strengthen your compositions, as well as how to create more drama and life, (chi) and movement.  Discussions, demonstrations and individual attention will be given.  These classes will develop drawing and painting skills as well as the ability to be your own critic.
-										</p>
+									<div class="cell-xs-12 cell-sm-12 cell-md-8 event_data event_description">
+										<div class="row">
+											<div class="cell-xs-10 cell-md-11">
+												<a href="#">
+													
+														<h2>Description:</h2>
+															
+													
+												</a>
+											</div>
+											<div class="cell-xs-2 cell-md-1">
+												<i class="fa fa-plus hidden-sm hidden-md hidden-lg"></i>
+											</div>
+											<div class="cell-md-12">
+												<ul class="hidden-xs">
+													<li>Painting from photos.... Students will be working from their own photographs learning to capture the relationships between shapes, values, colors, temperatures and edges.  The class will also cover how to NOT copy a photo, but rather use it as a starting point to describe what YOU see and want to paint about a scene.  You will learn to strengthen your compositions, as well as how to create more drama and life, (chi) and movement.  Discussions, demonstrations and individual attention will be given.  These classes will develop drawing and painting skills as well as the ability to be your own critic.
+													</li>
+												</ul>
+											</div>
+										</div>
 									</div>
-									<div class="cell-md-4 event_data event_date">
-										<h4>April 31st 2015</h4>
+									<div class="cell-xs-6 cell-sm-6 cell-md-4 event_data event_date same_height">
+										<h4>Scheduled:</h4>
+										<h2>April 31st</h2>
 									</div>
-									<div class="cell-md-4 event_data event_address">
-										<h4>Location: Toscana Gallery and Studio 9040 N. Oracle Rd. Tucson Arizona 85704 United States</h4>
-									</div>
-									<div class="cell-md-4 event_data event_price">
-										<h4>$250</h4>
-										<i class="fa fa-paypal"></i>
+									<div class="cell-xs-6 cell-sm-6 cell-md-4 event_data event_address same_height">
+										<h4>Location:</h4>
+										<ul>
+											<li><p>Toscana Gallery and Studio 9040 N. Oracle Rd. Tucson Arizona 85704 United States</p></li>
+										</ul>
 									</div>
 									
-									<div  class="cell-md-12 event_data event_notes">
-										<h4>What to Bring</h4>
+									<div class="info_block cell-xs-12 cell-sm-12 cell-md-12 no-gutters">
+									<div class="cell-xs-6 cell-sm-6 cell-md-3 event_data event_price same_height">
+										<h4>Pricing:</h4>
+										<h1>$250</h1>
+										<!-- <i class="fa fa-paypal"></i> -->
+									</div>
+									
+									<div  class="cell-xs-6 cell-sm-6 cell-md-3 event_data event_size same_height">
+										<h4>Max Class Size:</h4>
+										<h1>6</h1>
+									</div>
+									<div  class="cell-xs-6 cell-sm-6 cell-md-3 event_data event_next_date same_height">
+										<h4>Next Class:</h4>
+										<h2>May 13th</h2>
+									</div>
+									<!-- <div  class="cell-md-4 event_data event_urls">
+										<h4>Mikes Art Supplies</h4>
+									</div> -->
+									<div  class="cell-xs-6 cell-sm-6 cell-md-3 event_data event_phone same_height">
+										<h4>Contact info:</h4>
+										<p>214-608-7675</p>
+										<p>paulqlove@gmail</p>
+									</div>
+									</div>
+
+								<!-- 	<div  class="cell-xs-6 cell-sm-6 cell-md-4 event_data event_email">
+										<h4>Contact Email:</h4>
+									</div> -->
+									<div  class="cell-xs-12 cell-sm-12 cell-md-12 event_data event_notes">
+										<h4>Notes:</h4>
 										<ul>
+											<li><h4>What to Bring</h4></li>
 											<li>Portable easel french easel or any other you have. I have one to loan if you don't.Container for washing brushes.  Holbein brush cleaner, Newton airtight brush washer, a jar with lid</li>
 											<li>Odorless Turpenoid</li>
 											<li>Portable palette or paper palette</li>
@@ -50,20 +96,6 @@
 											<li>Sketch book, 4B , 6B pencils and eraser</li>
 											<li>Paints you can buy on line at Jerry's Artorama, Dick Blick , or ASW.</li>
 										</ul>
-									</div>
-									<div  class="cell-md-4 event_data event_size">
-										<p>6</p>
-									</div>
-									<div  class="cell-md-4 event_data event_next_date">
-										<p>May 13th 2015</p>
-									</div>
-									<div  class="cell-md-4 event_data event_urls">
-									</div>
-									<div  class="cell-md-4 event_data event_phone">
-										<p>214-608-7675</p>
-									</div>
-									<div  class="cell-md-4 event_data event_email">
-										<p>paulqlove@gmail.com</p>
 									</div>
 								</div> <!-- container -->
 							</div> <!-- /cell-md-12 -->
@@ -111,8 +143,8 @@
 			</div> <!-- /row -->
 			
 			
-		<?php include("footer.php"); ?><!-- FOOTER -->
 	</div><!-- /container -->
+		<?php include("footer.php"); ?><!-- FOOTER -->
 			
 		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>

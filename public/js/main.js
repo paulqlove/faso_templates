@@ -80,9 +80,10 @@ $(window).bind('resize load',syncHeights);syncHeights();return this;};})(jQuery)
 	$('.event_info li').equalHeight();
 	$('.workshop_list img').equalHeight();
 	$('.events_list img').equalHeight();
-
-	if($(window).width() > 768)
-	{
+    $('.same_height').equalHeight();
+    if($(window).width() > 768)
+    {
+	$('.we_div_height').equalHeight();
 	$('#artist_workshop').height($('#workshop_height').height());
 	$('#artist_events').height($('#events_height').height());
 	  
@@ -90,7 +91,12 @@ $(window).bind('resize load',syncHeights);syncHeights();return this;};})(jQuery)
 }( jQuery ));
 
 
-     
+(function($){
+	$('.event_description').click(function(){
+		$('.event_description ul').toggleClass("hidden-xs");
+		$('.event_description i').toggleClass("hidden-xs")
+	});
+}( jQuery ));     
 
 
 

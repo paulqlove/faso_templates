@@ -14,8 +14,22 @@
 			<?php include("header.php"); ?>
 			<i class="fa fa-arrow-circle-o-up fa-3x" id="go-to-top"></i>
 			<div class="single_work_expanded row" id="">
-				<div class="cell-md-push-4 cell-md-8">
-					<div class="image_info cell-sm-4 cell-md-5">
+				<div class="cell-md-4 purchase_button_desktop">
+					<div class="hidden-sm hidden-xs row no-gutters">
+
+						<div class=" cell-md-12 single_work_purchase">
+							<ul>
+								<li>
+									<h3>Purchase</h3>
+									
+								</li>
+								<li><a data-slide="slide" data-target="#contact-panel" href="#"><h3>Contact</h3></a></li>
+							</ul>
+						</div> <!-- single work purchase -->
+					</div> <!-- row no-gutters -->
+				</div>
+				<div class=" cell-md-8">
+					<div class="image_info cell-sm-4 cell-md-5 we_div_height">
 						<div class="row">
 							<div class="cell-md-12 no-gutters">
 								<div  class="cell-xs-6 cell-sm-6 cell-md-12">
@@ -42,15 +56,15 @@
 						</div> <!-- row -->
 					</div> <!-- image info -->
 					<div class="cell-sm-8 cell-md-7">
-						<div id="image_container">
+						<div id="image_container we_div_height">
 							<img class="singleImage " src="/images/1184544w900.jpg">
 							<i class="fa fa-angle-right fa-5x" id="next_image_button"></i>
 							<i class="fa fa-angle-down fa-5x" id="scroll_down_arrow"></i>
 						</div>
-						<i class="fa fa-cc-paypal cell-md-12"></i>
+						
 					</div>
 				</div><!-- /content -->
-				<div class="row no-gutters">
+				<div class="hidden-md hidden-lg row no-gutters">
 
 					<div class=" cell-md-12 single_work_purchase">
 						<ul>
@@ -63,8 +77,8 @@
 					</div>
 				</div>
 			</div><!-- row -->
-	<?php include("footer.php"); ?><!-- FOOTER -->
 	</div><!-- /container -->
+	<?php include("footer.php"); ?><!-- FOOTER -->
 			
 		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
