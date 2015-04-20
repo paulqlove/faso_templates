@@ -30,7 +30,7 @@
   75%   { transform: translate3d(4px, 0, 0) }
   100%  { transform: translate3d(0, 0, 0) }
 }
-@-webkit-keyframes fadeIn {
+/*@-webkit-keyframes fadeIn {
   0% {
     opacity: 0;
   }
@@ -38,7 +38,7 @@
   100% {
     opacity: 1;
   }
-}
+}*/
 
 * { margin:0; padding:0; /*font-size:100%*/; text-decoration: none; box-sizing:border-box;  -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box; }
@@ -211,7 +211,19 @@ ul.imageGrid,
   margin-top: 1em;
 }
 .blog_article p:first-child {
-  text-indent: 2.5em;
+  /*text-indent: 2.5em;*/
+}
+.article_summaries {
+ -moz-column-count: 4;
+     -moz-column-gap: 5px;
+     -webkit-column-count: 4;
+     -webkit-column-gap: 5px;
+     column-count: 4;
+     column-gap: 5px;
+     width: 100%;
+     margin-bottom: 1.5em;
+
+
 }
 .blog_summaries {
  -moz-column-count: 4;
@@ -224,8 +236,11 @@ ul.imageGrid,
      margin-bottom: 1.5em;
 
 }
-.blog_post_title {
- 
+.about_title h1 {
+  text-align: center;
+  font-weight: 300;
+  font-size: 4em;
+  text-transform: uppercase;
 }
 h2.post_title {
   text-align: center;
@@ -337,7 +352,7 @@ h2.post_title {
  background-color: #272727;
  color: #fff;
  text-transform: uppercase;
- font-weight: 400;
+ font-weight: 100;
  font-size: 2em;
  letter-spacing: .15em;
 }
@@ -588,7 +603,9 @@ h2.post_title {
   text-transform: uppercase;
   font-weight: 300;
   letter-spacing: .25em;
+  padding-bottom: 10px;
 }
+
 /*.footer:after {
   display: block;
   overflow: hidden;
@@ -608,7 +625,24 @@ h2.post_title {
   display: none !important;
   visibility: hidden !important;
 }
+.landing_copy {
+  height: 60vh;
+}
+.landing_copy h1{
+  font-size: 6em;
+  font-weight: 100;
+  color: #fff;
+  padding-top: 20%;
 
+  text-align: center;
+  text-transform: uppercase;
+}
+.landing_copy h4 {
+  color: #fff;
+  font-size: 2em;
+  text-align: center;
+  font-weight: 300;
+}
 span.searchbox {
   border-radius: 5px;
   height: 50px;
@@ -1685,6 +1719,8 @@ a > #menu {
 #menuOptions {
   list-style: none;
   font-size: 2.5em;
+  text-transform: uppercase;
+  font-weight: 100;
   color: #fff;
    -webkit-transition: font-size ease-in-out, -webkit-transform ease-in-out;
 
@@ -1742,6 +1778,12 @@ input[type="submit"]:hover {
 
 /**-------------------[MEDIA QUERIES]------------------------*/
 @media(max-width: 1180px) {
+  .about_title h1 {
+    
+    
+    font-size: 3em;
+    
+  }
   .blog_summaries {
    -moz-column-count: 3;
        -moz-column-gap: 1px;
@@ -1765,7 +1807,12 @@ input[type="submit"]:hover {
 
 }
 @media (max-width: 800px) {
- 
+ .about_title h1 {
+   
+   
+   font-size: 2em;
+   
+ }
  .art_title {
   position: absolute;
   text-align: right;
@@ -1794,6 +1841,18 @@ input[type="submit"]:hover {
    margin-bottom: .45em;
   padding: .25em 0 .25em 0;
 }
+.article_summaries {
+ -moz-column-count: 2;
+     -moz-column-gap: 1px;
+     -webkit-column-count: 2;
+     -webkit-column-gap: 1px;
+     column-count: 2;
+     column-gap: 1px;
+     width: 100%;
+     margin-bottom: 1.5em;
+
+}
+
  .blog_summaries {
   -moz-column-count: 2;
       -moz-column-gap: 1px;
@@ -1805,10 +1864,23 @@ input[type="submit"]:hover {
       margin-bottom: 1.5em;
 
  }
+
 #gallery_margin {
   padding-bottom: 25px;
   /*margin-bottom: 12.5em;*/
  margin-right: 1.2em;
+}
+  .footer {
+ white-space: nowrap;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  -webkt-overflow-scrolling: touch;
+  padding-bottom: 1.5em;
+  /*margin-bottom: .15em;*/
+  z-index: 101;
+}
+.footer_items_list {
+  display: inline-block;
 }
 .image_info {
   
@@ -1898,6 +1970,18 @@ input[type="submit"]:hover {
   background: rgba(255, 255, 255, 0.9);
   padding: 1.2em 1.2em 1.2em 1.2em;
   border-radius: .5px;
+  }
+  .article_summaries {
+   -moz-column-count: 1;
+       -moz-column-gap: 1px;
+       -webkit-column-count: 1;
+       -webkit-column-gap: 1px;
+       column-count: 1;
+       column-gap: 1px;
+       width: 100%;
+       min-width: 80%;
+       margin-bottom: 1.5em;
+
   }
   .blog_summaries {
    -moz-column-count: 1;
@@ -2091,6 +2175,18 @@ input[type="submit"]:hover {
 @media (min-width: 768px) and (max-width: 991px) {
   .hidden-sm {
     display: none !important;
+  }
+    .footer {
+   white-space: nowrap;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    -webkt-overflow-scrolling: touch;
+    padding-bottom: 1.5em;
+    /*margin-bottom: .15em;*/
+    z-index: 101;
+  }
+  .footer_items_list {
+    display: inline-block;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {

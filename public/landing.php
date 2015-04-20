@@ -16,8 +16,9 @@
 
 		
 		<div class="row" data-role="content">
-			<div class="cell-md-12">
-				
+			<div class="cell-md-12 landing_copy">
+				<h1>Paul Love</h1>
+				<h4>est. 1982</h4>
 			</div><!-- /content -->
 		</div><!-- row -->
 		
