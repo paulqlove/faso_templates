@@ -2,10 +2,7 @@
 <html>
 <head>
 	<title>Faso Template</title>
-
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<!-- <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.css" /> -->
 	<link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="/css/style.css">
 </head>
@@ -17,10 +14,7 @@
 				<div class="cell-md-12 no-gutters ">
 					<ul class="cell-md-12">
 						<div class="imageGrid">
-						
-								<!-- <div class="cell-md-6"> -->
 									<div class="art_piece_wrap">
-										<!-- <div class="wrapper"> -->
 											<li>
 												<div>
 													<div class="art_img">
@@ -31,10 +25,8 @@
 													</div>
 												</div>
 											</li>
-										<!-- </div> -->
 									</div>
 									<div class="art_piece_wrap">
-										<!-- <div class="wrapper"> -->
 					 						<li>
 					 							<div>
 						 							<div class="art_img">
@@ -45,10 +37,8 @@
 													</div>
 					 							</div>
 											</li>
-										<!-- </div> -->
 									</div>
 									<div class="art_piece_wrap" id="margin">
-										<!-- <div class="wrapper"> -->
 											<li>
 												<div>
 													<div class="art_img">
@@ -59,10 +49,8 @@
 													</div>
 												</div>
 											</li>
-										<!-- </div> -->
 									</div>
 									<div class="art_piece_wrap">
-										<!-- <div class="wrapper"> -->
 											<li>
 												<div>
 													<div class="art_img">
@@ -73,13 +61,8 @@
 													</div>
 												</div>
 											</li>
-										<!-- </div> -->
 									</div>
-								<!-- </div> --><!-- first column -->
-								
-								<!-- <div class="cell-md-6" > -->
 									<div class="art_piece_wrap">
-										<!-- <div class="wrapper"> -->
 											<li>
 												<div>
 													<div class="art_img">
@@ -90,11 +73,8 @@
 													</div>
 												</div>
 											</li>
-										<!-- </div> -->
 									</div>
-								
 									<div class="art_piece_wrap">
-										<!-- <div class="wrapper"> -->
 											<li>
 												<div>
 													<div class="art_img">
@@ -105,10 +85,8 @@
 													</div>
 												</div>
 											</li>
-										<!-- </div> -->
 									</div>
 									<div class="art_piece_wrap">
-										<!-- <div class="wrapper"> -->
 											<li>
 												<div>
 													<div class="art_img">
@@ -119,10 +97,8 @@
 													</div>
 												</div>
 											</li>
-										<!-- </div> -->
 									</div>
 									<div class="art_piece_wrap">
-										<!-- <div class="wrapper"> -->
 											<li>
 												<div>
 													<div class="art_img">
@@ -133,10 +109,8 @@
 													</div>
 												</div>
 											</li>
-										<!-- </div> -->
 									</div>
 									<div class="art_piece_wrap">
-										<!-- <div class="wrapper"> -->
 											<li>
 												<div>
 													<div class="art_img">
@@ -147,10 +121,8 @@
 													</div>
 												</div>
 											</li>
-										<!-- </div> -->
 									</div>
 									<div class="art_piece_wrap">
-										<!-- <div class="wrapper"> -->
 					 						<li>
 					 							<div>
 						 							<div class="art_img">
@@ -161,10 +133,8 @@
 													</div>
 					 							</div>
 											</li>
-										<!-- </div> -->
 									</div>
 									<div class="art_piece_wrap" id="margin">
-										<!-- <div class="wrapper"> -->
 											<li>
 												<div>
 													<div class="art_img">
@@ -175,10 +145,8 @@
 													</div>
 												</div>
 											</li>
-										<!-- </div> -->
 									</div>
 									<div class="art_piece_wrap">
-										<!-- <div class="wrapper"> -->
 											<li>
 												<div>
 													<div class="art_img">
@@ -189,13 +157,8 @@
 													</div>
 												</div>
 											</li>
-										<!-- </div> -->
 									</div>
-								<!-- </div> --><!-- first column -->
-								
-								<!-- <div class="cell-md-6" > -->
 									<div class="art_piece_wrap">
-										<!-- <div class="wrapper"> -->
 											<li>
 												<div>
 													<div class="art_img">
@@ -206,11 +169,9 @@
 													</div>
 												</div>
 											</li>
-										<!-- </div> -->
 									</div>
 								
 									<div class="art_piece_wrap">
-										<!-- <div class="wrapper"> -->
 											<li>
 												<div>
 													<div class="art_img">
@@ -221,10 +182,8 @@
 													</div>
 												</div>
 											</li>
-										<!-- </div> -->
 									</div>
 									<div class="art_piece_wrap">
-										<!-- <div class="wrapper"> -->
 											<li>
 												<div>
 													<div class="art_img">
@@ -235,10 +194,8 @@
 													</div>
 												</div>
 											</li>
-										<!-- </div> -->
 									</div>
 									<div class="art_piece_wrap">
-										<!-- <div class="wrapper"> -->
 											<li>
 												<div>
 													<div class="art_img">
@@ -251,15 +208,12 @@
 											</li>
 										<!-- </div> -->
 									</div>
-								<!-- </div> --> <!-- second column -->
 							</div> <!-- imagegrid -->
 					</ul>
 				</div><!-- /content -->
 			</div><!-- row -->
 	</div><!-- /container -->
 	<?php include("footer.php"); ?><!-- FOOTER -->
-			
-		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 		<script src="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.js"></script>
 		<script type="text/javascript" src="/js/jquery.materialripple.js"></script>

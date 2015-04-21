@@ -2,10 +2,7 @@
 <html>
 <head>
 	<title>Faso Template</title>
-
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<!-- <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.css" /> -->
 	<link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="/css/style.css">
 </head>
@@ -16,7 +13,6 @@
 			<div class="row no-gutters blog-content ">
 				<div class="cell-md-10">
 					<div class="blog_summaries">
-
 						<div class="post-container">
 							<div class="wrapper">
 								<div class="post_header">
@@ -24,8 +20,7 @@
 								</div>
 								<div class="post_body">
 									<p>
-										<a href="/blog.php" target="_self"><img src="/images/scooter.png"></a>
-										
+										<a href="/blog.php" target="_self"><img src="/images/scooter.png"></a>										
 									</p>
 									<p>Google's Material Design is my favorite UI style for the moment. Read up on their design guide if you are not familiar with it. I added some ripple effects to my site! I have to give credit to Dominik Biedebach for the plug in.</p>
 									<a href="/blog.php" target="_self"><p class="blog_img_note">Click to Read more</p></a>
@@ -37,8 +32,7 @@
 								<div class="post_header">
 									<h2 class="post_title">Barcelona vs PSG</h2>
 								</div>
-								<div class="post_body">
-									
+								<div class="post_body">									
 									<p>Google's Material Design is my favorite UI style for the moment. Read up on their design guide if you are not familiar with it. I added some ripple effects to my site! I have to give credit to Dominik Biedebach for the plug in.</p>
 									<a href="/blog.php" target="_self"><p class="blog_img_note">Click to Read more</p></a>
 								</div>
@@ -242,15 +236,10 @@
 						</div>
 					</div><!-- /row -->
 				</div>
-			</div> <!-- /row -->
-			
-			
+			</div> <!-- /row -->						
 	</div><!-- /container -->
-		<?php include("footer.php"); ?><!-- FOOTER -->
-			
-		
+		<?php include("footer.php"); ?><!-- FOOTER -->					
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-		
 		<script type="text/javascript" src="/js/jquery.materialripple.js"></script>
 		<script type="text/javascript" src="/js/mobiledetect.js"></script>	
 		<script type="text/javascript" src="/js/main.js"></script>

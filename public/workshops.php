@@ -2,10 +2,7 @@
 <html>
 <head>
 	<title>Faso Template</title>
-
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<!-- <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.css" /> -->
 	<link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="/css/style.css">
 </head>
@@ -15,10 +12,8 @@
 		<i class="fa fa-arrow-circle-o-up fa-2x" id="go-to-top"></i>
 			<div class="row no-gutters  ">
 				<div class="cell-md-12 no-gutters">
-					
 						<div class="cell-xs-12 cell-md-10 no-gutters events_workshop_container"> 
 							<div class="row no-gutters">
-								
 								<div class="cell-sm-11 cell-md-11 workshop_wrapper" id="workshop_height">
 									<!-- PLEASE MAKE LARGEST PICTURES SIZE WDITH NO LARGER THAN 420px -->
 										<div class="workshop_list">
@@ -57,18 +52,14 @@
 												<h4><span>April 31st 2015</span></h4>
 											</a>
 										</div>
-									
 								</div>
 								<div class="cell-sm-1 cell-md-1 section_title" id="artist_workshop">
 									<h2>Classes + Workshops</h2>
 								</div>
-
 							</div> <!-- /row -->
-
 							<div class="row no-gutters">
-								
 								<div class="cell-sm-11 cell-md-11 workshop_wrapper" id="events_height">
-									<!-- PLEASE MAKE LARGEST PICTURES SIZE WIDTH NO LARGER THAN 420px -->
+									<!-- MAKE LARGEST PICTURES SIZE WIDTH NO LARGER THAN 420px -->
 										<div class="events_list">
 											<a href="/workshop.php" target="_self" class=""><img src="/images/e_gallery1.jpeg">
 												<h2><span>Artist awards</span></h2>
@@ -93,23 +84,14 @@
 												<h4><span>June 18th 2015</span></h4>
 											</a>
 										</div>
-										
-										
-									
 								</div>
 								<div class="cell-sm-1 cell-md-1 section_title" id="artist_events">
 									<h2>Events</h2>
 								</div>
-
 							</div> <!-- /row -->
 						</div> <!-- /cell-md-10 -->
-
-						
-					
-		
 					<div class="row no-gutters">
 						<div class="hidden-xs hidden-sm  cell-md-2">
-							
 							<div class="cell-md-12">
 								<h1>Archives</h1>
 							</div>
@@ -119,7 +101,6 @@
 								<h5>2014</h5>
 								<h5>2013</h5>
 							</div>
-							
 							<div class="cell-md-12">
 								<h1>Search</h1>
 							</div>
@@ -142,14 +123,9 @@
 					</div><!-- /row -->
 				</div> <!-- cell-md-12 -->
 			</div> <!-- /row -->
-			
-			
 	</div><!-- /container -->
 		<?php include("footer.php"); ?><!-- FOOTER -->
-			
-		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-		
 		<script type="text/javascript" src="/js/jquery.materialripple.js"></script>
 		<script type="text/javascript" src="/js/mobiledetect.js"></script>	
 		<script type="text/javascript" src="/js/main.js"></script>
