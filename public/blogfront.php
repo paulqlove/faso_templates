@@ -20,7 +20,7 @@
 						<div class="post-container">
 							<div class="wrapper">
 								<div class="post_header">
-									<h2 class="post_title">Dallas Web Jobs</h2>
+									<h2 class="post_title">Road Trip to Deep Ellum Art Fair</h2>
 								</div>
 								<div class="post_body">
 									<p>
@@ -61,7 +61,7 @@
 						<div class="post-container">
 							<div class="wrapper">
 								<div class="post_header">
-									<h2 class="post_title">Dallas Web Jobs</h2>
+									<h2 class="post_title">Art Featured on HGTV Home</h2>
 								</div>
 								<div class="post_body">
 									<p>
@@ -75,11 +75,11 @@
 						<div class="post-container">
 							<div class="wrapper">
 								<div class="post_header">
-									<h2 class="post_title">Dallas Web Jobs</h2>
+									<h2 class="post_title">Volunteer Art Classes</h2>
 								</div>
 								<div class="post_body">
 									<p>
-										<a href="/blog.php" target="_self"><img src="/images/blog2.jpg"></a>
+										<a href="/blog.php" target="_self"><img src="/images/vol_art.jpg"></a>
 									</p>
 									<p>Google's Material Design is my favorite UI style for the moment. Read up on their design guide if you are not familiar with it. I added some ripple effects to my site! I have to give credit to Dominik Biedebach for the plug in.</p>
 									<a href="/blog.php" target="_self"><p class="blog_img_note">Click to Read more</p></a>
@@ -89,7 +89,7 @@
 						<div class="post-container">
 							<div class="wrapper">
 								<div class="post_header">
-									<h2 class="post_title">Dallas Web Jobs</h2>
+									<h2 class="post_title">Learn how to hand paint</h2>
 								</div>
 								<div class="post_body">
 									<p>
@@ -103,7 +103,7 @@
 						<div class="post-container">
 							<div class="wrapper">
 								<div class="post_header">
-									<h2 class="post_title">Dallas Web Jobs</h2>
+									<h2 class="post_title">Dogs</h2>
 								</div>
 								<div class="post_body">
 									<p>
@@ -117,11 +117,11 @@
 						<div class="post-container">
 							<div class="wrapper">
 								<div class="post_header">
-									<h2 class="post_title">Dallas Web Jobs</h2>
+									<h2 class="post_title">Weiner Circle Chicago</h2>
 								</div>
 								<div class="post_body">
 									<p>
-										<a href="/blog.php" target="_self"><img src="/images/blog1.jpg"></a>
+										<a href="/blog.php" target="_self"><img src="/images/w_circle.jpeg"></a>
 									</p>
 									<p>Google's Material Design is my favorite UI style for the moment. Read up on their design guide if you are not familiar with it. I added some ripple effects to my site! I have to give credit to Dominik Biedebach for the plug in.</p>
 									<a href="/blog.php" target="_self"><p class="blog_img_note">Click to Read more</p></a>
@@ -131,7 +131,7 @@
 						<div class="post-container">
 							<div class="wrapper">
 								<div class="post_header">
-									<h2 class="post_title">Dallas Web Jobs</h2>
+									<h2 class="post_title">Dobbs QB</h2>
 								</div>
 								<div class="post_body">
 									<p>
@@ -145,7 +145,7 @@
 						<div class="post-container">
 							<div class="wrapper">
 								<div class="post_header">
-									<h2 class="post_title">Dallas Web Jobs</h2>
+									<h2 class="post_title">Flip or Flop </h2>
 								</div>
 								<div class="post_body">
 									<p>
@@ -159,11 +159,11 @@
 						<div class="post-container">
 							<div class="wrapper">
 								<div class="post_header">
-									<h2 class="post_title">Dallas Web Jobs</h2>
+									<h2 class="post_title">Art festivals</h2>
 								</div>
 								<div class="post_body">
 									<p>
-										<a href="/blog.php" target="_self"><img src="/images/blog1.jpg"></a>
+										<a href="/blog.php" target="_self"><img src="/images/a_fest.jpg"></a>
 									</p>
 									<p>Google's Material Design is my favorite UI style for the moment. Read up on their design guide if you are not familiar with it. I added some ripple effects to my site! I have to give credit to Dominik Biedebach for the plug in.</p>
 									<a href="/blog.php" target="_self"><p class="blog_img_note">Click to Read more</p></a>
@@ -173,11 +173,11 @@
 						<div class="post-container">
 							<div class="wrapper">
 								<div class="post_header">
-									<h2 class="post_title">Dallas Web Jobs</h2>
+									<h2 class="post_title">Dallas hackathons</h2>
 								</div>
 								<div class="post_body">
 									<p>
-										<a href="/blog.php" target="_self"><img src="/images/scooter.png"></a>
+										<a href="/blog.php" target="_self"><img src="/images/hack.jpg"></a>
 									</p>
 									<p>Google's Material Design is my favorite UI style for the moment. Read up on their design guide if you are not familiar with it. I added some ripple effects to my site! I have to give credit to Dominik Biedebach for the plug in.</p>
 									<a href="/blog.php" target="_self"><p class="blog_img_note">Click to Read more</p></a>

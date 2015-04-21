@@ -3,7 +3,7 @@
 <div class=" row no-gutters"  >
 	<div class="header cell-md-12 no-gutters">
 		<div class="cell-xs-10 cell-sm-10 cell-md-8" id="logo">
-			<a href="/landing.php" target="_self"><h3 class="hidden">Paul Love Oil Paintings</h3></a>
+			<a href="/landing.php" target="_self"><h3 class="header_logo">Paul Love Fine Art</h3></a>
 		</div><!-- /header -->
 		<div id="menu">
 			<a href="#" class="cell-xs-2 cell-sm-2 cell-md-4" data-slide="slide" data-target="#navigation-panel">
@@ -28,11 +28,11 @@
 						<div class="cell-md-6 cell-lg-8">
 							<nav id="nav" role="navigation">
 								<ul id="menuOptions">
-									<li><a data-slide="slide" data-target="#galleries-panel" href="#">Galleries</a></li>
-									<li><a data-slide="slide" data-target="#contact-panel" href="#">Contact us</a></li>
+									<li><a href="/about.php" target="self">About the artist</a></li>
 									<li><a href="/articles.php" target="_self">Articles</a></li>
+									<li><a data-slide="slide" data-target="#contact-panel" href="#">Contact </a></li>
+									<li><a data-slide="slide" data-target="#galleries-panel" href="#">Galleries</a></li>
 									<li><a href="/blogfront.php" target="_self">Blog</a></li>
-									<li><a href="/about.php" target="self">About Us</a></li>
 									<li><a href="/workshops.php" target="_self">Events</a></li>
 									<li><a href="/collections.php" target="_self">Recent Works</a></li>
 								</ul>

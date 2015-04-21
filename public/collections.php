@@ -140,7 +140,7 @@
 											<li>
 												<div>
 													<div class="art_img">
-														<a href="/works_expanded.php" target="_self"><img src="/images/1104284w900.jpg"></a>
+														<a href="/works_expanded.php" target="_self"><img src="/images/desert.jpg"></a>
 													</div>
 													<div class="art_title">
 														<h4>Dale</h4>
@@ -154,7 +154,7 @@
 					 						<li>
 					 							<div>
 						 							<div class="art_img">
-														<a href="/works_expanded.php" target="_self"><img src="/images/1184544w900.jpg"></a>
+														<a href="/works_expanded.php" target="_self"><img src="/images/desert1.jpg"></a>
 						 							</div>
 													<div class="art_title">
 														<h4>Mother Beast</h4>
@@ -168,7 +168,7 @@
 											<li>
 												<div>
 													<div class="art_img">
-														<a href="/works_expanded.php" target="_self"><img src="/images/1189671w900.jpg"></a>
+														<a href="/works_expanded.php" target="_self"><img src="/images/desert.jpg"></a>
 													</div>
 													<div class="art_title">
 														<h4>Pepe</h4>
@@ -182,7 +182,7 @@
 											<li>
 												<div>
 													<div class="art_img">
-														<a href="/works_expanded.php" target="_self"><img src="/images/1531101w900.jpg"></a>
+														<a href="/works_expanded.php" target="_self"><img src="/images/desert3.jpg"></a>
 													</div>
 													<div class="art_title">
 														<h4>Birds of Feather</h4>
@@ -199,7 +199,7 @@
 											<li>
 												<div>
 													<div class="art_img">
-														<a href="/works_expanded.php" target="_self"><img src="/images/1571260w900.jpg"></a>
+														<a href="/works_expanded.php" target="_self"><img src="/images/desert4.jpg"></a>
 													</div>
 													<div class="art_title">
 														<h4>Heffer Wine</h4>
@@ -214,10 +214,10 @@
 											<li>
 												<div>
 													<div class="art_img">
-														<a href="/works_expanded.php" target="_self"><img src="/images/1609519w900.jpg"></a>
+														<a href="/works_expanded.php" target="_self"><img src="/images/brasky.jpg"></a>
 													</div>
 													<div class="art_title">
-														<h4>Guilty Looks</h4>
+														<h4>Brasky</h4>
 													</div>
 												</div>
 											</li>

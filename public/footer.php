@@ -3,22 +3,22 @@
 			<ul id="footerOptions">
 
 				<div class="footer_items_list">
-					<li class="cell-xs-6 cell-sm-4 cell-md-2"><a data-slide="slide" data-target="#contact-panel" href="#">Contact Artist</a></li>
+					<li class="cell-xs-6 cell-sm-4 cell-md-2 "><a class="" data-slide="slide" data-target="#contact-panel" href="#">Contact Artist</a></li>
 				</div>
 				<div class="footer_items_list">
-					<li class="cell-xs-6 cell-sm-4 cell-md-2"><a data-slide="slide" data-target="#en-panel" href="#">Newsletter</a></li>
+					<li class="cell-xs-6 cell-sm-4 cell-md-2"><a class="" data-slide="slide" data-target="#en-panel" href="#">Newsletter</a></li>
 				</div>
 				<div class="footer_items_list">
-					<li class="cell-xs-6 cell-sm-4 cell-md-2"><a href="/blogfront.php" target="_self">Blog</a></li>
+					<li class="cell-xs-6 cell-sm-4 cell-md-2"><a class="" href="/blogfront.php" target="_self">Blog</a></li>
 				</div>
 				<div class="footer_items_list">
-					<li class="cell-xs-6 cell-sm-4 cell-md-2"><a href="/workshops.php" target="_self">Events</a></li>
+					<li class="cell-xs-6 cell-sm-4 cell-md-2 "><a class="" href="/workshops.php" target="_self">Events</a></li>
 				</div>
 				<div class="footer_items_list">
-					<li class="cell-xs-6 cell-sm-4 cell-md-2"><a href="/collections.php" target="_self">Recent Works</a></li>
+					<li class="cell-xs-6 cell-sm-4 cell-md-2"><a class="" href="/collections.php" target="_self">Recent Works</a></li>
 				</div>
 				<div class="footer_items_list">
-					<li class="cell-xs-6 cell-sm-4 cell-md-2"><a href="#">Social Media</a></li>
+					<li class="cell-xs-6 cell-sm-4 cell-md-2"><a class="" href="#">Social Media</a></li>
 				</div>
 			</ul>
 	</div><!-- /footer -->

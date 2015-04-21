@@ -51,7 +51,7 @@
 								</div>
 								<div class="post_body">
 									<p>
-										<a href="/blog.php" target="_self"><img src="/images/blog2.jpg"></a>
+										<a href="/blog.php" target="_self"><img src="/images/w_circle.jpeg"></a>
 									</p>
 									<p>Google's Material Design is my favorite UI style for the moment. Read up on their design guide if you are not familiar with it. I added some ripple effects to my site! I have to give credit to Dominik Biedebach for the plug in.</p>
 									<a href="/blog.php" target="_self"><p class="blog_img_note">Vice News</p></a>

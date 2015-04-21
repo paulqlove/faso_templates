@@ -212,6 +212,7 @@ ul.imageGrid,
 .art_img img {
   margin: 0 2.5em 0 2.5em;
   padding: .25em 0 .25em 0;
+  min-width: 320px;
 }
 .art_piece_wrap {
   display: inline-block;
@@ -261,18 +262,16 @@ ul.imageGrid,
   -o-transform: rotate(0deg); 
 }
 .imageGrid img:hover {
-  -webkit-transform: scale(1.095);
+  /*-webkit-transform: scale(1.095);
   -moz-transform: scale(1.095);
   -ms-transform: scale(1.095);
-  transform: scale(1.095);
+  transform: scale(1.095);*/
 
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 
 }
-.art_piece_wrap:hover {
-  color: #fff;
-}
+
 .author span {
   color: #fa4b2a;
   font-weight: 800;
@@ -494,15 +493,23 @@ ul.imageGrid,
   letter-spacing: .25em;
   padding-bottom: 10px;
 }
+.current {
+  color: #fa4b2a !important;
+}
 
-
-.header: {
+.header {
   height: 80px;
- padding-top: 50px;
+padding-bottom: 20px;
   margin-bottom: 10px;
- border-bottom: 2px solid #f5f5f5;
- z-index: 1000;
+ /*border-bottom: 2px solid #f5f5f5;*/
+ /*z-index: 1000;*/
 
+}
+.header_logo {
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 3em;
+  letter-spacing: .38em;
 }
 .hidden {
   display: none !important;
@@ -1583,7 +1590,7 @@ span.searchbox input {
 #footerOptions li {
   list-style: none;
   font-size: 1.12em;
-  color: #fff !important;
+  color: #fff;
   transition: box-shadow 1s;
 
 }
@@ -1677,9 +1684,15 @@ a > #menu {
 }
 
 /**-------------------[ANIMATIONS]------------------------*/
-
+a:hover {
+  color: #fa4b2a !important;
+}
+#menuOptions > li {
+  transition: .7s;
+}
 #menuOptions > li:hover {
-  font-size: 3em;
+  
+  font-size: 1.5em;
   -webkit-transition: font-size .7s, -webkit-transform .7s;
 }
 
