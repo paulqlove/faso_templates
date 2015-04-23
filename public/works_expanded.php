@@ -10,7 +10,7 @@
 	<div class="container" id="main" data-role="page">
 			<?php include("header.php"); ?>
 			<i class="fa fa-arrow-circle-o-up fa-3x" id="go-to-top"></i>
-			<div class="single_work_expanded row">
+			<div class="single_work_expanded row" id="events_margin">
 				<div class="cell-md-4 purchase_button_desktop">
 					<div class="hidden-sm hidden-xs row no-gutters">
 						<div class=" cell-md-12 single_work_purchase">
