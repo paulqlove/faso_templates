@@ -10,7 +10,7 @@
 	<div class="container no-gutters" id="main" data-role="page">
 		<?php include("header.php"); ?>
 		<i class="fa fa-arrow-circle-o-up fa-2x" id="go-to-top"></i>
-			<div class="row no-gutters  ">
+			<div class="row no-gutters" id="events_margin">
 				<div class="cell-md-12 no-gutters">
 						<div class="cell-xs-12 cell-md-10 no-gutters events_workshop_container"> 
 							<div class="row no-gutters">

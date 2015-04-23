@@ -478,7 +478,7 @@ padding-bottom: 20px;
   font-weight: 100;
   font-size: 3em;
   letter-spacing: .38em;
-  padding-bottom: 10px;
+  padding-bottom: 0px;
 }
 .hidden {
   display: none !important;
@@ -1552,6 +1552,9 @@ span.searchbox input {
   text-align: center;
   text-transform: uppercase;
   font-weight: 700;
+}
+#events_margin {
+  margin-top: 10px;
 }
 #footerOptions li {
   margin-top: 1.25em;
