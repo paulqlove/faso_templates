@@ -116,13 +116,13 @@
 						<div class="row">
 							<div class="cell-md-12 " >
 								<div class="cell-md-12">
-									<a href="/workshop.php" target="_self">
+									<a href="/event.php" target="_self">
 										<h2 class="blog_widget_title">Painting for Hipsters</h2>
 									</a>
 								</div>
 								
 								<div class="cell-md-12">
-									<a href="/workshop.php" target="_self">
+									<a href="/event.php" target="_self">
 										<h2 class="blog_widget_title">Live show saturday</h2>
 									</a>
 								</div>
@@ -142,7 +142,7 @@
 					</div>
 				</div>
 			</div> <!-- /row -->
-	</div><!-- /container -->
+	</div><!--eventcontainer -->
 		<?php include("footer.php"); ?><!-- FOOTER -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 		<script type="text/javascript" src="/js/jquery.materialripple.js"></script>

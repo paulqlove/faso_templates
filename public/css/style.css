@@ -397,6 +397,7 @@ p.author {
   font-weight: 200;
   font-style: italic;
 }
+
 .events_list {
   display: inline-block;
   position: relative;
@@ -669,8 +670,9 @@ h2.post_title {
   margin-bottom: .25em;  
   padding: .8em;
 }
-.same_height h4 {
-  font-weight: 700;
+.same_height h4,
+.event_data h4 {
+  font-weight: 100;
   text-transform: uppercase;
 }
 .same_height h4,

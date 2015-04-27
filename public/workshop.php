@@ -15,18 +15,18 @@
 						<div class="cell-md-10 cell-lg-10">
 							<div class="row ">
 								<div class="cell-md-12">
-									<div class="cell-md-offset-2 event_container">
-										<div class="cell-md-12 event_data event_img">
+									<div class="cell-md-offset-2 ">
+										<div class="cell-md-12  event_img">
 											<img src="/images/workshop1.jpeg">
 										</div>
-										<div class="cell-md-12 no-gutters event_data event_title">
+										<div class="cell-md-12 no-gutters  event_title">
 											<h2>Painting for Hipsters</h2>
 										</div>
-										<div class="cell-xs-12 cell-sm-12 cell-md-8 event_data event_description">
+										<div class="cell-xs-12 cell-sm-12 cell-md-8  event_description">
 											<div class="row">
-												<div class="cell-xs-10 cell-md-11">
+												<div class="cell-xs-10 cell-md-11 event_data">
 													<a href="#">
-															<h2>Description:</h2>
+															<h4>Description:</h4>
 													</a>
 												</div>
 												<div class="cell-xs-2 cell-md-1">
@@ -159,18 +159,18 @@
 								</div><!-- /row -->
 
 								<div class="cell-md-12 blog_widget_side_title">
-									<a href="#" target="_self"><h3>UpComing Events</h3></a>
+									<a href="/events.php" target="_self"><h3>UpComing Events</h3></a>
 								</div>
 								<div class="row">
 									<div class="cell-md-12 " >
 										<div class="cell-md-12">
-											<a href="#" target="_self">
+											<a href="/event.php" target="_self">
 												<h2 class="blog_widget_title">Painting for Hipsters</h2>
 											</a>
 										</div>
 										
 										<div class="cell-md-12">
-											<a href="#" target="_self">
+											<a href="/event.php" target="_self">
 												<h2 class="blog_widget_title">Live show saturday</h2>
 											</a>
 										</div>

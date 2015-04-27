@@ -15,7 +15,7 @@
 						<div class="cell-md-10">
 							<div class="row ">
 								<div class="cell-md-12">
-									<div class="cell-md-offset-2 event_container">
+									<div class="cell-md-offset-2 ">
 										<div class="cell-md-12 event_data event_img">
 											<img src="/images/workshop1.jpeg">
 										</div>
@@ -26,7 +26,7 @@
 											<div class="row">
 												<div class="cell-xs-10 cell-md-11">
 													<a href="#">
-															<h2>Description:</h2>
+															<h4>Description:</h4>
 													</a>
 												</div>
 												<div class="cell-xs-2 cell-md-1">

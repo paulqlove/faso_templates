@@ -192,19 +192,19 @@
 										<div class="row">
 											<div class="cell-md-12 " >
 												<div class="cell-md-12">
-													<a href="/workshop.php" target="_self">
+													<a href="/blog.php" target="_self">
 														<h2 class="blog_widget_title">Dallas Web Jobs</h2>
 													</a>
 												</div>
 												
 												<div class="cell-md-12">
-													<a href="/workshop.php" target="_self">
+													<a href="/blog.php" target="_self">
 														<h2 class="blog_widget_title">Volunteer Art Classes</h2>
 													</a>
 												</div>
 												
 												<div class="cell-md-12">
-													<a href="/workshop.php" target="_self">
+													<a href="/blog.php" target="_self">
 														<h2 class="blog_widget_title">Road Trip to Deep Ellum Art Festival</h2>
 													</a>
 												</div>
@@ -212,18 +212,18 @@
 										</div><!-- /row -->
 
 										<div class="cell-md-12 blog_widget_side_title">
-											<a href="/events.php" target="_self"><h3>UpComing Events</h3></a>
+											<a href="#" target="_self"><h3>UpComing Events</h3></a>
 										</div>
 										<div class="row">
 											<div class="cell-md-12 " >
 												<div class="cell-md-12">
-													<a href="/workshop.php" target="_self">
+													<a href="/event.php" target="_self">
 														<h2 class="blog_widget_title">Painting for Hipsters</h2>
 													</a>
 												</div>
 												
 												<div class="cell-md-12">
-													<a href="/workshop.php" target="_self">
+													<a href="/event.php" target="_self">
 														<h2 class="blog_widget_title">Live show saturday</h2>
 													</a>
 												</div>
