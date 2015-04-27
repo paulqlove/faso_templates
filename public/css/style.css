@@ -2010,6 +2010,11 @@ input[type="submit"]:hover {
 .footer_items_list {
   display: inline-block;
 }
+.galleries_list .galleries:nth-child(odd) {
+  background-color: #ddd;
+  color: #777;
+  padding-top: 1.2em;
+}
 #gallery_margin {
     padding-bottom: 25px;
     margin-right: 1.2em;
