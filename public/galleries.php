@@ -78,7 +78,7 @@
 						<div class="row">
 							<div class="cell-xs-12 cell-sm-12 cell-md-12 searchbox">
 								<span class="cell-xs-6 cell-sm-6 cell-md-12">
-								 <input class="searchbox"  type="text" autofocus>
+								 <input class="searchbox"  type="text" >
 								</span>
 								 <!-- <i class="fa fa-search fa-large"></i> -->
 							</div>
@@ -167,7 +167,7 @@
 							<div class="cell-md-12 searchbox">
 								<div class="cell-xs-6 cell-sm-6 cell-md-9">
 									<span>
-									 <input class="searchbox"  type="text" autofocus>
+									 <input class="searchbox"  type="text" >
 									</span>
 								</div>
 								<div class="cell-xs-6 cell-sm-6 cell-md-3">

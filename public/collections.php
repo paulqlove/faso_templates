@@ -242,7 +242,7 @@
 						<div class="row">
 							<div class="cell-md-12 searchbox">
 								<span class="cell-md-12">
-								 <input class="searchbox"  type="text" autofocus>
+								 <input class="searchbox"  type="text" >
 								</span>
 								 <!-- <i class="fa fa-search fa-large"></i> -->
 							</div>
