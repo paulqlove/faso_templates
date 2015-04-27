@@ -291,7 +291,7 @@ p.author {
 }
 .blog_widget_title {
   font-size: .8em;
-  text-indent: .5em;
+  margin-left: .5em;
   font-weight: 400;
   padding-top: .5em;
   display: inline-block;
