@@ -73,14 +73,14 @@
 							</a>
 						</div>
 					</div>
+					<div class="row" id="comments">
 					<div class="cell-xs-12 cell-sm-12 cell-md-12" id="comments_margin">
-						<div class="row" id="comments">
-							<div class="cell-md-12">
+							<!-- <div class="cell-md-12"> -->
 								<div class="cell-xs-7 cell-sm-6 cell-md-8">
 									<h1 class="comments_count_bottom"><span >3 </span>Comments</h1>
 								</div>
 								
-							</div>
+							<!-- </div> -->
 						</div> <!-- /comments -->
 						<div class="row" >
 							<div class="cell-md-12">
@@ -204,7 +204,7 @@
 						<div class="cell-xs-12 cell-sm-12 cell-md-12 blog_widget_side_title">
 							<a href="/events.php"><h3>Related Posts</h3></a>
 						</div>
-						<div class="cell-md-offset-1">
+						<div class="cell-xs-12 cell-sm-12 cell-md-offset-1">
 							<div class="cell-md-12">
 								<a href="#" target="_self">
 									<h2 class="blog_widget_title">Dallas Web Jobs</h2>
@@ -227,7 +227,7 @@
 							<a href="/collections.php" target="_self"><h3>Recent Works</h3></a>
 						</div>
 						<div class="row">
-							<div class="cell-md-12 " id="recent_work_gallery">
+							<div class="cell-xs-12 cell-sm-12 cell-md-12 " id="recent_work_gallery">
 								<ul>
 									<li>
 										<a class="img_holder1" href="/works_expanded.php" target="_self">

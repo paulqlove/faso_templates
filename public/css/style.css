@@ -1808,6 +1808,9 @@ img.works_inq_img:hover,
   padding-top: 30px;
   text-align: center;
 }
+#main {
+  margin-bottom: 2.9em;
+}
 #menu,
 a > #menu {
   text-align: right;
