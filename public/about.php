@@ -26,6 +26,14 @@
 					</div> <!-- /cell-md-10 -->
 				</div> 
 				<div class="cell-xs-12 cell-sm-12 cell-md-offset-1 cell-md-3">
+					<div class="cell-xs-12 cell-sm-12 cell-md-12 blog_widget_side_title">
+						<h3>Search</h3>
+					</div>
+					<div class="cell-xs-12 cell-sm-12cell-md-offset-1">
+						<span class="cell-xs-6 cell-sm-6 searchbox">
+						 <input class="cell-xs-6 cell-sm-6  searchbox" type="text" >
+						</span>
+					</div>
 						<div class="cell-xs-12 cell-sm-12 cell-md-12 blog_widget_side_title">
 							<h3>Do</h3>	
 						</div>
@@ -59,13 +67,37 @@
 							</ul>
 						</div>
 						<div class="cell-xs-12 cell-sm-12 cell-md-12 blog_widget_side_title">
-							<h3>Search</h3>
+							<a href="/collections.php" target="_self"><h3>Recent Works</h3></a>
 						</div>
-						<div class="cell-xs-12 cell-sm-12cell-md-offset-1">
-							<span class="cell-xs-6 cell-sm-6 searchbox">
-							 <input class="cell-xs-6 cell-sm-6  searchbox" type="text" >
-							</span>
-						</div>
+						<div class="row">
+							<div class="cell-md-12 " id="recent_work_gallery">
+								<ul>
+									<li>
+										<a class="img_holder1" href="/works_expanded.php" target="_self">
+											
+										</a>
+
+									</li>
+									<li>
+										<a class="img_holder2" href="/works_expanded.php" target="_self">
+																		
+										</a>
+									</li>
+									<li>
+										<a class="img_holder3" href="/works_expanded.php" target="_self">
+																										
+										</a>
+									</li>
+									<li>
+										<a class="img_holder4" href="/works_expanded.php" target="_self">
+																			
+										</a>
+									</li>
+								</ul>
+							
+						</div> <!-- /recent worsk-->
+						</div> <!-- </row> -->
+						
 						<div class="cell-xs-12 cell-sm-12 cell-md-12 blog_widget_side_title">
 							<h3>Share</h3>
 						</div>

@@ -558,12 +558,62 @@ padding-bottom: 20px;
 .info_block {
   display: inline-block;
 }
-.img_holder {
+#recent_work_gallery {
+  display: inline-block;
+  margin-left: 20px;
+
+}
+.img_holder1 {
+  background: url(/images/464075w900.jpg) no-repeat;
  float: left;
- height: 88px;
- margin: 0 0.75em 0.75em .75em;
+ display: inline-block;
+ border-radius: 50%;
+ background-size: cover;
+ height: 5.2em;
+ margin: 0 0em 0.75em .35em;
  overflow: hidden;
- width: 88px;
+ width: 5.2em;
+ -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.img_holder2 {
+  background: url(/images/desert3.jpg) no-repeat;
+ float: left;
+ display: inline-block;
+ border-radius: 50%;
+ background-size: cover;
+ height: 5.2em;
+ margin: 0 0em 0.75em .55em;
+ overflow: hidden;
+ width: 5.2em;
+ -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.img_holder3 {
+  background: url(/images/desert1.jpg) no-repeat;
+ float: left;
+ display: inline-block;
+ border-radius: 50%;
+ background-size: cover;
+ height: 5.2em;
+ margin: 0 0em 0.75em .55em;
+ overflow: hidden;
+ width: 5.2em;
+ -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.img_holder4 {
+  background: url(/images/desert.jpg) no-repeat;
+ float: left;
+ display: inline-block;
+ border-radius: 50%;
+ background-size: cover;
+ height: 5.2em;
+ margin: 0 0em 0.75em .55em;
+ overflow: none;
+ width: 5.2em;
+ -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 .galleries {
   margin-top: 2em;
@@ -825,10 +875,16 @@ a.social_links  {
   margin-left: .75em;
   padding-top: 1.5px;
 }
-img.works_inq_img:hover{
-  -moz-box-shadow:  1.5px 2.5px 7px #888;
-  -webkit-box-shadow: 1.5px 2.5px 7px #888;
-  box-shadow: 1.5px 2.5px 7px #888;
+img.works_inq_img:hover,
+.img_holder1:hover,
+.img_holder2:hover,
+.img_holder3:hover,
+.img_holder4:hover{
+  -moz-box-shadow:  1.5px 2.5px 4px #888;
+  -webkit-box-shadow: 1.5px 2.5px 4px #888;
+  box-shadow: 1.5px 2.5px 4px #888;
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
 }
 /*.workshop_list {
   display: inline-block;

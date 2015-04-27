@@ -58,32 +58,32 @@
 						</div>
 						<div class="row">
 
-						<div class="cell-md-12 " >
-							<div class="cell-xs-3 cell-sm-3 cell-md-4 img_holder">
-								<a href="/works_expanded.php" target="_self">
-									<img src="/images/464075w900.jpg">
-								</a>
-							</div>
-							
-							<div class="cell-xs-3 cell-sm-3 cell-md-4 img_holder">
-								<a href="/works_expanded.php" target="_self">
-									<img src="/images/desert3.jpg">								
-								</a>
-							</div>
-							
-							<div class="cell-xs-3 cell-sm-3 cell-md-4 img_holder">
-								<a href="/works_expanded.php" target="_self">
-									<img src="/images/desert1.jpg">															
-								</a>
-							</div>
-							
-							<div class="cell-xs-3 cell-sm-3 cell-md-4 img_holder">
-								<a href="/works_expanded.php" target="_self">
-									<img src="/images/desert.jpg">								
-								</a>
-							</div>
-							
-							</div> <!-- /recent worsk-->
+						<div class="cell-md-12 " id="recent_work_gallery">
+							<ul>
+								<li>
+									<a class="img_holder1" href="/works_expanded.php" target="_self">
+										
+									</a>
+
+								</li>
+								<li>
+									<a class="img_holder2" href="/works_expanded.php" target="_self">
+																	
+									</a>
+								</li>
+								<li>
+									<a class="img_holder3" href="/works_expanded.php" target="_self">
+																									
+									</a>
+								</li>
+								<li>
+									<a class="img_holder4" href="/works_expanded.php" target="_self">
+																		
+									</a>
+								</li>
+							</ul>
+						
+					</div> <!-- /recent worsk-->
 						</div> <!-- </row> -->
 						<div class="cell-md-12 blog_widget_side_title">
 							<a href="/blogfront.php" target="_self"><h3>Recent Blog Entries</h3></a>

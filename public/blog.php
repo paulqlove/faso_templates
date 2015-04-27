@@ -223,6 +223,37 @@
 								</a>
 							</div>
 						</div>
+						<div class="cell-xs-12 cell-sm-12 cell-md-12 blog_widget_side_title">
+							<a href="/collections.php" target="_self"><h3>Recent Works</h3></a>
+						</div>
+						<div class="row">
+							<div class="cell-md-12 " id="recent_work_gallery">
+								<ul>
+									<li>
+										<a class="img_holder1" href="/works_expanded.php" target="_self">
+											
+										</a>
+
+									</li>
+									<li>
+										<a class="img_holder2" href="/works_expanded.php" target="_self">
+																		
+										</a>
+									</li>
+									<li>
+										<a class="img_holder3" href="/works_expanded.php" target="_self">
+																										
+										</a>
+									</li>
+									<li>
+										<a class="img_holder4" href="/works_expanded.php" target="_self">
+																			
+										</a>
+									</li>
+								</ul>
+							
+						</div> <!-- /recent worsk-->
+						</div> <!-- </row> -->
 						<div class="cell-xs-12 cell-sm-12  cell-md-12 blog_widget_side_title">
 							<h3>Join My Email list</h3>
 							<span>Updates, Latest Works, News</span>
