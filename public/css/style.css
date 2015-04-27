@@ -825,6 +825,11 @@ a.social_links  {
   margin-left: .75em;
   padding-top: 1.5px;
 }
+img.works_inq_img:hover{
+  -moz-box-shadow:  1.5px 2.5px 7px #888;
+  -webkit-box-shadow: 1.5px 2.5px 7px #888;
+  box-shadow: 1.5px 2.5px 7px #888;
+}
 /*.workshop_list {
   display: inline-block;
   position: relative;

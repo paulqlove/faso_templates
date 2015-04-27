@@ -40,7 +40,7 @@
 							<h3> Mother Beast</h3>
 						</div>
 						<div class="cell-md-12">
-							<img class="works_inq_img " src="/images/1184544w900.jpg">
+							<a href="/works_expanded.php"><img class="works_inq_img " src="/images/1184544w900.jpg"></a>
 						</div>
 						<div class="cell-md-12 blog_widget_side_title">
 							<h3>Search</h3>

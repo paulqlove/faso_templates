@@ -157,6 +157,16 @@
 		
 					<div class="row">
 				<div class="cell-sm-12  cell-md-3">
+					<div class="cell-xs-12 cell-sm-12  cell-md-12 blog_widget_side_title">
+						<h3>Search</h3>
+					</div>
+					<div class="row">
+						<div class="cell-xs-12 cell-sm-12 cell-md-12 searchbox">
+							<span class="cell-xs-6 cell-sm-6 cell-md-12">
+							 <input class="searchbox"  type="text" >
+							</span>
+						</div>
+					</div> <!-- /row -->
 						<div class="cell-xs-12 cell-sm-12  cell-md-12 blog_widget_side_title">
 							<h3>Archives</h3>
 						</div>
@@ -178,16 +188,7 @@
 								<a href="#"><li>Food</li></a>
 							</ul>
 						</div>
-						<div class="cell-xs-12 cell-sm-12  cell-md-12 blog_widget_side_title">
-							<h3>Search</h3>
-						</div>
-						<div class="row">
-							<div class="cell-xs-12 cell-sm-12 cell-md-12 searchbox">
-								<span class="cell-xs-6 cell-sm-6 cell-md-12">
-								 <input class="searchbox"  type="text" >
-								</span>
-							</div>
-						</div> <!-- /row -->
+						
 						<div class="cell-xs-12 cell-sm-12 cell-md-12 blog_widget_side_title">
 							<h3>Topics</h3>	
 						</div>
