@@ -213,6 +213,17 @@
 				</div><!-- /content -->
 				<div class="cell-xs-12 cell-sm-12 cell-md-2" id="collections_side_bar">
 					<div class="row">
+						<div class="cell-md-12 blog_widget_side_title">
+							<h3>Search</h3>
+						</div>
+						<div class="row">
+							<div class="cell-md-12 searchbox">
+								<span class="cell-md-12">
+								 <input class="searchbox"  type="text" >
+								</span>
+								 <!-- <i class="fa fa-search fa-large"></i> -->
+							</div>
+						</div> <!-- /row -->
 						<div class="cell-lg-12 blog_widget_side_title">
 							<h3>Archives</h3>
 						</div>
@@ -236,17 +247,7 @@
 							</ul>
 						</div>
 						</div>
-						<div class="cell-md-12 blog_widget_side_title">
-							<h3>Search</h3>
-						</div>
-						<div class="row">
-							<div class="cell-md-12 searchbox">
-								<span class="cell-md-12">
-								 <input class="searchbox"  type="text" >
-								</span>
-								 <!-- <i class="fa fa-search fa-large"></i> -->
-							</div>
-						</div> <!-- /row -->
+						
 						<div class="cell-md-12 blog_widget_side_title">
 							<a href="/collections.php" target="_self"><h3>Recent Works</h3></a>
 						</div>
@@ -323,6 +324,23 @@
 								
 							</div> <!-- /recent blog row -->
 						</div><!-- /row -->
+						<div class="cell-md-12 blog_widget_side_title">
+							<h3>Join My Email list</h3>
+							<span>Updates, Latest Works, News</span>
+						</div>
+						<div class="row">
+							<div class="cell-md-12 searchbox">
+								<div class="cell-xs-6 cell-sm-6 cell-md-9">
+									<span>
+									 <input class="searchbox"  type="text" >
+									</span>
+								</div>
+								<div class="cell-xs-6 cell-sm-6 cell-md-3">
+								<a href="#"> <i class="fa fa-plus-square-o fa-2x"></i></a>
+									
+								</div>
+							</div>
+						</div> <!-- /row -->
 						<div class="cell-md-12 blog_widget_side_title">
 							<h3>Share</h3>
 						</div>

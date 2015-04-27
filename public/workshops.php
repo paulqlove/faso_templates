@@ -115,7 +115,8 @@
 												 <!-- <i class="fa fa-search fa-large"></i> -->
 											</div>
 										</div> <!-- /row -->
-										<div class="cell-md-12 blog_widget_side_title">event				<h3>Archives</h3>
+										<div class="cell-md-12 blog_widget_side_title">			
+											<h3>Archives</h3>
 										</div>
 										<div class="cell-md-offset-1 widget_links">
 											<a href="#" target="_self"><h5>Feb 2015</h5></a>
