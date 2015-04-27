@@ -68,7 +68,7 @@ $(function() {
             $('html').removeClass('slide-active');
 
         }
-        	$('#nav-toggle').addClass('hidden');
+        	$('#nav-toggle').toggleClass('hidden');
         e.preventDefault();
     });
 
@@ -173,10 +173,10 @@ $(function() {
         $('.same_height').equalHeight();
        
     if($(window).width() > 768){
-        $('.we_div_height').equalHeight();
+        // $('.we_div_height').equalHeight();
         $('#artist_workshop').height($('#workshop_height').height());
         $('#artist_events').height($('#events_height').height());
-      
+        
     }
 
     /* --------------- .title inner wrapper --------------- */
@@ -209,7 +209,8 @@ $(function() {
             scrollTop: 0
         }, 800);
     });
-   
+    
+    
 
 }); // end doc ready
 

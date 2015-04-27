@@ -41,9 +41,9 @@
 							<h3>Search</h3>
 						</div>
 						<div class="row">
-							<div class="cell-md-12 searchbox">
-								<span class="cell-md-12">
-								 <input class="searchbox"  type="text">
+							<div class="cell-xs-12 cell-sm-12 cell-md-12 searchbox">
+								<span class="cell-xs-6 cell-sm-6 cell-md-12">
+								 <input class="cell-xs-6 cell-sm-6 searchbox"  type="text">
 								</span>
 								 <!-- <i class="fa fa-search fa-large"></i> -->
 							</div>
@@ -129,13 +129,13 @@
 							<span>Updates, Latest Works, News</span>
 						</div>
 						<div class="row">
-							<div class="cell-md-12 searchbox">
-								<div class="cell-md-9">
+							<div class="cell-xs-12 cell-sm-12 cell-md-12 searchbox">
+								<div class="cell-xs-6 cell-sm-6 cell-md-9">
 									<span>
 									 <input class="searchbox"  type="text">
 									</span>
 								</div>
-								<div class="cell-md-3">
+								<div class="cell-xs-6 cell-sm-6 cell-md-3">
 								<a href="#"> <i class="fa fa-plus-square-o fa-2x"></i></a>
 									
 								</div>

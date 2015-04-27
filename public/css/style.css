@@ -732,10 +732,10 @@ span .searchbox {
 
 .single_work_purchase ul  {
   
- margin-bottom: 0px;
+ margin-bottom: 1.5em;
 }
 .singleImage {
-  position: absolute;
+  /*position: absolute;*/
   right: 0px;
   max-width: 100%;
   height: auto;
@@ -749,6 +749,7 @@ span .searchbox {
   clear: both;
   margin: 0 2.5% 5% 2.5%; 
 }
+
 .single_work_purchase,
 .single_work_purchase li h3 {
   margin-left: 2em;
@@ -810,7 +811,7 @@ a.social_links  {
 }*/
 .widget_links h5 {
   font-weight: 400;
-  margin-left: 1.5em;
+  margin-left: .5em;
 }
 .works_inq_img {
    
@@ -1726,7 +1727,7 @@ a.social_links  {
 }
 #image_container {
   position: relative;
-  
+  right: 0px;
 }
 #landingBG .fa-bars {
   color: #fff;
@@ -1779,6 +1780,12 @@ a > #menu {
   top: 40%;
   left: 5px;
   z-index: 101;
+}
+#purchase_btn a h3 {
+  border-color: #888;
+}
+#purchase_btn a h3:hover {
+  border-color: #fa4b2a;
 }
 #next_image_button:hover,
 .bounce_it {
@@ -1840,6 +1847,12 @@ input[type="submit"]:hover {
     filter: saturate(130%) brightness(95%) blur(3px);
 }*/
 /**-------------------[MEDIA QUERIES]------------------------*/
+@media(min-width: 1820px) {
+  
+ .singleImage {
+    padding-left: 2em;
+  }
+}
 @media(max-width: 1200px){
   .purchase_button_desktop {
     position: relative;
@@ -1938,7 +1951,7 @@ input[type="submit"]:hover {
 }
 .image_info {
   text-align: left;
-  margin-top: 10%;
+  margin-top: 3%;
   
 
 }
@@ -1970,6 +1983,10 @@ input[type="submit"]:hover {
 }
 .single_work_purchase ul {
   text-align: center;
+}
+.single_work_purchase {
+ margin-left: auto;
+ margin-right: auto;
 }
 .purchase_button_desktop {
   padding-top: 0%;
@@ -2055,8 +2072,10 @@ input[type="submit"]:hover {
     writing-mode: horizontal-tb;
 }*/
 .single_work_purchase ul {
-    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 .slide-panel {
  
   margin-top: 0px;

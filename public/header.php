@@ -26,7 +26,7 @@
 						<div class="cell-md-6 cell-lg-8">
 							<nav id="nav" role="navigation">
 								<ul id="menuOptions">
-									<li><a href="/about.php" target="self">About the artist</a></li>
+									<li><a href="/about.php" target="_self">About the artist</a></li>
 									<li><a href="/articles.php" target="_self">Articles</a></li>
 									<li><a href="/contact_form.php" target="_self">Contact </a></li>
 									<li><a href="/galleries.php" target="_self">Galleries</a></li>

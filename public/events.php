@@ -126,22 +126,23 @@
 										<div class="cell-md-12 blog_widget_side_title">
 											<h3>Search</h3>
 										</div>
-											<div class="cell-md-12 searchbox">
-												<span class="cell-md-12">
+											<div class="cell-xs-12 cell-sm-6 cell-md-12 searchbox">
+												<span class="cell-xs-6 cell-sm-6">
 												 <input class="searchbox"  type="text" autofocus>
 												</span>
 												 <!-- <i class="fa fa-search fa-large"></i> -->
 											</div>
 										
-										<div class="cell-md-12 blog_widget_side_title">
-											<h3>Archives</h3>
-										</div>
-										<div class="cell-md-offset-2 widget_links">
-											<a href="#" target="_self"><h5>Feb 2015</h5></a>
-											<a href="#" target="_self"><h5>Jan 2015</h5></a>
-											<a href="#" target="_self"><h5>2014</h5></a>
-											<a href="#" target="_self"><h5>2013</h5></a>
-										</div>
+											<div class="cell-xs-12 cell-sm-12 cell-md-12 blog_widget_side_title">
+												<h3>Archives</h3>
+											</div>
+											<div class="cell-md-offset-1 widget_links">
+												<a href="#" target="_self"><h5>Feb 2015</h5></a>
+												<a href="#" target="_self"><h5>Jan 2015</h5></a>
+												<a href="#" target="_self"><h5>2014</h5></a>
+												<a href="#" target="_self"><h5>2013</h5></a>
+											</div>
+										
 										<div class="cell-md-12 blog_widget_side_title">
 											<h3>Categories</h3>	
 										</div>
@@ -235,12 +236,12 @@
 										</div>
 										<div class="row">
 											<div class="cell-md-12 searchbox">
-												<div class="cell-md-9">
+												<div class="cell-xs-6 cell-sm-6 cell-md-9">
 													<span>
 													 <input class="searchbox"  type="text" autofocus>
 													</span>
 												</div>
-												<div class="cell-md-3">
+												<div class="cell-xs-6 cell-sm-6 cell-md-3">
 												<a href="#"> <i class="fa fa-plus-square-o fa-2x"></i></a>
 													
 												</div>

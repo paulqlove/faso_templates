@@ -61,15 +61,15 @@
 						<div class="cell-xs-12 cell-sm-12 cell-md-12 blog_widget_side_title">
 							<h3>Search</h3>
 						</div>
-						<div class="cell-md-offset-1">
-							<span class="searchbox">
-							 <input class="searchbox" type="text" >
+						<div class="cell-xs-12 cell-sm-12cell-md-offset-1">
+							<span class="cell-xs-6 cell-sm-6 searchbox">
+							 <input class="cell-xs-6 cell-sm-6  searchbox" type="text" >
 							</span>
 						</div>
 						<div class="cell-xs-12 cell-sm-12 cell-md-12 blog_widget_side_title">
 							<h3>Share</h3>
 						</div>
-						<div class="cell-md-offset-1">
+						<div class="cell-xs-12 cell-sm-12 cell-md-offset-1">
 							<ul>
 								<li class="cell-md-4"><i class="fa fa-google-plus-square fa-2x"></i></li>
 								<li class="cell-md-4"><i class="fa fa-facebook-square fa-2x"></i></li>
