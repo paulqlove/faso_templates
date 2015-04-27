@@ -12,7 +12,7 @@
 			<i class="fa fa-arrow-circle-o-up fa-2x" id="go-to-top"></i>
 				<div class="row  ">
 					<div class="cell-md-12">
-						<div class="cell-md-10 cell-lg-10">
+						<div class="cell-md-10">
 							<div class="row ">
 								<div class="cell-md-12">
 									<div class="cell-md-offset-2 event_container">
@@ -96,7 +96,7 @@
 								<div class="row">
 									<div class="cell-md-12 searchbox">
 										<span class="cell-md-12">
-										 <input class="searchbox"  type="text" autofocus>
+										 <input class="searchbox"  type="text" >
 										</span>
 										 <!-- <i class="fa fa-search fa-large"></i> -->
 									</div>
@@ -159,18 +159,18 @@
 								</div><!-- /row -->
 
 								<div class="cell-md-12 blog_widget_side_title">
-									<a href="#" target="_self"><h3>UpComing Events</h3></a>
+									<a href="/events.php" target="_self"><h3>UpComing Events</h3></a>
 								</div>
 								<div class="row">
 									<div class="cell-md-12 " >
 										<div class="cell-md-12">
-											<a href="#" target="_self">
+											<a href="/workshop.php" target="_self">
 												<h2 class="blog_widget_title">Painting for Hipsters</h2>
 											</a>
 										</div>
 										
 										<div class="cell-md-12">
-											<a href="#" target="_self">
+											<a href="/workshop.php" target="_self">
 												<h2 class="blog_widget_title">Live show saturday</h2>
 											</a>
 										</div>
@@ -183,12 +183,12 @@
 								</div>
 								<div class="row">
 									<div class="cell-md-12 searchbox">
-										<div class="cell-sm-6 cell-md-9">
+										<div class="cell-md-9">
 											<span>
 											 <input class="searchbox"  type="text" autofocus>
 											</span>
 										</div>
-										<div class="cell-sm-6 cell-md-3">
+										<div class="cell-md-3">
 										<a href="#"> <i class="fa fa-plus-square-o fa-2x"></i></a>
 											
 										</div>

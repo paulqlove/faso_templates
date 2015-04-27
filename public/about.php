@@ -25,9 +25,9 @@
 					<div class="cell-xs-12 cell-sm-12 cell-md-10" id="comments_margin">
 					</div> <!-- /cell-md-10 -->
 				</div> 
-				<div class="hidden-xs hidden-sm cell-md-offset-1 cell-md-3">
-						<div class="cell-md-12">
-							<h1>Do</h1>	
+				<div class="cell-xs-12 cell-sm-12 cell-md-offset-1 cell-md-3">
+						<div class="cell-xs-12 cell-sm-12 cell-md-12 blog_widget_side_title">
+							<h3>Do</h3>	
 						</div>
 						<div class=" cell-md-12">
 							<ul class="style-list">
@@ -38,8 +38,8 @@
 								<li>Bacon</li>
 							</ul>
 						</div>
-							<div class="cell-md-12">
-							<h1>Don't</h1>	
+							<div class="cell-xs-12 cell-sm-12 cell-md-12 blog_widget_side_title">
+							<h3>Don't</h3>	
 						</div>
 						<div class=" cell-md-12">
 							<ul class="style-list">
@@ -48,8 +48,8 @@
 								<li>reality tv</li>
 							</ul>
 						</div>
-						<div class="cell-md-12">
-							<h1>Articles</h1>
+						<div class="cell-xs-12 cell-sm-12 cell-md-12 blog_widget_side_title">
+							<h3>Articles</h3>
 						</div>
 						<div class=" cell-md-12">
 							<ul class="style-list">
@@ -58,16 +58,16 @@
 								<li><a href="/articles.php" target="_self">2013</a></li>
 							</ul>
 						</div>
-						<div class="cell-md-12">
-							<h1>Search</h1>
+						<div class="cell-xs-12 cell-sm-12 cell-md-12 blog_widget_side_title">
+							<h3>Search</h3>
 						</div>
 						<div class="cell-md-offset-1">
 							<span class="searchbox">
-							 <input class="searchbox" type="text" ><i class="fa fa-search fa-large"></i>
+							 <input class="searchbox" type="text" >
 							</span>
 						</div>
-						<div class="cell-md-12">
-							<h1>Share</h1>
+						<div class="cell-xs-12 cell-sm-12 cell-md-12 blog_widget_side_title">
+							<h3>Share</h3>
 						</div>
 						<div class="cell-md-offset-1">
 							<ul>

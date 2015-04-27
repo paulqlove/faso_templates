@@ -71,38 +71,128 @@
 					</div> <!-- blog_summaries -->
 				</div>
 		
-				<div class="  cell-md-2">
+				<div class="cell-xs-12 cell-sm-12 cell-xs-12 cell-md-2">
 					<div class="row">
-						<div class="cell-md-12">
-							<h1>Articles</h1>
+						<div class="cell-xs-12 cell-sm-12 cell-md-12 blog_widget_side_title">
+							<h3>Archives</h3>
 						</div>
-						<div class="cell-xs-12 cell-sm-12 cell-md-12">
+						<div class="cell-md-offset-2 widget_links">
+							<a href="#" target="_self"><h5>Feb 2015</h5></a>
+							<a href="#" target="_self"><h5>Jan 2015</h5></a>
+							<a href="#" target="_self"><h5>2014</h5></a>
+							<a href="#" target="_self"><h5>2013</h5></a>
+						</div>
+						<div class="cell-xs-12 cell-sm-12 cell-md-12 blog_widget_side_title">
+							<h3>Categories</h3>	
+						</div>
+						<div class=" cell-md-12">
 							<ul class="style-list">
-								<li>2015</li>
-								<li>2014</li>
-								<li>2013</li>
+								<li>Code</li>
+								<li>Art</li>
+								<li>My Dog</li>
+								<li>Soccer</li>
+								<li>Food</li>
 							</ul>
 						</div>
-						<div class="cell-md-12">
-							<h1>Search</h1>
+						<div class="cell-xs-12 cell-sm-12 cell-md-12 blog_widget_side_title">
+							<h3>Search</h3>
 						</div>
-						<div class="cell-md-offset-1">
-							<span class="searchbox">
-							 <input class="searchbox" type="text" ><i class="fa fa-search fa-large"></i>
-							</span>
+						<div class="row">
+							<div class="cell-md-12 searchbox">
+								<span class="cell-md-12">
+								 <input class="searchbox"  type="text" autofocus>
+								</span>
+								 <!-- <i class="fa fa-search fa-large"></i> -->
+							</div>
+						</div> <!-- /row -->
+						<div class="cell-xs-12 cell-sm-12 cell-md-12 blog_widget_side_title">
+							<a href="/collections.php" target="_self"><h3>Recent Works</h3></a>
 						</div>
-						<div class="cell-md-12">
-							<h1>Share</h1>
+						<div class="row">
+
+						<div class="cell-md-12 " >
+							<div class="cell-md-4 img_holder">
+								<a href="/works_expanded.php" target="_self">
+									<img src="/images/464075w900.jpg">
+								</a>
+							</div>
+							
+							<div class="cell-md-4 img_holder">
+								<a href="/works_expanded.php" target="_self">
+									<img src="/images/desert3.jpg">								
+								</a>
+							</div>
+							
+							<div class="cell-md-4 img_holder">
+								<a href="/works_expanded.php" target="_self">
+									<img src="/images/desert1.jpg">															
+								</a>
+							</div>
+							
+							<div class="cell-md-4 img_holder">
+								<a href="/works_expanded.php" target="_self">
+									<img src="/images/desert.jpg">								
+								</a>
+							</div>
+							
+							</div> <!-- /recent worsk-->
+						</div> <!-- </row> -->
+						<div class="cell-xs-12 cell-sm-12 cell-md-12 blog_widget_side_title">
+							<a href="/blogfront.php" target="_self"><h3>Recent Blog Entries</h3></a>
+						</div>
+						<div class="row">
+							<div class="cell-md-12 " >
+								<div class="cell-md-12">
+									<a href="/blog.php" target="_self">
+										<h2 class="blog_widget_title">Dallas Web Jobs</h2>
+									</a>
+								</div>
+								
+								<div class="cell-md-12">
+									<a href="/blog.php" target="_self">
+										<h2 class="blog_widget_title">Volunteer Art Classes</h2>
+									</a>
+								</div>
+								
+								<div class="cell-md-12">
+									<a href="/blog.php" target="_self">
+										<h2 class="blog_widget_title">Road Trip to Deep Ellum Art Festival</h2>
+									</a>
+								</div>
+							</div> <!-- /recent blog row -->
+						</div><!-- /row -->
+
+						<div class="cell-md-12 blog_widget_side_title">
+							<a href="/events.php" target="_self"><h3>UpComing Events</h3></a>
+						</div>
+						<div class="row">
+							<div class="cell-md-12 " >
+								<div class="cell-md-12">
+									<a href="/workshop.php" target="_self">
+										<h2 class="blog_widget_title">Painting for Hipsters</h2>
+									</a>
+								</div>
+								
+								<div class="cell-md-12">
+									<a href="/workshop.php" target="_self">
+										<h2 class="blog_widget_title">Live show saturday</h2>
+									</a>
+								</div>
+								
+							</div> <!-- /recent blog row -->
+						</div><!-- /row -->
+						<div class="cell-xs-12 cell-sm-12 cell-md-12 blog_widget_side_title">
+							<h3>Share</h3>
 						</div>
 						<div class="cell-md-offset-1">
 							<ul>
-								<li class="cell-md-4"><i class="fa fa-google-plus-square fa-2x"></i></li>
-								<li class="cell-md-4"><i class="fa fa-facebook-square fa-2x"></i></li>
-								<li class="cell-md-4"><i class="fa fa-twitter-square fa-2x"></i></li>
+								<a href="#"><li class="cell-md-4"><i class="fa fa-google-plus-square fa-2x"></i></li></a>
+								<a href="#"><li class="cell-md-4"><i class="fa fa-facebook-square fa-2x"></i></li></a>
+								<a href="#"><li class="cell-md-4"><i class="fa fa-twitter-square fa-2x"></i></li></a>
 							</ul>
 						</div>
 					</div>
-				</div> 
+				</div>
 			</div> <!-- /row -->
 	</div><!-- /container -->
 		<?php include("footer.php"); ?><!-- FOOTER -->

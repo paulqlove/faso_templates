@@ -10,75 +10,45 @@
 	<div class="container" id="main" data-role="page">
 		<?php include("header.php"); ?>
 			<i class="fa fa-arrow-circle-o-up fa-3x" id="go-to-top"></i>
-			<div class="row no-gutters blog-content ">
-				<div class="cell-md-10">
-					<div class="galleries_title">
-						<h2>Galleries</h2>
+			<div class="row no-gutters  " id="content_top_margin">
+				<div class="container cell-md-9">
+					<div class="row">
+						<div class="cell-md-12">
+							
+							<form>
+							<h2 id="contact_title">Works Inquire</h2>
+								<div class="contact_msg cell-md-offset-3 cell-md-6">
+									
+									<input id="focusHere" type="text" name="fullname" placeholder="Name" autofocus>
+									
+									<input type="email" name="email" placeholder="Email">
+									
+									<input type="tel" name="contactnumber" placeholder="Phone">
+								
+									
+									<textarea name="message" maxlength="250" placeholder="Comments"></textarea>	
+									<input class="cell-md-4" type="submit">			
+								</div>
+							</form>
+						</div>
 					</div>
-					<div class="row">
-						<div class="cell-md-12 galleries_list">
-							<div class="cell-md-4 galleries">
-								<h2 class="">Artists of Texas</h2>
-								<p>Online</p>
-							</div>
-							
-							<div class="cell-md-4 galleries">
-								<h2 class="">Canadian River Art Gallery</h2>
-								<p>806-323-8250</p>
-								<p>Canadian Tx </p>
-							</div>
-							
-							<div class="cell-md-4 galleries">
-								<h2 class="">Contemporary Fine Arts International</h2>
-								<p>Online</p>							
-							</div>
-							
-							<div class="cell-md-4 galleries">
-								<h2 class="">Dutch Art Gallery</h2>
-								<p>NE Highlands</p>
-								<p>Dallas Texas </p>
-							</div>
-							
-							<div class="cell-md-4 galleries">
-								<h2 class="">Lunell Gilley Studio III</h2>
-								<p>806-418-1545</p>
-								<p>Open by Appointment</p>
-								<p>Amarillo Texas </p>
-							</div>
-							
-							<div class="cell-md-4 galleries">
-								<h2 class=""><a href="http://panhandleartcenter.com/" target="_blank">Panhandle Art Galleries</a></h2>
-								<p><a href="http://panhandleartcenter.com/" target="_blank">panhandleartcenter.com/</a></p>
-								<p>806-351-232</p>
-								<p>3701 Plains Boulevard-#135 (Sunset Center Mall)</p>
-								<p>Amarillo TX 79102</p>
-							</div>
-							
-							<div class="cell-md-4 galleries">
-								<h2 class="">The &quot;Texas&quot; musical Gift Shop</h2>	
-								<p>Palo Duro Canyon</p>
-								<p>Canyon Tx 79015</p>
-							</div>
-							
-							<div class="cell-md-4 galleries">
-								<h2 class=""><a href="http://www.thecoloyframeandgallery.com" target="_blank">The Colony Frame & Art Gallery</a></h2>
-								<p><a href="http://www.thecoloyframeandgallery.com" target="_blank">www.thecoloyframeandgallery.com</a></p>						
-								<p>2606 Wolflin Ave.</p>
-								<p>Amarillo Texas 79109</p>
-							</div>
-						</div> <!-- /galleries list -->
-					</div> <!-- row -->
-				</div> 
+				</div>
 		
-				<div class="cell-xs-12 cell-md-2 cell-lg-2">
+				<div class="cell-xs-12 cell-md-3">
 					<div class="row">
+						<div class="cell-md-12 blog_widget_side_title">
+							<h3> Mother Beast</h3>
+						</div>
+						<div class="cell-md-12">
+							<img class="works_inq_img " src="/images/1184544w900.jpg">
+						</div>
 						<div class="cell-md-12 blog_widget_side_title">
 							<h3>Search</h3>
 						</div>
 						<div class="row">
 							<div class="cell-md-12 searchbox">
 								<span class="cell-md-12">
-								 <input class="searchbox"  type="text" autofocus>
+								 <input class="searchbox"  type="text" >
 								</span>
 								 <!-- <i class="fa fa-search fa-large"></i> -->
 							</div>
@@ -160,23 +130,6 @@
 							</div> <!-- /recent blog row -->
 						</div><!-- /row -->
 						<div class="cell-md-12 blog_widget_side_title">
-							<h3>Join My Email list</h3>
-							<span>Updates, Latest Works, News</span>
-						</div>
-						<div class="row">
-							<div class="cell-md-12 searchbox">
-								<div class="cell-md-9">
-									<span>
-									 <input class="searchbox"  type="text" autofocus>
-									</span>
-								</div>
-								<div class="cell-md-3">
-								<a href="#"> <i class="fa fa-plus-square-o fa-2x"></i></a>
-									
-								</div>
-							</div>
-						</div> <!-- /row -->
-						<div class="cell-md-12 blog_widget_side_title">
 							<h3>Share</h3>
 						</div>
 						<div class="cell-md-offset-1">
@@ -188,9 +141,9 @@
 						</div>
 					</div>
 				</div>
-			</div> <!-- /row -->						
+			</div> <!-- /row -->
 	</div><!-- /container -->
-		<?php include("footer.php"); ?><!-- FOOTER -->					
+		<?php include("footer.php"); ?><!-- FOOTER -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 		<script type="text/javascript" src="/js/jquery.materialripple.js"></script>
 		<script type="text/javascript" src="/js/mobiledetect.js"></script>	
@@ -202,3 +155,4 @@
 
 
 
+	

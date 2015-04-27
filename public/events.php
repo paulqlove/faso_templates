@@ -13,26 +13,14 @@
 			<div class="row no-gutters blog-content ">
 				<div class="cell-md-10">
 					<div class="blog_summaries">
-						
 						<div class="post-container">
 							<div class="wrapper">
 								<div class="post_header">
-									<h2 class="post_title">Painting For Hipsters</h2>
-								</div>
-								<div class="post_body">									
-									<p>Google's Material Design is my favorite UI style for the moment. Read up on their design guide if you are not familiar with it. I added some ripple effects to my site! I have to give credit to Dominik Biedebach for the plug in.</p>
-									<a href="/workshop.php" target="_self"><p class="blog_img_note">More Details</p></a>
-								</div>
-							</div>
-						</div> <!-- post-container -->
-						<div class="post-container">
-							<div class="wrapper">
-								<div class="post_header">
-									<h2 class="post_title">Date Night</h2>
+									<h2 class="post_title">Deep Ellum Art Fair</h2>
 								</div>
 								<div class="post_body">
 									<p>
-										<a href="/workshop.php" target="_self"><img src="/images/e_gallery2.jpeg"></a>
+										<a href="/event.php" target="_self"><img src="/images/e_gallery1.jpeg"></a>										
 									</p>
 									<p>Google's Material Design is my favorite UI style for the moment. Read up on their design guide if you are not familiar with it. I added some ripple effects to my site! I have to give credit to Dominik Biedebach for the plug in.</p>
 									<a href="/workshop.php" target="_self"><p class="blog_img_note">More Details</p></a>
@@ -44,11 +32,11 @@
 						<div class="post-container">
 							<div class="wrapper">
 								<div class="post_header">
-									<h2 class="post_title">Learn how to hand paint</h2>
+									<h2 class="post_title">Ted Talk Tuesday</h2>
 								</div>
 								<div class="post_body">
 									<p>
-										<a href="/workshop.php" target="_self"><img src="/images/workshop1.jpeg"></a>
+										<a href="/event.php" target="_self"><img src="/images/e_gallery3.jpeg"></a>
 									</p>
 									<p>Google's Material Design is my favorite UI style for the moment. Read up on their design guide if you are not familiar with it. I added some ripple effects to my site! I have to give credit to Dominik Biedebach for the plug in.</p>
 									<a href="/workshop.php" target="_self"><p class="blog_img_note">More Details</p></a>
@@ -58,27 +46,11 @@
 						<div class="post-container">
 							<div class="wrapper">
 								<div class="post_header">
-									<h2 class="post_title">Paint and Hike</h2>
+									<h2 class="post_title">Volunteer Art Classes</h2>
 								</div>
 								<div class="post_body">
 									<p>
-										<a href="/workshop.php" target="_self"><img src="/images/workshop2.jpeg"></a>
-									</p>
-									<p>Google's Material Design is my favorite UI style for the moment. Read up on their design guide if you are not familiar with it. I added some ripple effects to my site! I have to give credit to Dominik Biedebach for the plug in.</p>
-									<a href="/workshop.php" target="_self"><p class="blog_img_note">More Details</p></a>
-								</div>
-							</div>
-						</div> <!-- post-container -->
-						
-						
-						<div class="post-container">
-							<div class="wrapper">
-								<div class="post_header">
-									<h2 class="post_title">Bob Ross Nature Painting </h2>
-								</div>
-								<div class="post_body">
-									<p>
-										<a href="/workshop.php" target="_self"><img src="/images/workshop5.jpeg"></a>
+										<a href="/event.php" target="_self"><img src="/images/e_gallery4.jpeg"></a>
 									</p>
 									<p>Google's Material Design is my favorite UI style for the moment. Read up on their design guide if you are not familiar with it. I added some ripple effects to my site! I have to give credit to Dominik Biedebach for the plug in.</p>
 									<a href="/workshop.php" target="_self"><p class="blog_img_note">More Details</p></a>
@@ -90,31 +62,77 @@
 						<div class="post-container">
 							<div class="wrapper">
 								<div class="post_header">
-									<h2 class="post_title">Date Night</h2>
+									<h2 class="post_title">Art Awards Show</h2>
 								</div>
 								<div class="post_body">
-									
+									<p>
+										<a href="/event.php" target="_self"><img src="/images/workshop3.jpeg"></a>
+									</p>
 									<p>Google's Material Design is my favorite UI style for the moment. Read up on their design guide if you are not familiar with it. I added some ripple effects to my site! I have to give credit to Dominik Biedebach for the plug in.</p>
 									<a href="/workshop.php" target="_self"><p class="blog_img_note">More Details</p></a>
 								</div>
 							</div>
 						</div> <!-- post-container -->
+						<div class="post-container">
+							<div class="wrapper">
+								<div class="post_header">
+									<h2 class="post_title">Food Art</h2>
+								</div>
+								<div class="post_body">
+									<p>
+										<a href="/event.php" target="_self"><img src="/images/workshop4.jpeg"></a>
+									</p>
+									<p>Google's Material Design is my favorite UI style for the moment. Read up on their design guide if you are not familiar with it. I added some ripple effects to my site! I have to give credit to Dominik Biedebach for the plug in.</p>
+									<a href="/workshop.php" target="_self"><p class="blog_img_note">More Details</p></a>
+								</div>
+							</div>
+						</div> <!-- post-container -->
+						
+						<div class="post-container">
+							<div class="wrapper">
+								<div class="post_header">
+									<h2 class="post_title">Art festivals</h2>
+								</div>
+								<div class="post_body">
+									<p>
+										<a href="/event.php" target="_self"><img src="/images/a_fest.jpg"></a>
+									</p>
+									<p>Google's Material Design is my favorite UI style for the moment. Read up on their design guide if you are not familiar with it. I added some ripple effects to my site! I have to give credit to Dominik Biedebach for the plug in.</p>
+									<a href="/workshop.php" target="_self"><p class="blog_img_note">More Details</p></a>
+								</div>
+							</div>
+						</div> <!-- post-container -->
+						<div class="post-container">
+							<div class="wrapper">
+								<div class="post_header">
+									<h2 class="post_title">Dallas Painters Club</h2>
+								</div>
+								<div class="post_body">
+									<p>
+										<a href="/event.php" target="_self"><img src="/images/workshop6.jpeg"></a>
+									</p>
+									<p>Google's Material Design is my favorite UI style for the moment. Read up on their design guide if you are not familiar with it. I added some ripple effects to my site! I have to give credit to Dominik Biedebach for the plug in.</p>
+									<a href="/workshop.php" target="_self"><p class="blog_img_note">More Details</p></a>
+								</div>
+							</div>
+						</div> <!-- post-container -->
+						
 					</div> <!-- blog_summaries -->
 				</div> 
 		
 				<div class="cell-xs-12 cell-md-2">
 									<div class="row">
+
 										<div class="cell-md-12 blog_widget_side_title">
 											<h3>Search</h3>
 										</div>
-										<div class="row">
 											<div class="cell-md-12 searchbox">
 												<span class="cell-md-12">
 												 <input class="searchbox"  type="text" autofocus>
 												</span>
 												 <!-- <i class="fa fa-search fa-large"></i> -->
 											</div>
-										</div> <!-- /row -->
+										
 										<div class="cell-md-12 blog_widget_side_title">
 											<h3>Archives</h3>
 										</div>
@@ -124,56 +142,54 @@
 											<a href="#" target="_self"><h5>2014</h5></a>
 											<a href="#" target="_self"><h5>2013</h5></a>
 										</div>
-											<div class="cell-md-12 blog_widget_side_title">
-												<h3>Categories</h3>	
-											</div>
-											<div class="cell-xs-12 cell-sm-12 cell-md-12">
-												<ul class="style-list">
-													<a class=" " href="/events.php" target="_self"><li class="">Events</li></a>
-													<a class=" " href="/workshops.php"><li class="">Workshops</li></a>
-													
-												</ul>
-											</div>
-										
-										<!-- <div class="row"> -->
-											
-
-												<div class="cell-xs-12 cell-sm-12 cell-md-12 blog_widget_side_title">
-													<a href="/collections.php" target="_self"><h3>Recent Works</h3></a>
-												</div>
-
-												<div class="cell-md-12 " >
-													<div class="cell-xs-3 cell-sm-3 cell-md-4 img_holder">
-														<a href="/works_expanded.php" target="_self">
-															<img src="/images/464075w900.jpg">
-														</a>
-													</div>
-													
-													<div class="cell-xs-3 cell-sm-3 cell-md-4 img_holder">
-														<a href="/works_expanded.php" target="_self">
-															<img src="/images/desert3.jpg">								
-														</a>
-													</div>
-													
-													<div class="cell-xs-3 cell-sm-3 cell-md-4 img_holder">
-														<a href="/works_expanded.php" target="_self">
-															<img src="/images/desert1.jpg">															
-														</a>
-													</div>
-													
-													<div class="cell-xs-3 cell-sm-3 cell-md-4 img_holder">
-														<a href="/works_expanded.php" target="_self">
-															<img src="/images/desert.jpg">								
-														</a>
-													</div>
+										<div class="cell-md-12 blog_widget_side_title">
+											<h3>Categories</h3>	
+										</div>
+										<div class=" cell-md-12">
+											<ul class="style-list">
+												<a class=" " href="/events.php"><li>Events</li></a>
+												<a class=" " href="/workshops.php"><li>Workshops</li></a>
 												
-												</div> <!-- /recent worsk-->
-										<!-- </div>  --><!-- </row> -->
+											</ul>
+										</div>
+										
 										<div class="cell-xs-12 cell-sm-12 cell-md-12 blog_widget_side_title">
+											<a href="/collections.php" target="_self"><h3>Recent Works</h3></a>
+										</div>
+										<div class="row">
+
+										<div class="cell-md-12 " >
+											<div class="cell-md-4 img_holder">
+												<a href="/works_expanded.php" target="_self">
+													<img src="/images/464075w900.jpg">
+												</a>
+											</div>
+											
+											<div class="cell-md-4 img_holder">
+												<a href="/works_expanded.php" target="_self">
+													<img src="/images/desert3.jpg">								
+												</a>
+											</div>
+											
+											<div class="cell-md-4 img_holder">
+												<a href="/works_expanded.php" target="_self">
+													<img src="/images/desert1.jpg">															
+												</a>
+											</div>
+											
+											<div class="cell-md-4 img_holder">
+												<a href="/works_expanded.php" target="_self">
+													<img src="/images/desert.jpg">								
+												</a>
+											</div>
+											
+											</div> <!-- /recent worsk-->
+										</div> <!-- </row> -->
+										<div class="cell-md-12 blog_widget_side_title">
 											<a href="/blogfront.php" target="_self"><h3>Recent Blog Entries</h3></a>
 										</div>
 										<div class="row">
-											<div class="cell-xs-12 cell-sm-12 cell-md-12 " >
+											<div class="cell-md-12 " >
 												<div class="cell-md-12">
 													<a href="/workshop.php" target="_self">
 														<h2 class="blog_widget_title">Dallas Web Jobs</h2>
