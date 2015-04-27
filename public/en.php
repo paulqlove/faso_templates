@@ -20,7 +20,7 @@
 									<h1>Sign Up for my Email Newsletter</h1>
 									<h5>Please complete the form below to sign up for my newsletter</h5>
 									<form>
-										<input type="email" name="email" placeholder="Email" autofocus>
+										<input type="email" name="email" placeholder="Email" >
 										<input id="focusHere" type="text" name="firstname" placeholder="First Name">
 										<input id="focusHere" type="text" name="lastname" placeholder="Last Name">
 										<div class="cell-md-12">
