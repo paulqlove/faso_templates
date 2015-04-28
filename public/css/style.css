@@ -1630,7 +1630,7 @@ img.works_inq_img:hover,
   right: 0;
   bottom: 0;
   overflow-y: hidden;
-  height: 125%;
+  height: 100%;
 }
 
 .slide-panel {
