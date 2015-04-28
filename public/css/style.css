@@ -90,11 +90,13 @@ summary {
 }
 
 html {
+
   height: auto;
   display: block;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
   overflow-x: hidden;
+  min-height: 100vh;
 }
 
 input {
@@ -109,9 +111,11 @@ body {
   font-family: 'Roboto', sans-serif; 
   color: #272727;
   font-size: 16px;
-  height: auto;
+  height: 100%;
+  min-height: 100vh;
   margin: 0;
   padding-bottom: 4em;
+
 }
 form {
   line-height: 3em;
@@ -2223,6 +2227,7 @@ input[type="submit"]:hover {
   }
 
 }
+
 @media (min-width: 1200px) {
   .hidden-lg {
     display: none !important;

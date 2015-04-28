@@ -11,7 +11,7 @@
 		<?php include("header.php"); ?>
 			<i class="fa fa-arrow-circle-o-up fa-3x" id="go-to-top"></i>
 			<div class="row no-gutters  " id="content_top_margin">
-				<div class="container cell-xs-12 cell-sm-offset-3 cell-sm-6 cell-md-9">
+				<div class="container cell-xs-12  cell-sm-6 cell-md-9">
 					<div class="row">
 						<div class="cell-md-12">
 							
