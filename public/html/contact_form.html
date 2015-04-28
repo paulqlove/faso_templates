@@ -10,103 +10,68 @@
 	<div class="container" id="main" data-role="page">
 		<?php include("header.php"); ?>
 			<i class="fa fa-arrow-circle-o-up fa-3x" id="go-to-top"></i>
-			<div class="row no-gutters blog-content ">
-				<div class="cell-xs-12 cell-sm-8 cell-md-8 cell-lg-9">
-					<div class="galleries_title">
-						<h2>Galleries</h2>
+			<div class="row no-gutters  " id="content_top_margin">
+				<div class="container cell-md-10">
+					<div class="row">
+						<div class="cell-md-12">
+							
+							<form>
+							<h2 id="contact_title">Contact the Artist</h2>
+								<div class="contact_msg cell-md-offset-3 cell-md-6">
+									
+									<input id="focusHere" type="text" name="fullname" placeholder="Name" autofocus>
+									
+									<input type="email" name="email" placeholder="Email">
+									
+									<input type="tel" name="contactnumber" placeholder="Phone">
+								
+									
+									<textarea name="message" maxlength="250" placeholder="Comments"></textarea>	
+									<input class="cell-md-4" type="submit">			
+								</div>
+							</form>
+						</div>
 					</div>
-					<div class="row">
-						<div class="cell-md-12 galleries_list">
-							<div class="cell-md-4 galleries">
-								<h2 class="">Artists of Texas</h2>
-								<p>Online</p>
-							</div>
-							
-							<div class="cell-md-4 galleries">
-								<h2 class="">Canadian River Art Gallery</h2>
-								<p>806-323-8250</p>
-								<p>Canadian Tx </p>
-							</div>
-							
-							<div class="cell-md-4 galleries">
-								<h2 class="">Contemporary Fine Arts International</h2>
-								<p>Online</p>							
-							</div>
-							
-							<div class="cell-md-4 galleries">
-								<h2 class="">Dutch Art Gallery</h2>
-								<p>NE Highlands</p>
-								<p>Dallas Texas </p>
-							</div>
-							
-							<div class="cell-md-4 galleries">
-								<h2 class="">Lunell Gilley Studio III</h2>
-								<p>806-418-1545</p>
-								<p>Open by Appointment</p>
-								<p>Amarillo Texas </p>
-							</div>
-							
-							<div class="cell-md-4 galleries">
-								<h2 class=""><a href="http://panhandleartcenter.com/" target="_blank">Panhandle Art Galleries</a></h2>
-								<p><a href="http://panhandleartcenter.com/" target="_blank">panhandleartcenter.com/</a></p>
-								<p>806-351-232</p>
-								<p>3701 Plains Boulevard-#135 (Sunset Center Mall)</p>
-								<p>Amarillo TX 79102</p>
-							</div>
-							
-							<div class="cell-md-4 galleries">
-								<h2 class="">The &quot;Texas&quot; musical Gift Shop</h2>	
-								<p>Palo Duro Canyon</p>
-								<p>Canyon Tx 79015</p>
-							</div>
-							
-							<div class="cell-md-4 galleries">
-								<h2 class=""><a href="http://www.thecoloyframeandgallery.com" target="_blank">The Colony Frame & Art Gallery</a></h2>
-								<p><a href="http://www.thecoloyframeandgallery.com" target="_blank">www.thecoloyframeandgallery.com</a></p>						
-								<p>2606 Wolflin Ave.</p>
-								<p>Amarillo Texas 79109</p>
-							</div>
-						</div> <!-- /galleries list -->
-					</div> <!-- row -->
-				</div> 
+				</div>
 		
-				<div class="cell-xs-12 cell-sm-4 cell-md-4 cell-lg-3">
+				<div class="cell-xs-12 cell-md-2">
 					<div class="row">
+						
 						<div class="cell-md-12 blog_widget_side_title">
 							<h3>Search</h3>
 						</div>
 						<div class="row">
 							<div class="cell-xs-12 cell-sm-12 cell-md-12 searchbox">
 								<span class="cell-xs-6 cell-sm-6 cell-md-12">
-								 <input class="searchbox"  type="text" >
+								 <input class="cell-xs-6 cell-sm-6 searchbox"  type="text">
 								</span>
 								 <!-- <i class="fa fa-search fa-large"></i> -->
 							</div>
 						</div> <!-- /row -->
 						<div class="cell-xs-12 cell-sm-12 cell-md-12 blog_widget_side_title">
-							<a href="/collections.php" target="_self"><h3>Recent Works</h3></a>
+							<a href="/html/collections.html" target="_self"><h3>Recent Works</h3></a>
 						</div>
 						<div class="row">
 							<div class="cell-md-12 " id="recent_work_gallery">
 								<ul>
 									<li>
-										<a class="img_holder1" href="/works_expanded.php" target="_self">
+										<a class="img_holder1" href="/html/works_expanded.html" target="_self">
 											
 										</a>
 
 									</li>
 									<li>
-										<a class="img_holder2" href="/works_expanded.php" target="_self">
+										<a class="img_holder2" href="/html/works_expanded.html" target="_self">
 																		
 										</a>
 									</li>
 									<li>
-										<a class="img_holder3" href="/works_expanded.php" target="_self">
+										<a class="img_holder3" href="/html/works_expanded.html" target="_self">
 																										
 										</a>
 									</li>
 									<li>
-										<a class="img_holder4" href="/works_expanded.php" target="_self">
+										<a class="img_holder4" href="/html/works_expanded.html" target="_self">
 																			
 										</a>
 									</li>
@@ -115,24 +80,24 @@
 						</div> <!-- /recent worsk-->
 						</div> <!-- </row> -->
 						<div class="cell-md-12 blog_widget_side_title">
-							<a href="/blogfront.php" target="_self"><h3>Recent Blog Entries</h3></a>
+							<a href="/html/blogfront.html" target="_self"><h3>Recent Blog Entries</h3></a>
 						</div>
 						<div class="row">
 							<div class="cell-md-12 " >
 								<div class="cell-md-12">
-									<a href="/blog.php" target="_self">
+									<a href="/html/blog.html" target="_self">
 										<h2 class="blog_widget_title">Dallas Web Jobs</h2>
 									</a>
 								</div>
 								
 								<div class="cell-md-12">
-									<a href="/blog.php" target="_self">
+									<a href="/html/blog.html" target="_self">
 										<h2 class="blog_widget_title">Volunteer Art Classes</h2>
 									</a>
 								</div>
 								
 								<div class="cell-md-12">
-									<a href="/blog.php" target="_self">
+									<a href="/html/blog.html" target="_self">
 										<h2 class="blog_widget_title">Road Trip to Deep Ellum Art Festival</h2>
 									</a>
 								</div>
@@ -140,18 +105,18 @@
 						</div><!-- /row -->
 
 						<div class="cell-md-12 blog_widget_side_title">
-							<a href="/events.php" target="_self"><h3>UpComing Events</h3></a>
+							<a href="/html/events.html" target="_self"><h3>UpComing Events</h3></a>
 						</div>
 						<div class="row">
 							<div class="cell-md-12 " >
 								<div class="cell-md-12">
-									<a href="/workshop.php" target="_self">
+									<a href="/html/event.html" target="_self">
 										<h2 class="blog_widget_title">Painting for Hipsters</h2>
 									</a>
 								</div>
 								
 								<div class="cell-md-12">
-									<a href="/workshop.php" target="_self">
+									<a href="/html/event.html" target="_self">
 										<h2 class="blog_widget_title">Live show saturday</h2>
 									</a>
 								</div>
@@ -163,10 +128,10 @@
 							<span>Updates, Latest Works, News</span>
 						</div>
 						<div class="row">
-							<div class="cell-md-12 searchbox">
+							<div class="cell-xs-12 cell-sm-12 cell-md-12 searchbox">
 								<div class="cell-xs-6 cell-sm-6 cell-md-9">
 									<span>
-									 <input class="searchbox"  type="text" >
+									 <input class="searchbox"  type="text">
 									</span>
 								</div>
 								<div class="cell-xs-6 cell-sm-6 cell-md-3">
@@ -187,12 +152,18 @@
 						</div>
 					</div>
 				</div>
-			</div> <!-- /row -->						
+			</div> <!-- /row -->
 	</div><!-- /container -->
-		<?php include("footer.php"); ?><!-- FOOTER -->					
+		<?php include("footer.php"); ?><!-- FOOTER -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 		<script type="text/javascript" src="/js/jquery.materialripple.js"></script>
 		<script type="text/javascript" src="/js/mobiledetect.js"></script>	
 		<script type="text/javascript" src="/js/main.js"></script>
 </body>
 </html>
+
+
+
+
+
+	

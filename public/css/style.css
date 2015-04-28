@@ -486,16 +486,22 @@ p.author {
 }
 .faso_link h5,
 .faso_link a {
+  padding: .1em 0 .1em 0;
   color: #fff;
+  font-size: .85em;
+}
+.faso_link a {
+  font-weight: 100;
+  font-size: .82
 }
 .footer {
 
-  position: fixed;
+  position: absolute;
   text-align: center;
   background-color: #272727;
   width: 100%;
-  max-height: auto;
-  display: inline-block;
+  max-height: 120px;
+  /*display: inline-block;*/
   bottom: 0px;
   font-size: .82em;
   text-transform: uppercase;
@@ -1638,8 +1644,8 @@ img.works_inq_img:hover,
   margin-top: 0px;
 }
 .slide-panel-footer {
-  position: fixed;
-  padding: 0px 0;
+  position: absolute;
+  padding: 0px 0px;
   color: #f7f7f7;
   background: #272727;
   bottom: "";
@@ -1651,7 +1657,7 @@ img.works_inq_img:hover,
   overflow: auto;
   border-style: none;
   opacity: .8;
-  margin-top: 0px;
+  
 }
  #contact-panel {
     opacity: 1; 
@@ -1758,9 +1764,10 @@ img.works_inq_img:hover,
   margin-top: 10px;
 }
 #footerOptions li {
-  margin-top: 1.25em;
-  padding-bottom: .5em;
+  margin-top: 1.1em;
+  padding-top: .1em;
 }
+
 #footerOptions,
 #footerOptions a,
 #footerOptions li {
@@ -1801,7 +1808,7 @@ img.works_inq_img:hover,
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-  overflow-y: hidden;
+  overflow-y: scroll;
 }
 #logo {
   height: 80px;
@@ -2000,16 +2007,16 @@ input[type="submit"]:hover {
 
 
 .footer {
- white-space: nowrap;
-  overflow-y: hidden;
-  overflow-x: scroll;
+ /*white-space: nowrap;*/
+  overflow-y: scroll;
+  overflow-x: hidden;
   padding-bottom: 1.5em;
   z-index: 101;
-  -webkt-overflow-scrolling: touch;
+  /*-webkt-overflow-scrolling: touch;*/
 }
-.footer_items_list {
+/*.footer_items_list {
   display: inline-block;
-}
+}*/
 .galleries_list .galleries:nth-child(odd) {
   background-color: #ddd;
   color: #777;
@@ -2196,16 +2203,16 @@ input[type="submit"]:hover {
   display: none !important;
 }
 .footer {
-  white-space: nowrap;
-  overflow-y: hidden;
-  overflow-x: scroll;
+  /*white-space: nowrap;*/
+  overflow-y: scroll;
+  overflow-x: hidden;
   padding-bottom: 1.5em;
   z-index: 101;
-  -webkt-overflow-scrolling: touch;
+  /*-webkt-overflow-scrolling: touch;*/
 }
-.footer_items_list {
+/*.footer_items_list {
   display: inline-block;
-}
+}*/
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   .hidden-md {
