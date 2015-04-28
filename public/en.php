@@ -11,7 +11,7 @@
 		<?php include("header.php"); ?>
 			<i class="fa fa-arrow-circle-o-up fa-3x" id="go-to-top"></i>
 			<div class="row no-gutters  " id="content_top_margin">
-				<div class="container cell-md-10">
+				<div class="container cell-xs-12 cell-sm-6 cell-md-9">
 					<div class="row">
 						<div class="cell-md-12">
 							
@@ -37,51 +37,50 @@
 					</div>
 				</div> <!-- /container -->
 		
-				<div class="cell-xs-12 cell-md-2">
+				<div class="cell-xs-12 cell-sm-6 cell-md-3">
 					<div class="row">
 						
 						<div class="cell-md-12 blog_widget_side_title">
 							<h3>Search</h3>
 						</div>
 						<div class="row">
-							<div class="cell-md-12 searchbox">
-								<span class="cell-md-12">
-								 <input class="searchbox"  type="text" >
+							<div class="cell-xs-12 cell-sm-12 cell-md-12 searchbox">
+								<span class="cell-xs-6 cell-sm-6 cell-md-12">
+								 <input class="cell-xs-6 cell-sm-6 searchbox"  type="text">
 								</span>
 								 <!-- <i class="fa fa-search fa-large"></i> -->
 							</div>
 						</div> <!-- /row -->
-						<div class="cell-md-12 blog_widget_side_title">
+						<div class="cell-xs-12 cell-sm-12 cell-md-12 blog_widget_side_title">
 							<a href="/collections.php" target="_self"><h3>Recent Works</h3></a>
 						</div>
 						<div class="row">
+							<div class="cell-md-12 " id="recent_work_gallery">
+								<ul>
+									<li>
+										<a class="img_holder1" href="/works_expanded.php" target="_self">
+											
+										</a>
 
-						<div class="cell-md-12 " >
-							<div class="cell-md-4 img_holder">
-								<a href="/works_expanded.php" target="_self">
-									<img src="/images/464075w900.jpg">
-								</a>
-							</div>
+									</li>
+									<li>
+										<a class="img_holder2" href="/works_expanded.php" target="_self">
+																		
+										</a>
+									</li>
+									<li>
+										<a class="img_holder3" href="/works_expanded.php" target="_self">
+																										
+										</a>
+									</li>
+									<li>
+										<a class="img_holder4" href="/works_expanded.php" target="_self">
+																			
+										</a>
+									</li>
+								</ul>
 							
-							<div class="cell-md-4 img_holder">
-								<a href="/works_expanded.php" target="_self">
-									<img src="/images/desert3.jpg">								
-								</a>
-							</div>
-							
-							<div class="cell-md-4 img_holder">
-								<a href="/works_expanded.php" target="_self">
-									<img src="/images/desert1.jpg">															
-								</a>
-							</div>
-							
-							<div class="cell-md-4 img_holder">
-								<a href="/works_expanded.php" target="_self">
-									<img src="/images/desert.jpg">								
-								</a>
-							</div>
-							
-							</div> <!-- /recent worsk-->
+						</div> <!-- /recent worsk-->
 						</div> <!-- </row> -->
 						<div class="cell-md-12 blog_widget_side_title">
 							<a href="/blogfront.php" target="_self"><h3>Recent Blog Entries</h3></a>
@@ -114,19 +113,36 @@
 						<div class="row">
 							<div class="cell-md-12 " >
 								<div class="cell-md-12">
-									<a href="/workshop.php" target="_self">
+									<a href="/event.php" target="_self">
 										<h2 class="blog_widget_title">Painting for Hipsters</h2>
 									</a>
 								</div>
 								
 								<div class="cell-md-12">
-									<a href="/workshop.php" target="_self">
+									<a href="/event.php" target="_self">
 										<h2 class="blog_widget_title">Live show saturday</h2>
 									</a>
 								</div>
 								
 							</div> <!-- /recent blog row -->
 						</div><!-- /row -->
+						<div class="cell-md-12 blog_widget_side_title">
+							<h3>Join My Email list</h3>
+							<span>Updates, Latest Works, News</span>
+						</div>
+						<div class="row">
+							<div class="cell-xs-12 cell-sm-12 cell-md-12 searchbox">
+								<div class="cell-xs-6 cell-sm-6 cell-md-9">
+									<span>
+									 <input class="searchbox"  type="text">
+									</span>
+								</div>
+								<div class="cell-xs-6 cell-sm-6 cell-md-3">
+								<a href="#"> <i class="fa fa-plus-square-o fa-2x"></i></a>
+									
+								</div>
+							</div>
+						</div> <!-- /row -->
 						<div class="cell-md-12 blog_widget_side_title">
 							<h3>Share</h3>
 						</div>
@@ -150,6 +166,3 @@
 </html>
 
 
-<div class="slide-panel" id="en-panel">
-	
-</div> <!-- /slide-panel -->

@@ -28,6 +28,7 @@
 								<ul id="menuOptions">
 									<li><a href="/about.php" target="_self">About the artist</a></li>
 									<li><a href="/articles.php" target="_self">Articles</a></li>
+									<li><a href="/en.php" target="_self">Newsletter</a></li>
 									<li><a href="/contact_form.php" target="_self">Contact </a></li>
 									<li><a href="/galleries.php" target="_self">Galleries</a></li>
 									<li><a href="/blogfront.php" target="_self">Blog</a></li>

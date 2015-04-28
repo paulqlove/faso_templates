@@ -1752,7 +1752,7 @@ img.works_inq_img:hover,
 }
 #contact_title, 
 .email_news_form h1{
-  
+  padding-top: .5em;
   text-align: center;
   text-transform: uppercase;
   font-weight: 100;
