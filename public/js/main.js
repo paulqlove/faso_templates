@@ -34,7 +34,15 @@ return this;};$.fn.detectGridColumns=function(){var offset=0,cols=0;this.each(fu
 $(window).bind('resize load',syncHeights);syncHeights();return this;};})(jQuery);
 
      
+// var footerPosition = $('.footer').offset();
+// var footerTop = footerPosition.top;
+//     console.log(footerTop +' from the top');
+// var bottomSlider = $('.footer').height();
+//     console.log(bottomSlider + ' height of footer');    
 
+// var ch_social_pos = footerTop - bottomSlider;
+//     console.log(ch_social_pos);
+// $('.slide-panel-footer').css("top",ch_social_pos);
 $(function() {
     var bottomSlider = $('.footer').height();
     $('.slide-panel-footer').css("bottom",bottomSlider);
@@ -87,7 +95,9 @@ $(function() {
         e.preventDefault();
     });
  
-
+    $('#color_footer_rbutton').click(function(e){
+        $("#social_icons").removeClass('open');
+    });
     // indicate what panel you're on when you've clicked inside a panel to another panel
     $('.slide-panel .signin-toggle').click(function(e) {
          $('.header-btn.signin-toggle').toggleClass('active-slide-btn');
