@@ -94,6 +94,7 @@ html {
   display: block;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
+  overflow-x: hidden;
 }
 
 input {
@@ -1774,7 +1775,7 @@ img.works_inq_img:hover,
   list-style: none;
   font-size: 1.12em;
   color: #fff;
-  transition: box-shadow 1s;
+  /*transition: box-shadow 1s;*/
 
 }
 
@@ -1804,11 +1805,13 @@ img.works_inq_img:hover,
   color: #fff;
 }
 #landingBG {
-  background-image: url(/images/long-horn-bull.jpg);
+  background-image: url(/images/long-horn-bull.png);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-  overflow-y: scroll;
+
+  
+  
 }
 #logo {
   height: 80px;

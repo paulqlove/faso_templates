@@ -11,7 +11,7 @@
 		<?php include("header.php"); ?>
 			<i class="fa fa-arrow-circle-o-up fa-3x" id="go-to-top"></i>
 			<div class="row no-gutters  " id="content_top_margin">
-				<div class="container cell-xs-12 cell-sm-6 cell-md-9">
+				<div class="container cell-xs-12 cell-sm-offset-3 cell-sm-6 cell-md-9">
 					<div class="row">
 						<div class="cell-md-12">
 							
@@ -37,7 +37,7 @@
 					</div>
 				</div> <!-- /container -->
 		
-				<div class="cell-xs-12 cell-sm-6 cell-md-3">
+				<div class="cell-xs-12 cell-sm-12 cell-md-3">
 					<div class="row">
 						
 						<div class="cell-md-12 blog_widget_side_title">
@@ -156,8 +156,8 @@
 					</div>
 				</div>
 			</div> <!-- /row -->
-	</div><!-- /container -->
 		<?php include("footer.php"); ?><!-- FOOTER -->
+	</div><!-- /container -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 		<script type="text/javascript" src="/js/jquery.materialripple.js"></script>
 		<script type="text/javascript" src="/js/mobiledetect.js"></script>	
