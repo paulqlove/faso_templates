@@ -1630,7 +1630,7 @@ img.works_inq_img:hover,
   right: 0;
   bottom: 0;
   overflow-y: hidden;
-  height: 100%;
+  height: 125%;
 }
 
 .slide-panel {
@@ -1836,7 +1836,7 @@ a > #menu {
 
 #menuOptions {
   list-style: none;
-  font-size: 2em;
+  font-size: 2.1em;
   text-transform: uppercase;
   font-weight: 100;
   color: #fff;
