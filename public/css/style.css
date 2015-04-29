@@ -1811,6 +1811,7 @@ img.works_inq_img:hover,
   right: 5%;
   bottom: 20%;
   z-index: 2000;
+  opacity: .5;
 }
 #go-to-top:hover {
   -webkit-transform: scale(1.095);
