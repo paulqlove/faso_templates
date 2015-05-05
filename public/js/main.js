@@ -158,6 +158,15 @@ $(function() {
           $(this).addClass("current");
         };
     });
+     /* --------------- HIDE THE SIDEBAR FOR HOME PAGE AND WORKS_ZOOM  FILES --------------- */
+   if(path == '/works_zoom.html' || path == '/home.html'){
+        $(function(){
+    $('#sidebar').addClass('hidden');
+   })
+    console.log('it worked');
+   } else {
+
+   }
 
     $('.purchase_button_desktop').mouseenter(function(){
         $('i#prev_image_button').fadeIn().removeClass('hidden');
