@@ -2,7 +2,10 @@ $(document).on("pageshow", "[data-role='page']", function () {
  $('div.ui-loader').hide();
 
 });
-
+$(window).load(function() {
+        
+        $(".pre-load").fadeOut("slow");
+    });
 /* ============================ TOC ==============================
  IOS 8 Bug Fix  
  SUPPORTS TOUCH OR NOT for IOS, Android, and Windows Mobile 
@@ -164,9 +167,7 @@ $(function() {
     $('#sidebar').addClass('hidden');
    })
     console.log('it worked');
-   } else {
-
-   }
+   } 
 
     $('.purchase_button_desktop').mouseenter(function(){
         $('i#prev_image_button').fadeIn().removeClass('hidden');
