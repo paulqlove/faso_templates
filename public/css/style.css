@@ -148,14 +148,15 @@ a.tooltip.ui-link {
     
     background: #fa4b2a;
     opacity: .8;
-    bottom: 3em;
+    bottom: 4.5em;
     color: #fff;
     content: attr(title);
-    left: 20%;
-    padding: 15px 15px;
+    left: 15%;
+    padding: 15px 5px;
     position: absolute;
     z-index: 98;
-    width: 80%;
+    width: 85%;
+    font-size: .7em;
 }
 
 form {
@@ -345,6 +346,7 @@ p.author {
   padding-top: .5em;
   display: inline-block;
 }
+
 .blog_widget_side_title h3 {
   font-size: 1.18em;
   text-transform: uppercase;
@@ -745,9 +747,13 @@ h2.post_title {
    text-transform: uppercase;
    /*color: #888;*/
    font-weight: 400;
+
+}
+.post_body {
+  max-width: 95%;
 }
 .post_body img {
-  max-width: 300px;
+  max-width: 240px;
   min-width: 225px;
 }
 .post_body img:hover {
@@ -763,6 +769,9 @@ h2.post_title {
   border-width: 5px;
   border-color: #fff;
   
+}
+.post_header {
+  max-width: 95%;
 }
 .pre-load {
   background-color: #FFF;
@@ -940,7 +949,7 @@ a.social_links  {
 }
 .works_inq_img {
    
-  max-width: 40%;
+  max-width: 50%;
   height: auto;
   width: auto\9; /* IE8 */
 
@@ -2158,6 +2167,10 @@ input[type="submit"]:hover {
     column-count: 2;
     column-gap: 5px;
 }
+.post_body img {
+  max-width: 200px;
+  min-width: 125px;
+}
 
 .single_work_expanded {
   
@@ -2242,7 +2255,7 @@ input[type="submit"]:hover {
     column-gap: 5px;
 }
 .imageGrid {
-  padding-right: 1.2em;
+  padding-right: 2em;
   display: inline-block;
 }
 .comments_count_bottom {
@@ -2278,6 +2291,11 @@ input[type="submit"]:hover {
   -ms--webkit-writing-mode: horizontal-tb;
     writing-mode: horizontal-tb;
 }*/
+.post_body img {
+  max-width: 300px;
+  min-width: 225px;
+}
+
 .single_work_purchase ul {
     margin-left: auto;
     margin-right: auto;
@@ -2314,6 +2332,12 @@ input[type="submit"]:hover {
     z-index: 105px;
     visibility: visible;
     display: block;
+  }
+  .tooltip:hover:after{
+      position: absolute;
+      width: 75%;  
+      
+      font-size: .7em;
   }
 }
 

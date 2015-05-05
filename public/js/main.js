@@ -162,12 +162,28 @@ $(function() {
         };
     });
      /* --------------- HIDE THE SIDEBAR FOR HOME PAGE AND WORKS_ZOOM  FILES --------------- */
+   
    if(path == '/works_zoom.html' || path == '/home.html'){
         $(function(){
     $('#sidebar').addClass('hidden');
    })
     console.log('it worked');
    } 
+   
+   if(path == '/blog.html'){
+    $(function(){
+        $('#blog_sidebar_extra').removeClass('hidden');
+        console.log('This is from the function that will show the sidebar extra id on the blog');
+    });
+   }
+   
+   if(path == '/works_inquire.html'){
+    $(function(){
+        $('#works_inquire_extra').removeClass('hidden');
+        console.log('This is from the function that will show the sidebar extra id on the blog');
+    });
+   }
+
 
     $('.purchase_button_desktop').mouseenter(function(){
         $('i#prev_image_button').fadeIn().removeClass('hidden');
