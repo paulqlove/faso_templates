@@ -687,12 +687,11 @@ padding-bottom: 20px;
 .landing_copy {
   height: 60vh;
 }
-.landing_copy h1{
+.landing_copy h1 {
   font-size: 6em;
   font-weight: 100;
   color: #fff;
   padding-top: 20%;
-
   text-align: center;
   text-transform: uppercase;
 }
@@ -2254,8 +2253,11 @@ input[type="submit"]:hover {
 }
 
 
-@media (max-width: 767px) {
-  
+@media (max-width: 380px) {
+  .post_body img {
+  max-width: 250px;
+  min-width: 225px;
+}
 }
 @media (min-width: 768px) and (max-width: 991px) {
 .hidden-sm {
