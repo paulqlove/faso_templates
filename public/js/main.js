@@ -3,13 +3,13 @@ $(document).on("pageshow", "[data-role='page']", function () {
 
 });
 $(window).load(function() {
-        
+
         $(".pre-load").fadeOut("slow");
     });
 /* ============================ TOC ==============================
- IOS 8 Bug Fix  
- SUPPORTS TOUCH OR NOT for IOS, Android, and Windows Mobile 
- RESPONSIVE EQUAL HEIGHTS 
+ IOS 8 Bug Fix
+ SUPPORTS TOUCH OR NOT for IOS, Android, and Windows Mobile
+ RESPONSIVE EQUAL HEIGHTS
 
 ================================================================ */
 
@@ -22,7 +22,7 @@ $(window).load(function() {
         window.scrollTo(1, 1);
     }, 100);
 }
-}); 
+});
 
 /* --------------- SUPPORTS TOUCH OR NOT for IOS, Android, and Windows Mobile --------------- */
 /*! Detects touch support and adds appropriate classes to html and returns a JS object  |  Copyright (c) 2013 Izilla Partners Pty Ltd  | http://www.izilla.com.au / Licensed under the MIT license  |  https://coderwall.com/p/egbgdw */
@@ -36,12 +36,12 @@ row.equalHeight();}}
 return this;};$.fn.detectGridColumns=function(){var offset=0,cols=0;this.each(function(i,elem){var elem_offset=$(elem).offset().top;if(offset===0||elem_offset==offset){cols++;offset=elem_offset;}else{return false;}});return cols;};$.fn.responsiveEqualHeightGrid=function(){var _this=this;function syncHeights(){var cols=_this.detectGridColumns();_this.equalHeightGrid(cols);}
 $(window).bind('resize load',syncHeights);syncHeights();return this;};})(jQuery);
 
-     
+
 // var footerPosition = $('.footer').offset();
 // var footerTop = footerPosition.top;
 //     console.log(footerTop +' from the top');
 // var bottomSlider = $('.footer').height();
-//     console.log(bottomSlider + ' height of footer');    
+//     console.log(bottomSlider + ' height of footer');
 
 // var ch_social_pos = footerTop - bottomSlider;
 //     console.log(ch_social_pos);
@@ -49,21 +49,21 @@ $(window).bind('resize load',syncHeights);syncHeights();return this;};})(jQuery)
 $(function() {
     var bottomSlider = $('.footer').height();
     $('.slide-panel-footer').css("bottom",bottomSlider);
-    console.log(bottomSlider);    
+    console.log(bottomSlider);
     /* ---------------  DATA SLIDE --------------- */
     $('[data-slide="slide"]').click(function(e) {
-        
+
         var $this = $(this);
         var target = $this.attr('data-target');
         var $target = $(target);
-        
+
         if ($('.slide-panel-parent').children().is('.open')) {
             $('.open').not(target).removeClass('open');
             $('.active-slide-btn').not(this).removeClass('active-slide-btn');
             $(this).toggleClass('active-slide-btn');
             $(target).toggleClass('open');
             $('html').removeClass('slide-active');
-            
+
 
 
         } else {
@@ -85,7 +85,7 @@ $(function() {
 
     //correct the shifting of the scrollbar when a slide is active
     if ($(document).height() > $(window).height()) {
-       $('body').addClass('body-scroll-fix');      
+       $('body').addClass('body-scroll-fix');
     }
 
 
@@ -97,7 +97,7 @@ $(function() {
         $('#nav-toggle').removeClass('hidden');
         e.preventDefault();
     });
- 
+
     $('#color_footer_rbutton').click(function(e){
         $("#social_icons").removeClass('open');
     });
@@ -107,12 +107,12 @@ $(function() {
 
         e.preventDefault();
     });
-    
+
     $('.slide-panel .login-toggle').click(function(e) {
          $('.header-btn.login-toggle').toggleClass('active-slide-btn');
         e.preventDefault();
     });
-    
+
 
 });
 
@@ -121,7 +121,7 @@ $(function() {
 
 $(function() {
 
-    //set the variable of the Navbar 
+    //set the variable of the Navbar
     var navbarHeight = $(".header").height() + 10;
 
     // SLIDE TO ANCHOR and DON'T COVER ANCHORS WITH .has-anchor on the trigger :: http://stackoverflow.com/a/20320919/1004312
@@ -157,26 +157,26 @@ $(function() {
     console.log(path)
     $(" a").each(function(){
       if($(this).attr("href") == path || $(this).attr("href") == ''){
-          
+
           $(this).addClass("current");
         };
     });
      /* --------------- HIDE THE SIDEBAR FOR HOME PAGE AND WORKS_ZOOM  FILES --------------- */
-   
-   if(path == '/works_zoom.html' || path == '/home.html'){
+
+   if(path == '/works_zoom.html' || path == '/home.html' || path == '/masterindex.html'){
         $(function(){
     $('#sidebar').addClass('hidden');
    })
     console.log('it worked');
-   } 
-   
+   }
+
    if(path == '/blog.html'){
     $(function(){
         $('#blog_sidebar_extra').removeClass('hidden');
         console.log('This is from the function that will show the sidebar extra id on the blog');
     });
    }
-   
+
    if(path == '/works_inquire.html'){
     $(function(){
         $('#works_inquire_extra').removeClass('hidden');
@@ -188,13 +188,13 @@ $(function() {
     $('.purchase_button_desktop').mouseenter(function(){
         $('i#prev_image_button').fadeIn().removeClass('hidden');
         $('i#prev_image_button').fadeIn().addClass('bounce_it');
-        
+
     })
     $('.purchase_button_desktop').mouseout(function(){
         $('i#prev_image_button').fadeOut();
     })
 
-   
+
     /* --------------- Show event description and hide on mobile --------------- */
     $('.event_description').click(function(){
         $('.event_description ul').toggleClass("hidden-xs");
@@ -207,12 +207,12 @@ $(function() {
         $('.workshop_list img').equalHeight();
         $('.events_list img').equalHeight();
         $('.same_height').equalHeight();
-       
+
     if($(window).width() > 768){
         // $('.we_div_height').equalHeight();
         $('#artist_workshop').height($('#workshop_height').height());
         $('#artist_events').height($('#events_height').height());
-        
+
     }
 
     /* --------------- .title inner wrapper --------------- */
@@ -222,7 +222,7 @@ $(function() {
     $('.info-text-box').wrapInner("<span></span>");
     $('.widget-title').wrapInner("<span></span>");
 
-   
+
     $('body').on('mouseup', function(e) {
         $('.icon-demo span.glyphicon, .icon-demo span.ti').each(function() {
             if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $('.tooltip').has(e.target).length === 0) {
@@ -245,10 +245,7 @@ $(function() {
             scrollTop: 0
         }, 800);
     });
-    
-    
+
+
 
 }); // end doc ready
-
-
-
