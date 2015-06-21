@@ -6,24 +6,26 @@
 		<link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="/css/style.css">
 	</head>
-	<body id="landingBG">
+	<body id="landingBG"> <!-- I CHEATED AND ADDED THIS ID TO MAKE THE BACKGROUND IMAGE FOR THE LANDING. THIS CAN BE REMOVED WITH jquery-->
 		<div class="pre-load"></div>
 		<div class="container no-gutters"  data-role="page">
 
-
+<!-- START OF HEADER -->
 <div class=" row no-gutters" id="header_pad" >
 	<div class="header cell-md-12 no-gutters">
 		<div class="cell-xs-10 cell-sm-10 cell-md-8" id="logo">
 			<a href="/home.html" target="_self"><h3 class="header_logo">Paul Love Fine Art</h3></a>
-		</div><!-- /header -->
+		</div>
 		<div id="menu">
 			<a href="#" class="cell-xs-2 cell-sm-2 cell-md-4" data-slide="slide" data-target="#navigation-panel">
 			<i class="fa fa-bars fa-2x" id="nav-toggle"></i>
 		</a>
 		</div>
 	</div>
-</div><!-- row -->
-<!-- SLIDE PANEL -->
+</div>
+<!-- END OF HEADER -->
+
+		<!-- START OF SLIDE PANEL -->
 		<div class="slide-panel-parent">
 				<div class="slide-panel" id="navigation-panel">
 				<div class="container">
@@ -52,21 +54,22 @@
 					</div><!-- /row -->
 			</div> <!-- /container -->
 			</div><!-- /navigation slide-panel  -->
+		</div>
+		<!-- end slide panel parent-->
 
-
-
-
-		</div> <!-- end slide panel parent-->
-
+					<!-- PAGES SHOULD BE NESTED INSIDE THE ROW BELOW -->
 				<div class="row" data-role="content">
+						<!--THIS DIV BELOW WOULD BE A PAGE - PAGES THAT HAVE A HIDDEN SIDEBAR SHOULD HAVE A MAIN CONTENT DIV THAT IS 12 CELLS ON ALL SCREEN SIZES -->
+						<!-- ALL OTHER PAGE CONTENT SHOULD HAVE A WIDTH OF LG-10 AND MD-10 -->
 					<div class="cell-md-12 landing_copy">
 						<h1>Paul Love</h1>
 						<h4>est. 1982</h4>
-					</div><!-- /content -->
+					</div>
+					<!-- END PAGE CONTENT DIV -->
+
+					<!-- SIDEBAR CONTENT CELL-MD-2 CELL-LG-2 -->
 					<div class="cell-xs-12 cell-sm-12 cell-md-2" id="sidebar">
 						<div class="row">
-
-
 							<div class="cell-xs-12 cell-sm-12 cell-md-12 blog_widget_side_title">
 								<a href="/collections.html" target="_self"><h3>Recent Works</h3></a>
 							</div>
@@ -91,11 +94,9 @@
 										</li>
 										<li>
 											<a class="img_holder4" href="/works_zoom.html" target="_self">
-
 											</a>
 										</li>
 									</ul>
-
 							</div> <!-- /recent worsk-->
 							</div> <!-- </row> -->
 							<div class="cell-md-12 blog_widget_side_title">
@@ -114,7 +115,6 @@
 											<h2 class="blog_widget_title">Volunteer Art Classes</h2>
 										</a>
 									</div>
-
 									<div class="cell-md-12">
 										<a href="/blog.html" target="_self">
 											<h2 class="blog_widget_title">Road Trip to Deep Ellum Art Festival</h2>
@@ -171,9 +171,12 @@
 							</div>
 						</div>
 					</div>
-				</div><!-- row -->
+					<!-- END OF SIDEBAR -->
+				</div>
+				<!-- END OF PAGE CONTENT ROW THAT CONTAINS PARTIALS AND SIDEBAR -->
 
-					<div class="slide-panel-footer" id="social_icons">
+				<!-- START OF SLIDE PANEL FOOTER BELOW -->
+				<div class="slide-panel-footer" id="social_icons">
 					<div class="container">
 						<div class="row">
 							<div class="cell-md-12">
@@ -234,34 +237,36 @@
 						</div>
 					</div>
 				</div>
-			<div class="row footer no-gutters" id="footer_height" data-role="footer">
-	<div class="cell-md-12" >
-			<ul id="footerOptions">
-				<div class="">
-					<li class="cell-xs-6 cell-sm-6 cell-md-3 cell-lg-3 "><a class=""  href="/contact_form.html" target="_self">Contact me</a></li>
-				</div>
+				<!-- END OF SLIDE PANEL FOOTER -->
 
-				<div class="">
-					<li class="cell-xs-6 cell-sm-6 cell-md-3 cell-lg-3"><a class=""  href="/blogfront.html" target="_self">Blog</a></li>
-				</div>
+				<!-- START OF FOOTER -->
+				<div class="row footer no-gutters" id="footer_height" data-role="footer">
+					<div class="cell-md-12" >
+							<ul id="footerOptions">
+								<div class="">
+									<li class="cell-xs-6 cell-sm-6 cell-md-3 cell-lg-3 "><a class=""  href="/contact_form.html" target="_self">Contact me</a></li>
+								</div>
 
-				<div class="">
-					<li class="cell-xs-6 cell-sm-6 cell-md-3 cell-lg-3"><a class="" href="/collections.html" target="_self">Collections</a></li>
-				</div>
-				<div class="">
-					<li class="cell-xs-6 cell-sm-6 cell-md-3 cell-lg-3"><a class="" data-slide="slide" data-target="#social_icons"  href="#">Social</a>
-					</li>
-				</div>
-			</ul>
-	</div><!-- /footer -->
-	<div class="cell-xs-12 cell-sm-12 cell-lg-12 faso_link">
-		<h5>Artist Website by <a href="http://www.faso.com"> Fine Art Sudio Online</a></h5>
-	</div>
-</div><!-- row -->
-<!-- FOOTER -->
-		</div><!-- /container -->
+								<div class="">
+									<li class="cell-xs-6 cell-sm-6 cell-md-3 cell-lg-3"><a class=""  href="/blogfront.html" target="_self">Blog</a></li>
+								</div>
+
+								<div class="">
+									<li class="cell-xs-6 cell-sm-6 cell-md-3 cell-lg-3"><a class="" href="/collections.html" target="_self">Collections</a></li>
+								</div>
+								<div class="">
+									<li class="cell-xs-6 cell-sm-6 cell-md-3 cell-lg-3"><a class="" data-slide="slide" data-target="#social_icons"  href="#">Social</a>
+									</li>
+								</div>
+							</ul>
+					</div>
+					<div class="cell-xs-12 cell-sm-12 cell-lg-12 faso_link">
+						<h5>Artist Website by <a href="http://www.faso.com"> Fine Art Sudio Online</a></h5>
+					</div>
+			</div>
+			<!-- /END OF FOOTER -->
+</div><!-- /container -->
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-			<script src="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.js"></script>
 			<script type="text/javascript" src="/js/jquery.materialripple.js"></script>
 			<script type="text/javascript" src="/js/mobiledetect.js"></script>
 			<script type="text/javascript" src="/js/main.js"></script>
